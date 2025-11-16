@@ -4,597 +4,176 @@
 	(generator_version "9.0")
 	(uuid "40af415e-5e3a-41a5-ab07-08c2181863e4")
 	(paper "A4")
-	(lib_symbols
-		(symbol "library:F32Q-1A7H1-11022"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J2"
-				(at 0 33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "F32Q-1A7H1-11022"
-				(at 0 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f32r_f32q.pdf"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "22 Position FFC, FPC Connector Contacts, Top 0.020\" (0.50mm) Surface Mount, Right Angle"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "F32Q-1A7H1-11022_1_1"
-				(rectangle
-					(start -7.62 29.21)
-					(end 7.62 -29.21)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin passive line
-					(at -10.16 26.67 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 24.13 0)
-					(length 2.54)
-					(name "CAM_DN0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 21.59 0)
-					(length 2.54)
-					(name "CAM_DP0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 19.05 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 16.51 0)
-					(length 2.54)
-					(name "CAM_DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 13.97 0)
-					(length 2.54)
-					(name "CAM_DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 11.43 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 8.89 0)
-					(length 2.54)
-					(name "CAM_CN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 6.35 0)
-					(length 2.54)
-					(name "CAM_CP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "CAM_DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "CAM_DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -6.35 0)
-					(length 2.54)
-					(name "CAM_DN3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -8.89 0)
-					(length 2.54)
-					(name "CAM_DP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -11.43 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -13.97 0)
-					(length 2.54)
-					(name "CAM_IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -16.51 0)
-					(length 2.54)
-					(name "CAM_IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -19.05 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -21.59 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -24.13 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -26.67 0)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 139.7 137.16)
 		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151daf75-8ee2-49e7-a186-6c5fba0e4e2f")
 	)
-	(symbol
-		(lib_id "library:F32Q-1A7H1-11022")
-		(at 232.41 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb2bab8e-ef4f-416b-9b24-6a0b8e77e625")
-		(property "Reference" "J2"
-			(at 232.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+	(wire
+		(pts
+			(xy 113.03 139.7) (xy 139.7 139.7)
 		)
-		(property "Value" "F32Q-1A7H1-11022"
-			(at 232.41 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" ""
-			(at 232.41 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "15b87936-7f32-441e-a8d7-ae27afb22dba")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 127 43.18)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f32r_f32q.pdf"
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
 		)
-		(property "Description" "22 Position FFC, FPC Connector Contacts, Top 0.020\" (0.50mm) Surface Mount, Right Angle"
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "2975df8c-f150-4379-bcde-95aa7895bebc")
+	)
+	(bus
+		(pts
+			(xy 113.03 93.98) (xy 195.58 93.98)
 		)
-		(pin "15"
-			(uuid "651729e7-94a9-4b2b-aa11-d58a2e73c85c")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "16"
-			(uuid "5dbaa2e2-d186-44ba-b3c4-5fa835dda943")
+		(uuid "480b5c15-2777-4b21-a794-31807702b7e9")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 195.58 106.68)
 		)
-		(pin "17"
-			(uuid "a97b4ff7-5668-4fc5-a9e5-a32af09954fd")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "18"
-			(uuid "ace8921a-e264-4dbe-b800-8bf44a1b4852")
+		(uuid "51559c53-b388-4447-b4d1-eb987ac998c2")
+	)
+	(wire
+		(pts
+			(xy 113.03 97.79) (xy 195.58 97.79)
 		)
-		(pin "19"
-			(uuid "d10f247e-74e7-4bbe-a757-6021db6504fe")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "2"
-			(uuid "2a5cfdff-78c4-475a-9224-30ccb5c6d9e6")
+		(uuid "5ade8d13-ee62-43ef-80ae-11d1cc330a50")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 195.58 104.14)
 		)
-		(pin "22"
-			(uuid "2f68df0b-b79a-476d-97e0-7859f82e4bfc")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "1"
-			(uuid "8946d706-a5d0-41a5-9d06-bc615e255777")
+		(uuid "708a3775-cfae-49c6-af71-4524f527ed2b")
+	)
+	(wire
+		(pts
+			(xy 113.03 134.62) (xy 139.7 134.62)
 		)
-		(pin "14"
-			(uuid "64053568-543c-4a1a-8e2e-e2e489027200")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "13"
-			(uuid "fc3659b5-d662-4f9f-b732-80a9e6792a12")
+		(uuid "79800a44-86e9-4520-8e6b-8a9ae61124b6")
+	)
+	(bus
+		(pts
+			(xy 113.03 127) (xy 139.7 127)
 		)
-		(pin "12"
-			(uuid "f5fce4d5-294b-49e3-b5c0-4e52399ee53c")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "21"
-			(uuid "bd3dcfe9-dc62-40f1-869a-d73fe1bc6ac2")
+		(uuid "a21934f9-6f47-421d-a550-6008683c104b")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 124.46 45.72)
 		)
-		(pin "20"
-			(uuid "850af139-1a71-4861-b0d2-d1b73ac704ac")
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
 		)
-		(pin "11"
-			(uuid "24a6fd50-a43b-4066-97a3-e7419d2efb81")
+		(uuid "a31f28b8-af39-44ee-a50e-4a023e8c1282")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 195.58 87.63)
 		)
-		(pin "10"
-			(uuid "0b7d46ed-09a5-467a-be06-b0a52a06ad21")
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
 		)
-		(pin "9"
-			(uuid "38e7d806-5e04-454d-bb14-c9059dd8b6a4")
+		(uuid "ad2732b3-bef1-40e7-a36b-35483e076e8d")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 139.7 120.65)
 		)
-		(pin "8"
-			(uuid "06000fdf-2f60-4665-a1c7-212be4177a5e")
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
 		)
-		(pin "7"
-			(uuid "2500c879-c7fc-42d2-9d28-6b3d78507fb7")
+		(uuid "b272b51a-29f2-4a70-b83f-9c47c8386e4e")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 127 120.65)
 		)
-		(pin "6"
-			(uuid "b5b6819f-4b6f-4e4d-b05e-a84f0248bc4c")
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
 		)
-		(pin "5"
-			(uuid "52df58b7-5798-4dec-9c34-9ffef7359587")
+		(uuid "b6147a78-48db-4904-8681-246c6e2c9157")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 195.58 100.33)
 		)
-		(pin "4"
-			(uuid "d2510d5a-a867-4386-9b3a-65aaf3a36009")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "3"
-			(uuid "5a833b88-092a-40d9-ba97-289885190e1d")
+		(uuid "c3e99126-16a8-4f65-81e6-8a136e7de0e3")
+	)
+	(wire
+		(pts
+			(xy 113.03 132.08) (xy 139.7 132.08)
 		)
-		(instances
-			(project ""
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
-					(reference "J2")
-					(unit 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "c6899396-b869-4ade-958a-b5530872ea86")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "f166211c-e81c-4e36-a96d-4220f19eff39")
 	)
 	(sheet
-		(at 134.62 48.26)
-		(size 34.29 77.47)
+		(at 78.74 39.37)
+		(size 34.29 104.14)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -609,7 +188,7 @@
 		)
 		(uuid "0ab77a57-2cdd-42e3-9db1-21e8f0163da9")
 		(property "Sheetname" "CM5 Connectors"
-			(at 134.62 47.5484 0)
+			(at 78.74 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +197,271 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 134.62 126.3146 0)
+			(at 78.74 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 113.03 45.72 0)
+			(uuid "1257ccc5-a115-47c2-88e5-d6c953ce5e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V0" input
+			(at 113.03 43.18 0)
+			(uuid "84b453c2-e9d5-4dbb-8def-c6518abe4c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO0" output
+			(at 113.03 97.79 0)
+			(uuid "5deb6afa-ef67-4da5-a600-8402b9a7fc6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO1" output
+			(at 113.03 100.33 0)
+			(uuid "0dc4e374-0ae2-4fee-b17f-897b1e83b323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DPHY0{DPHY}" bidirectional
+			(at 113.03 93.98 0)
+			(uuid "36e627b7-786e-4665-95f5-618bfd946c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nCLKREQ" input
+			(at 113.03 137.16 0)
+			(uuid "a36f43c1-2ce9-415e-b68e-ac017f7dc3f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nRST" output
+			(at 113.03 134.62 0)
+			(uuid "47a5c2ac-18fd-49c6-b5c1-e2d261234b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nWAKE" input
+			(at 113.03 139.7 0)
+			(uuid "24abf0a2-6921-47b8-a8d8-0c1093051457")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_PWR_EN" output
+			(at 113.03 132.08 0)
+			(uuid "1dedbb3a-a666-42ee-bd55-8b5fc69de2c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE{PCIE}" bidirectional
+			(at 113.03 127 0)
+			(uuid "a75dafdf-7441-41f6-8f63-9ff406e8684f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL0" output
+			(at 113.03 104.14 0)
+			(uuid "395981ba-6853-4538-934b-2700edafeb95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA0" output
+			(at 113.03 106.68 0)
+			(uuid "a241d167-5638-45fa-8b21-02f0cb5914ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 83.82)
+		(size 20.32 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15df30c6-bd70-4c9b-9319-89653597e067")
+		(property "Sheetname" "Camera Connector"
+			(at 195.58 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "camera.kicad_sch"
+			(at 195.58 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 195.58 87.63 180)
+			(uuid "fe0ec5c8-5c64-41cf-a644-fbfa39ecadf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_GPIO0" input
+			(at 195.58 97.79 180)
+			(uuid "7db31f77-ed48-46a5-a605-6901c3652a33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_GPIO1" input
+			(at 195.58 100.33 180)
+			(uuid "51f04a8b-72bd-47a4-8bf9-fb60f4816cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DPHY0{DPHY}" bidirectional
+			(at 195.58 93.98 180)
+			(uuid "a314cf01-2054-427e-bb6e-fb8bbd7190dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL0" input
+			(at 195.58 104.14 180)
+			(uuid "a5ac41b9-6960-4c50-873f-3029ae1c0df8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA0" input
+			(at 195.58 106.68 180)
+			(uuid "7c61318d-ae22-4a62-bd1e-8f2a51264f4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 39.37)
+		(size 31.75 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66b6385f-f0c0-4feb-8706-85a19fc48611")
+		(property "Sheetname" "Sensors"
+			(at 139.7 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 139.7 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +472,109 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
-					(page "2")
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 116.84)
+		(size 20.32 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7953df6c-8185-4fff-8cd2-b6d3791adbaa")
+		(property "Sheetname" "NVME"
+			(at 139.7 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nvme.kicad_sch"
+			(at 139.7 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V0" input
+			(at 139.7 120.65 180)
+			(uuid "e6e659cc-bfb2-451b-aa2d-3070461a5614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE.PWR_EN" input
+			(at 139.7 132.08 180)
+			(uuid "da951f0d-c020-4762-b4ea-7870abc5fd3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_nCLKREQ" output
+			(at 139.7 137.16 180)
+			(uuid "f83cff0f-f7c0-45ce-9aa2-b9f86701a17f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_nRST" input
+			(at 139.7 134.62 180)
+			(uuid "3fe90487-155c-4ce0-aea9-ef9fae501e77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_nWAKE" output
+			(at 139.7 139.7 180)
+			(uuid "74787a40-9122-4146-ae02-ffb7eab0395e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE{PCIE}" bidirectional
+			(at 139.7 127 180)
+			(uuid "56edb4da-8f80-4fe7-9633-2e07ce8ab3e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
+					(page "4")
 				)
 			)
 		)

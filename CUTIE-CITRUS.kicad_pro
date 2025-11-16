@@ -617,6 +617,18 @@
     [
       "0ab77a57-2cdd-42e3-9db1-21e8f0163da9",
       "CM5 Connectors"
+    ],
+    [
+      "15df30c6-bd70-4c9b-9319-89653597e067",
+      "Camera Connector"
+    ],
+    [
+      "7953df6c-8185-4fff-8cd2-b6d3791adbaa",
+      "NVME"
+    ],
+    [
+      "66b6385f-f0c0-4feb-8706-85a19fc48611",
+      "Sensors"
     ]
   ],
   "text_variables": {}
