@@ -187,7 +187,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0ab77a57-2cdd-42e3-9db1-21e8f0163da9")
-		(property "Sheetname" "CM5 Connectors"
+		(property "Sheetname" "CM5"
 			(at 78.74 38.6584 0)
 			(effects
 				(font

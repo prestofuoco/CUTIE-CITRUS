@@ -464,7 +464,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "library:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1292,7 +1292,7 @@
 		(uuid "e5deba71-5fdb-48a2-a8b0-758c82035d0f")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "library:GND")
 		(at 153.67 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "library:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
 			(at 166.37 97.79 0)
 			(effects
 				(font

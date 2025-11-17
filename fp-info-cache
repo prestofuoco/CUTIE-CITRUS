@@ -1,4 +1,4 @@
-26754395009265647
+26757864582560510
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106448,3 +106448,17 @@ AMPHENOL_10164227-1001A1RLF
 0
 100
 100
+library
+Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal
+Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+24
+23
+library
+RPi-CM5
+Raspberry Pi 5 Compute Module
+Raspberry Pi 5 Compute Module
+0
+200
+200
