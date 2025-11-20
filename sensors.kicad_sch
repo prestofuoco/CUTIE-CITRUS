@@ -5,4 +5,14 @@
 	(uuid "bc58e50c-7eef-4f7a-9e30-bfd039ca95a2")
 	(paper "A4")
 	(lib_symbols)
+	(text "ICM-42688-P\n"
+		(exclude_from_sim no)
+		(at 107.95 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1661b48d-13df-4817-ac26-f5236ba7eb70")
+	)
 )

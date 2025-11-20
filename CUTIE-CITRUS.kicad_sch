@@ -4,7 +4,121 @@
 	(generator_version "9.0")
 	(uuid "40af415e-5e3a-41a5-ab07-08c2181863e4")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 121.92 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88884ed4-b253-4a95-baf6-801859a33f78")
+	)
+	(junction
+		(at 119.38 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f276804f-016b-442d-9e8f-e4c094917bec")
+	)
 	(wire
 		(pts
 			(xy 113.03 137.16) (xy 139.7 137.16)
@@ -27,7 +141,18 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 127 43.18)
+			(xy 119.38 45.72) (xy 119.38 31.75)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "28b4c040-ee3a-425b-bdf5-f706f0a75f11")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 121.92 43.18)
 		)
 		(stroke
 			(width 0.508)
@@ -68,6 +193,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 45.72) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "5d8172c8-ade4-4dc0-b48a-431cfd832961")
+	)
+	(wire
+		(pts
 			(xy 113.03 104.14) (xy 195.58 104.14)
 		)
 		(stroke
@@ -86,6 +222,28 @@
 		)
 		(uuid "79800a44-86e9-4520-8e6b-8a9ae61124b6")
 	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7d927be6-47f3-465d-af50-473ed7769eb8")
+	)
+	(wire
+		(pts
+			(xy 121.92 43.18) (xy 121.92 31.75)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8d3fe4ce-1470-4e38-8e95-51547169f85f")
+	)
 	(bus
 		(pts
 			(xy 113.03 127) (xy 139.7 127)
@@ -98,7 +256,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 124.46 45.72)
+			(xy 113.03 45.72) (xy 119.38 45.72)
 		)
 		(stroke
 			(width 0.381)
@@ -142,6 +300,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 31.75) (xy 110.49 31.75)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "b7a5e02b-a10d-4e8b-bcf3-e3cc08824540")
+	)
+	(wire
+		(pts
 			(xy 113.03 100.33) (xy 195.58 100.33)
 		)
 		(stroke
@@ -170,6 +339,149 @@
 			(color 255 153 0 1)
 		)
 		(uuid "f166211c-e81c-4e36-a96d-4220f19eff39")
+	)
+	(wire
+		(pts
+			(xy 121.92 31.75) (xy 129.54 31.75)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fde97ff6-d065-4b07-86e1-752c46262d7b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012df866-db65-48f9-b627-66eaf3ecca81")
+		(property "Reference" "#FLG01"
+			(at 110.49 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250c131d-50d5-492a-ac03-7a9c924e09a2")
+		)
+		(instances
+			(project ""
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1bd264-022b-4a82-8465-b327328c46d9")
+		(property "Reference" "#FLG02"
+			(at 129.54 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9358a5cc-5cb9-4dfc-a8e4-7cb5e60fc260")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 78.74 39.37)
