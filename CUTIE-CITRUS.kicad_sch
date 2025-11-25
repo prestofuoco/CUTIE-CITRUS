@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "40af415e-5e3a-41a5-ab07-08c2181863e4")
 	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS PCB")
+		(date "2025-11-24")
+		(rev "A")
+		(company "Andre S Winkel | Highlander Space Program | University of California, Riverside")
+	)
 	(lib_symbols
 		(symbol "power:PWR_FLAG"
 			(power)
@@ -114,6 +120,12 @@
 		(uuid "24e4ca4d-eb58-459e-94f1-165f80125b22")
 	)
 	(junction
+		(at 143.51 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5838d979-b9fa-4d4e-9a08-a8f4a4e09670")
+	)
+	(junction
 		(at 151.13 120.65)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -125,21 +137,9 @@
 		(color 255 153 0 1)
 		(uuid "74619f15-04d2-4c34-bb25-f3c783d8eef0")
 	)
-	(junction
-		(at 140.97 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b81d709-002b-4c13-a3ff-879d84540df3")
-	)
-	(junction
-		(at 143.51 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb66363c-a807-468c-b483-de38833396d6")
-	)
 	(wire
 		(pts
-			(xy 146.05 44.45) (xy 146.05 92.71)
+			(xy 146.05 44.45) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0.381)
@@ -148,25 +148,15 @@
 		)
 		(uuid "060f7044-ae6f-4637-b2d1-44574b112b12")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 137.16 74.93) (xy 165.1 74.93)
+			(xy 165.1 91.44) (xy 143.51 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1399b48c-f0d6-4a41-b4e1-9cd106916602")
-	)
-	(wire
-		(pts
-			(xy 140.97 63.5) (xy 165.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a683bb-6b65-4f67-b8a6-7b39bc71661f")
+		(uuid "1063a105-1f81-48fb-a8c8-dfa7f058f1a0")
 	)
 	(wire
 		(pts
@@ -190,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 165.1 92.71)
+			(xy 146.05 86.36) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0.381)
@@ -198,26 +188,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "1a864cb3-2f17-457c-a68d-c2c13ae9971c")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d1ba178-dcba-40b3-ae33-fd3c60acadfa")
-	)
-	(wire
-		(pts
-			(xy 143.51 97.79) (xy 143.51 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271cb44e-94d5-4e0d-844d-30b22c636d5a")
 	)
 	(wire
 		(pts
@@ -230,25 +200,25 @@
 		)
 		(uuid "2975df8c-f150-4379-bcde-95aa7895bebc")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 140.97 63.5) (xy 140.97 100.33)
+			(xy 137.16 96.52) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3787a0dd-e223-4865-a127-93904f370e61")
+		(uuid "30508d13-2ca3-4ec8-aa43-cd5b352b6392")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 143.51 60.96) (xy 165.1 60.96)
+			(xy 137.16 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e7e65e0-d391-4460-a9d5-cc07413d20d5")
+		(uuid "3f2de3cc-1e5f-40da-b1c1-6bdd4085f6a3")
 	)
 	(wire
 		(pts
@@ -282,15 +252,15 @@
 		)
 		(uuid "4e32e8cb-5380-4e4c-a296-c57c6c696a05")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 137.16 63.5) (xy 140.97 63.5)
+			(xy 143.51 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51559c53-b388-4447-b4d1-eb987ac998c2")
+		(uuid "573b9bbf-7e7d-4101-9dd1-cb1e2a7385c5")
 	)
 	(wire
 		(pts
@@ -304,16 +274,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 143.51 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708a3775-cfae-49c6-af71-4524f527ed2b")
-	)
-	(wire
-		(pts
 			(xy 137.16 134.62) (xy 165.1 134.62)
 		)
 		(stroke
@@ -321,6 +281,26 @@
 			(type default)
 		)
 		(uuid "79800a44-86e9-4520-8e6b-8a9ae61124b6")
+	)
+	(bus
+		(pts
+			(xy 137.16 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ad1719-1437-47b0-8a4d-3c89225962b4")
+	)
+	(bus
+		(pts
+			(xy 143.51 91.44) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6f8c90-d888-47b0-b345-ac5fa86da69e")
 	)
 	(bus
 		(pts
@@ -374,45 +354,15 @@
 		)
 		(uuid "c6899396-b869-4ade-958a-b5530872ea86")
 	)
-	(wire
-		(pts
-			(xy 140.97 100.33) (xy 165.1 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f6f96c-e64d-4072-aad1-fb6a39ddc2ce")
-	)
 	(bus
 		(pts
-			(xy 137.16 71.12) (xy 165.1 71.12)
+			(xy 137.16 67.31) (xy 165.1 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d943f2ef-ef54-4a61-a2c0-2bbe788eca05")
-	)
-	(wire
-		(pts
-			(xy 165.1 97.79) (xy 143.51 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0c2aa3-72bb-46ee-945c-5309c4575aa1")
-	)
-	(bus
-		(pts
-			(xy 137.16 105.41) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6770239-2299-4f69-8df4-65b2be9f16af")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -680,28 +630,8 @@
 				(justify right)
 			)
 		)
-		(pin "SCL0" output
-			(at 137.16 60.96 0)
-			(uuid "395981ba-6853-4538-934b-2700edafeb95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA0" output
-			(at 137.16 63.5 0)
-			(uuid "a241d167-5638-45fa-8b21-02f0cb5914ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DPHY1{DPHY}" bidirectional
-			(at 137.16 71.12 0)
+			(at 137.16 67.31 0)
 			(uuid "ccf66c7d-6f48-4c99-8ca1-5a9847fde00a")
 			(effects
 				(font
@@ -710,29 +640,29 @@
 				(justify right)
 			)
 		)
-		(pin "SCL1" output
-			(at 137.16 74.93 0)
-			(uuid "47cfdf1e-059f-4e77-ad59-3b95d87b8848")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA1" output
-			(at 137.16 77.47 0)
-			(uuid "c2c4448a-01e7-42f8-8f1e-d189843d7899")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 137.16 105.41 0)
+			(at 137.16 96.52 0)
 			(uuid "e7cdcd81-baf2-45d1-b2f2-b953db319644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 137.16 60.96 0)
+			(uuid "b6ea4112-f1ca-423b-89b5-ee9facde498b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 137.16 71.12 0)
+			(uuid "d1711aea-ebd7-4a5e-8e6c-110988d00ba1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +680,7 @@
 	)
 	(sheet
 		(at 165.1 40.64)
-		(size 20.32 40.64)
+		(size 20.32 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -774,7 +704,7 @@
 			)
 		)
 		(property "Sheetfile" "cameras.kicad_sch"
-			(at 165.1 81.8646 0)
+			(at 165.1 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,28 +752,8 @@
 				(justify left)
 			)
 		)
-		(pin "SCL0" input
-			(at 165.1 60.96 180)
-			(uuid "a5ac41b9-6960-4c50-873f-3029ae1c0df8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA0" input
-			(at 165.1 63.5 180)
-			(uuid "7c61318d-ae22-4a62-bd1e-8f2a51264f4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DPHY1{DPHY}" bidirectional
-			(at 165.1 71.12 180)
+			(at 165.1 67.31 180)
 			(uuid "19cd40ea-1702-4fbb-af87-ddaec56410f2")
 			(effects
 				(font
@@ -852,9 +762,9 @@
 				(justify left)
 			)
 		)
-		(pin "SCL1" input
-			(at 165.1 74.93 180)
-			(uuid "2e7ab8d4-4492-48bc-8a74-98237142e5fc")
+		(pin "I2C0{I2C}" bidirectional
+			(at 165.1 60.96 180)
+			(uuid "72d80130-e1e3-4586-84cd-4823c55a9dc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,9 +772,9 @@
 				(justify left)
 			)
 		)
-		(pin "SDA1" input
-			(at 165.1 77.47 180)
-			(uuid "4d1e0e4d-ad09-40f1-9985-ba21a58e3043")
+		(pin "I2C1{I2C}" bidirectional
+			(at 165.1 71.12 180)
+			(uuid "447b3b9f-5893-4ac4-9e7b-8c02b80002d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,14 +785,14 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 165.1 88.9)
-		(size 20.32 20.32)
+		(at 165.1 82.55)
+		(size 20.32 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -897,7 +807,7 @@
 		)
 		(uuid "66b6385f-f0c0-4feb-8706-85a19fc48611")
 		(property "Sheetname" "Sensors"
-			(at 165.1 88.1884 0)
+			(at 165.1 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +825,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 165.1 92.71 180)
+			(at 165.1 86.36 180)
 			(uuid "fd688438-ad47-42be-bf6c-3b4c51b01c60")
 			(effects
 				(font
@@ -924,29 +834,19 @@
 				(justify left)
 			)
 		)
-		(pin "SCL0" input
-			(at 165.1 97.79 180)
-			(uuid "93a6e636-c2d5-4536-a856-6427232fd661")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA0" input
-			(at 165.1 100.33 180)
-			(uuid "1b7478a8-c57f-4fdb-9a6b-955ddbf88f92")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 165.1 105.41 180)
+			(at 165.1 96.52 180)
 			(uuid "bcccb80b-7aec-4ebe-b938-75b5e3886166")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 165.1 91.44 180)
+			(uuid "64da7455-9a14-4342-9ddc-07f7bd919c95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +857,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
@@ -1059,7 +959,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4"
-					(page "4")
+					(page "6")
 				)
 			)
 		)

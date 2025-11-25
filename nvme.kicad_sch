@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c3c95d2f-b451-49d8-8faa-e3650dcc6d0e")
 	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS PCB")
+		(date "2025-11-24")
+		(rev "A")
+		(company "Andre S Winkel | Highlander Space Program | University of California, Riverside")
+	)
 	(lib_symbols
 		(symbol "library:AP3441SHE-7B"
 			(exclude_from_sim no)
