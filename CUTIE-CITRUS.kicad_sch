@@ -160,26 +160,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 165.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151daf75-8ee2-49e7-a186-6c5fba0e4e2f")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 165.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b87936-7f32-441e-a8d7-ae27afb22dba")
-	)
-	(wire
-		(pts
 			(xy 146.05 86.36) (xy 165.1 86.36)
 		)
 		(stroke
@@ -272,15 +252,15 @@
 		)
 		(uuid "5ade8d13-ee62-43ef-80ae-11d1cc330a50")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 137.16 134.62) (xy 165.1 134.62)
+			(xy 137.16 139.7) (xy 165.1 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79800a44-86e9-4520-8e6b-8a9ae61124b6")
+		(uuid "8eb6718e-22ab-4ea5-86ef-52a3d48187b3")
 	)
 	(bus
 		(pts
@@ -301,16 +281,6 @@
 			(type default)
 		)
 		(uuid "9f6f8c90-d888-47b0-b345-ac5fa86da69e")
-	)
-	(bus
-		(pts
-			(xy 137.16 127) (xy 165.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a21934f9-6f47-421d-a550-6008683c104b")
 	)
 	(wire
 		(pts
@@ -344,16 +314,6 @@
 		)
 		(uuid "c3e99126-16a8-4f65-81e6-8a136e7de0e3")
 	)
-	(wire
-		(pts
-			(xy 137.16 132.08) (xy 165.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6899396-b869-4ade-958a-b5530872ea86")
-	)
 	(bus
 		(pts
 			(xy 137.16 67.31) (xy 165.1 67.31)
@@ -363,6 +323,16 @@
 			(type default)
 		)
 		(uuid "d943f2ef-ef54-4a61-a2c0-2bbe788eca05")
+	)
+	(bus
+		(pts
+			(xy 137.16 135.89) (xy 165.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2237d1-d552-4f6f-89ce-9d70ec74b1cf")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -580,48 +550,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_nCLKREQ" input
-			(at 137.16 137.16 0)
-			(uuid "a36f43c1-2ce9-415e-b68e-ac017f7dc3f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nRST" output
-			(at 137.16 134.62 0)
-			(uuid "47a5c2ac-18fd-49c6-b5c1-e2d261234b50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nWAKE" input
-			(at 137.16 139.7 0)
-			(uuid "24abf0a2-6921-47b8-a8d8-0c1093051457")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_PWR_EN" output
-			(at 137.16 132.08 0)
-			(uuid "1dedbb3a-a666-42ee-bd55-8b5fc69de2c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 137.16 127 0)
+			(at 137.16 135.89 0)
 			(uuid "a75dafdf-7441-41f6-8f63-9ff406e8684f")
 			(effects
 				(font
@@ -663,6 +593,16 @@
 		(pin "I2C1{I2C}" bidirectional
 			(at 137.16 71.12 0)
 			(uuid "d1711aea-ebd7-4a5e-8e6c-110988d00ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIEsb{PCIEsb}" bidirectional
+			(at 137.16 139.7 0)
+			(uuid "0b6e35ff-fa82-47ef-b979-0a6e85fad9a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,49 +846,19 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE.PWR_EN" input
-			(at 165.1 132.08 180)
-			(uuid "da951f0d-c020-4762-b4ea-7870abc5fd3f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nCLKREQ" output
-			(at 165.1 137.16 180)
-			(uuid "f83cff0f-f7c0-45ce-9aa2-b9f86701a17f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nRST" input
-			(at 165.1 134.62 180)
-			(uuid "3fe90487-155c-4ce0-aea9-ef9fae501e77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nWAKE" output
-			(at 165.1 139.7 180)
-			(uuid "74787a40-9122-4146-ae02-ffb7eab0395e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 165.1 127 180)
+			(at 165.1 135.89 180)
 			(uuid "56edb4da-8f80-4fe7-9633-2e07ce8ab3e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIEsb{PCIEsb}" bidirectional
+			(at 165.1 139.7 180)
+			(uuid "ab891e47-1ab9-4ebd-aa21-205d130be066")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -30,16 +30,6 @@
 		)
 		(uuid "7555bb17-cf92-4ee1-926e-b8f51d7044d1")
 	)
-	(wire
-		(pts
-			(xy 179.07 104.14) (xy 201.93 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7f32f8-7348-4c64-a6a4-625352f62a77")
-	)
 	(bus
 		(pts
 			(xy 100.33 96.52) (xy 123.19 96.52)
@@ -50,19 +40,19 @@
 		)
 		(uuid "0fb44d96-52f3-4481-a347-9c920226fca5")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 179.07 99.06) (xy 201.93 99.06)
+			(xy 179.07 104.14) (xy 201.93 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22401921-d96f-45a0-af87-0c6f118ae4c3")
+		(uuid "19c75160-0888-4f06-a51a-62f9bdceec51")
 	)
 	(bus
 		(pts
-			(xy 179.07 92.71) (xy 201.93 92.71)
+			(xy 179.07 100.33) (xy 201.93 100.33)
 		)
 		(stroke
 			(width 0)
@@ -100,16 +90,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "5c6bafaf-95a6-468d-8d4b-0b1895efed85")
-	)
-	(wire
-		(pts
-			(xy 179.07 101.6) (xy 201.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7487ca5c-af9d-4c58-b579-4eeb38eeb700")
 	)
 	(wire
 		(pts
@@ -162,38 +142,6 @@
 		)
 		(uuid "f8214e57-6075-451d-8723-0f5f7d92ce12")
 	)
-	(wire
-		(pts
-			(xy 179.07 96.52) (xy 201.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95782b2-c570-4f5f-beb9-19548d1f6e4d")
-	)
-	(hierarchical_label "PCIE_PWR_EN"
-		(shape output)
-		(at 201.93 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a3063f5-6d36-4610-95a8-024803d7b962")
-	)
-	(hierarchical_label "PCIE_nWAKE"
-		(shape input)
-		(at 201.93 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4356029a-7201-49a3-a588-95b74df4d0b8")
-	)
 	(hierarchical_label "DPHY0{DPHY}"
 		(shape bidirectional)
 		(at 201.93 80.01 0)
@@ -226,17 +174,6 @@
 			(justify right)
 		)
 		(uuid "6d8d4083-afe2-44cc-a0d1-90663e051cd6")
-	)
-	(hierarchical_label "PCIE_nCLKREQ"
-		(shape input)
-		(at 201.93 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74cd060f-fc37-448e-87a5-f7df7a5faa5c")
 	)
 	(hierarchical_label "CAM_GPIO1"
 		(shape output)
@@ -271,17 +208,6 @@
 		)
 		(uuid "8e7aaa63-1cac-4179-8335-1c3ee5416132")
 	)
-	(hierarchical_label "PCIE_nRST"
-		(shape output)
-		(at 201.93 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "931ebd29-af56-4017-a861-88f1715e11d8")
-	)
 	(hierarchical_label "DPHY1{DPHY}"
 		(shape bidirectional)
 		(at 201.93 83.82 0)
@@ -306,7 +232,7 @@
 	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
-		(at 201.93 92.71 0)
+		(at 201.93 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -314,6 +240,17 @@
 			(justify left)
 		)
 		(uuid "b94db55a-8b32-4b9b-b653-fe6f8c6baaa7")
+	)
+	(hierarchical_label "PCIEsb{PCIEsb}"
+		(shape bidirectional)
+		(at 201.93 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d91c786d-4595-4720-89d2-ac14107656ad")
 	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape bidirectional)
@@ -492,49 +429,19 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_nCLKREQ" input
-			(at 179.07 99.06 0)
-			(uuid "a4ccf6bd-0861-4037-b46d-73fd4a40b180")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nRST" output
-			(at 179.07 101.6 0)
-			(uuid "2112cd2a-c49e-4961-8bee-558c7c555bfb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nWAKE" input
-			(at 179.07 104.14 0)
-			(uuid "ec63727a-569a-4af1-ac43-93567e9c6d09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_PWR_EN" output
-			(at 179.07 96.52 0)
-			(uuid "829c69fc-6a18-4abd-b7b2-04fe9994d4cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 179.07 92.71 0)
+			(at 179.07 100.33 0)
 			(uuid "2394e3a7-fdf2-4e84-99f2-c5f4b43819a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIEsb{PCIEsb}" bidirectional
+			(at 179.07 104.14 0)
+			(uuid "55814b94-9723-4356-81c2-de966d3b7b6e")
 			(effects
 				(font
 					(size 1.27 1.27)

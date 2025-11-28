@@ -3850,6 +3850,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "PCIEsb"
+		(members "nCLKREQ" "nWAKE" "PWR_EN" "nRST")
+	)
 	(junction
 		(at 96.52 92.71)
 		(diameter 1.016)
@@ -4100,6 +4103,15 @@
 		(uuid "60176499-962c-4d12-96bf-e7f534948288")
 	)
 	(bus_entry
+		(at 74.93 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605ef59f-64b3-43bf-8a9b-e2a03843b2cd")
+	)
+	(bus_entry
 		(at 74.93 44.45)
 		(size 2.54 -2.54)
 		(stroke
@@ -4154,6 +4166,24 @@
 		(uuid "8a8187da-55e6-4a6c-af8c-ed52ddad1d67")
 	)
 	(bus_entry
+		(at 193.04 39.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6ebef9-f11f-4fd9-a431-30f4187e61f4")
+	)
+	(bus_entry
+		(at 74.93 29.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d816d3-ead3-49d8-817b-0604e0803509")
+	)
+	(bus_entry
 		(at 193.04 77.47)
 		(size -2.54 -2.54)
 		(stroke
@@ -4161,6 +4191,15 @@
 			(type default)
 		)
 		(uuid "a8a68c2c-23fe-42cf-8d88-d82ce13c2ff9")
+	)
+	(bus_entry
+		(at 77.47 34.29)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7787bf0-9257-4b68-9ab1-52fb519914f4")
 	)
 	(bus_entry
 		(at 193.04 151.13)
@@ -4324,16 +4363,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 99.06 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ddff27b-e151-487c-b7c3-7cfa82cef902")
-	)
-	(wire
-		(pts
 			(xy 167.64 62.23) (xy 167.64 54.61)
 		)
 		(stroke
@@ -4351,6 +4380,16 @@
 			(type solid)
 		)
 		(uuid "102a59d8-3b11-4ad9-8005-ae89b2def619")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1073ba01-5685-4998-b82b-dcf6caa9ed3d")
 	)
 	(wire
 		(pts
@@ -4401,6 +4440,16 @@
 			(type solid)
 		)
 		(uuid "15f83e68-ca72-40bf-bb7b-307da3437eb9")
+	)
+	(bus
+		(pts
+			(xy 74.93 22.86) (xy 71.12 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17117f82-f79a-4039-8965-5ec5e4ac4562")
 	)
 	(wire
 		(pts
@@ -4501,6 +4550,16 @@
 			(type solid)
 		)
 		(uuid "361c20d1-2266-4e82-8b82-d11a8ec0f79a")
+	)
+	(bus
+		(pts
+			(xy 193.04 33.02) (xy 193.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39337524-1587-4ab8-be05-85b90d014788")
 	)
 	(bus
 		(pts
@@ -4674,16 +4733,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 99.06 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5535bb61-ef0f-424e-8e3b-24ca7f9684e8")
-	)
-	(wire
-		(pts
 			(xy 167.64 107.95) (xy 167.64 115.57)
 		)
 		(stroke
@@ -4804,6 +4853,26 @@
 	)
 	(bus
 		(pts
+			(xy 196.85 33.02) (xy 193.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7258b5c6-8b81-4e7d-ba71-da03b0134637")
+	)
+	(bus
+		(pts
+			(xy 74.93 29.21) (xy 74.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730b83a4-5588-421a-b0b7-4e87d55cc7ad")
+	)
+	(bus
+		(pts
 			(xy 193.04 74.93) (xy 193.04 69.85)
 		)
 		(stroke
@@ -4811,16 +4880,6 @@
 			(type default)
 		)
 		(uuid "73b29202-fcd0-4223-bb58-7024ed65cd5a")
-	)
-	(wire
-		(pts
-			(xy 86.36 31.75) (xy 99.06 31.75)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "764698c8-42a9-4f2e-a544-2cdba0cf7b0d")
 	)
 	(wire
 		(pts
@@ -5022,6 +5081,16 @@
 		)
 		(uuid "a21d0da2-2e31-4266-97a2-01e4117b00e0")
 	)
+	(bus
+		(pts
+			(xy 74.93 31.75) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f1c2fc-0033-42c2-95ca-f4f69668fa89")
+	)
 	(wire
 		(pts
 			(xy 167.64 138.43) (xy 167.64 146.05)
@@ -5204,6 +5273,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 31.75) (xy 99.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1f7428-45e5-4dab-959d-0905aeaf87d6")
+	)
+	(wire
+		(pts
 			(xy 165.1 140.97) (xy 190.5 140.97)
 		)
 		(stroke
@@ -5251,6 +5330,16 @@
 			(type default)
 		)
 		(uuid "d66417af-1467-4476-9cf7-615be6761eb2")
+	)
+	(bus
+		(pts
+			(xy 74.93 22.86) (xy 74.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14e7b91-a075-48c1-b6c5-a6ae0bb8cf73")
 	)
 	(wire
 		(pts
@@ -5304,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 41.91) (xy 196.85 41.91)
+			(xy 165.1 41.91) (xy 190.5 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5361,6 +5450,16 @@
 			(type default)
 		)
 		(uuid "f08ecb24-f386-4e4e-b522-273974dad3d9")
+	)
+	(wire
+		(pts
+			(xy 77.47 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0aa8bdc-2f67-427c-9059-256a27d3c6e9")
 	)
 	(wire
 		(pts
@@ -5562,6 +5661,16 @@
 		)
 		(uuid "62adfe05-0fac-4a48-911e-6429239d74c5")
 	)
+	(label "PCIEsb.nWAKE"
+		(at 78.74 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a8fd54c-81c9-41a5-8371-8ee0d15d1c8d")
+	)
 	(label "DPHY1.D2_P"
 		(at 189.23 151.13 180)
 		(effects
@@ -5591,6 +5700,26 @@
 			(justify right bottom)
 		)
 		(uuid "749d8acc-25e3-4a83-883e-45cdc1fc5ec3")
+	)
+	(label "PCIEsb.nCLKREQ"
+		(at 78.74 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76b7a164-54ea-40d2-8809-521723457905")
+	)
+	(label "PCIEsb.nRST"
+		(at 189.23 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "798d6d8c-5224-4860-b788-36005326b4c5")
 	)
 	(label "DPHY1.C_P"
 		(at 189.23 143.51 180)
@@ -5651,6 +5780,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9b63ac4-c132-4578-a3e7-b9ea3874bce2")
+	)
+	(label "PCIEsb.PWR_EN"
+		(at 78.74 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceee17dc-46b5-42c5-8d02-c5385b8f2a39")
 	)
 	(label "PCIE.TX_N"
 		(at 78.74 59.69 0)
@@ -5732,27 +5871,16 @@
 		)
 		(uuid "f6e6bbe7-b5aa-4295-8072-a083abac47ae")
 	)
-	(hierarchical_label "PCIE_nWAKE"
-		(shape input)
-		(at 86.36 34.29 180)
+	(hierarchical_label "PCIEsb{PCIEsb}"
+		(shape bidirectional)
+		(at 196.85 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "098b0f5a-3319-407e-97ba-eecf45361673")
-	)
-	(hierarchical_label "PCIE_PWR_EN"
-		(shape output)
-		(at 86.36 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15c0e9c8-8587-4b6f-ab2f-e92959bec04a")
+		(uuid "24858a52-a2b1-4e40-9a62-6dd0a040ff7b")
 	)
 	(hierarchical_label "DPHY1{DPHY}"
 		(shape bidirectional)
@@ -5787,28 +5915,6 @@
 		)
 		(uuid "da4b64bd-4bce-4c28-8e57-7693de2e043b")
 	)
-	(hierarchical_label "PCIE_nCLKREQ"
-		(shape input)
-		(at 86.36 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da5ebf65-f7aa-48f4-8906-32a6a5bf5b8f")
-	)
-	(hierarchical_label "PCIE_nRST"
-		(shape output)
-		(at 196.85 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc3a17a6-a98a-4a51-b12a-c89ee75a343f")
-	)
 	(hierarchical_label "DPHY0{DPHY}"
 		(shape bidirectional)
 		(at 196.85 91.44 0)
@@ -5819,6 +5925,17 @@
 			(justify left)
 		)
 		(uuid "f885084a-1c93-4e30-91f8-1fece2dde93f")
+	)
+	(hierarchical_label "PCIEsb{PCIEsb}"
+		(shape bidirectional)
+		(at 71.12 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff21631a-3aa8-478c-9269-19d2cf5389ab")
 	)
 	(symbol
 		(lib_id "library:GND")
