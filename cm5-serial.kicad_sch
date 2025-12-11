@@ -3853,6 +3853,16 @@
 	(bus_alias "PCIEsb"
 		(members "nCLKREQ" "nWAKE" "PWR_EN" "nRST")
 	)
+	(text "what is vbus en\n"
+		(exclude_from_sim no)
+		(at 234.95 59.69 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0e48d66a-ed6a-4e39-b8b9-3c3090cd06d8")
+	)
 	(junction
 		(at 96.52 92.71)
 		(diameter 1.016)
@@ -5946,7 +5956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d18172e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 167.64 167.64 0)
 			(effects
 				(font
@@ -5996,7 +6006,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/a16d2f87-5159-48aa-a50b-c816b9ab5677"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6011,7 +6021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1874b1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -6061,7 +6071,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/a16d2f87-5159-48aa-a50b-c816b9ab5677"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

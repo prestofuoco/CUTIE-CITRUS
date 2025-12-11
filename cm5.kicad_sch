@@ -252,7 +252,7 @@
 		)
 		(uuid "d91c786d-4595-4720-89d2-ac14107656ad")
 	)
-	(hierarchical_label "SPI0{SPI}"
+	(hierarchical_label "I2C0{I2C}"
 		(shape bidirectional)
 		(at 100.33 88.9 180)
 		(effects
@@ -276,7 +276,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 194 0 0.1100)
 		)
 		(uuid "51c471cb-84e3-4543-900e-78eb33bc5a70")
 		(property "Sheetname" "GPIO"
@@ -388,7 +388,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 194 0 0.1098)
 		)
 		(uuid "a16d2f87-5159-48aa-a50b-c816b9ab5677")
 		(property "Sheetname" "High-Speed Serial"
