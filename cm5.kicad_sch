@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CUTIE-CITRUS PCB")
-		(date "2025-11-24")
+		(date "2025-12-11")
 		(rev "A")
 		(company "Andre S Winkel | Highlander Space Program | University of California, Riverside")
 	)
@@ -32,7 +32,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 96.52) (xy 123.19 96.52)
+			(xy 100.33 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -42,7 +42,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 104.14) (xy 201.93 104.14)
+			(xy 179.07 109.22) (xy 201.93 109.22)
 		)
 		(stroke
 			(width 0)
@@ -52,7 +52,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 100.33) (xy 201.93 100.33)
+			(xy 179.07 106.68) (xy 201.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -72,7 +72,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 80.01) (xy 201.93 80.01)
+			(xy 179.07 78.74) (xy 201.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 80.01) (xy 123.19 80.01)
+			(xy 100.33 78.74) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0.508)
@@ -104,7 +104,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 123.19 104.14)
+			(xy 100.33 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -114,7 +114,27 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 92.71) (xy 123.19 92.71)
+			(xy 179.07 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58d25fa-d111-4bad-8a9f-9a867975aa2a")
+	)
+	(bus
+		(pts
+			(xy 100.33 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e762621a-5522-428b-b64c-70e9c9ddabdc")
+	)
+	(bus
+		(pts
+			(xy 100.33 96.52) (xy 123.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -124,7 +144,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 83.82) (xy 201.93 83.82)
+			(xy 179.07 82.55) (xy 201.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +154,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 123.19 101.6)
+			(xy 100.33 91.44) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +164,7 @@
 	)
 	(hierarchical_label "DPHY0{DPHY}"
 		(shape bidirectional)
-		(at 201.93 80.01 0)
+		(at 201.93 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -155,7 +175,7 @@
 	)
 	(hierarchical_label "I2C1{I2C}"
 		(shape bidirectional)
-		(at 100.33 92.71 180)
+		(at 100.33 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -175,9 +195,9 @@
 		)
 		(uuid "6d8d4083-afe2-44cc-a0d1-90663e051cd6")
 	)
-	(hierarchical_label "CAM_GPIO1"
+	(hierarchical_label "CAM1_EN"
 		(shape output)
-		(at 100.33 104.14 180)
+		(at 100.33 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -186,9 +206,9 @@
 		)
 		(uuid "77a726c0-c48f-41b6-a098-4dc2c5975367")
 	)
-	(hierarchical_label "CAM_GPIO0"
+	(hierarchical_label "CAM0_EN"
 		(shape output)
-		(at 100.33 101.6 180)
+		(at 100.33 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -199,7 +219,7 @@
 	)
 	(hierarchical_label "5V0"
 		(shape input)
-		(at 100.33 80.01 180)
+		(at 100.33 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -210,7 +230,7 @@
 	)
 	(hierarchical_label "DPHY1{DPHY}"
 		(shape bidirectional)
-		(at 201.93 83.82 0)
+		(at 201.93 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -221,7 +241,7 @@
 	)
 	(hierarchical_label "SPI0{SPI}"
 		(shape bidirectional)
-		(at 100.33 96.52 180)
+		(at 100.33 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -232,7 +252,7 @@
 	)
 	(hierarchical_label "PCIE{PCIE}"
 		(shape bidirectional)
-		(at 201.93 100.33 0)
+		(at 201.93 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -241,9 +261,20 @@
 		)
 		(uuid "b94db55a-8b32-4b9b-b653-fe6f8c6baaa7")
 	)
+	(hierarchical_label "USB3{USB3}"
+		(shape bidirectional)
+		(at 201.93 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd77d70a-7deb-4a14-813e-213c2adac7de")
+	)
 	(hierarchical_label "PCIEsb{PCIEsb}"
 		(shape bidirectional)
-		(at 201.93 104.14 0)
+		(at 201.93 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -263,9 +294,20 @@
 		)
 		(uuid "ef21feb8-77b3-4419-a21d-da0b1910a9c8")
 	)
+	(hierarchical_label "I2C2{I2C}"
+		(shape bidirectional)
+		(at 100.33 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0a4be47-6feb-41e4-abec-9860aeb2d7d5")
+	)
 	(sheet
-		(at 123.19 76.2)
-		(size 25.4 31.75)
+		(at 123.19 74.93)
+		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -280,7 +322,7 @@
 		)
 		(uuid "51c471cb-84e3-4543-900e-78eb33bc5a70")
 		(property "Sheetname" "GPIO"
-			(at 123.19 75.4884 0)
+			(at 123.19 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5-gpio.kicad_sch"
-			(at 123.19 108.5346 0)
+			(at 123.19 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +350,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 123.19 80.01 180)
+			(at 123.19 78.74 180)
 			(uuid "5fb5d6d2-2d10-4e07-bc52-4bc40f1dfa75")
 			(effects
 				(font
@@ -317,8 +359,8 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_GPIO0" output
-			(at 123.19 101.6 180)
+		(pin "CAM0_EN" output
+			(at 123.19 91.44 180)
 			(uuid "ffc5377c-8d6d-4f2f-8057-fb0b15bdeac6")
 			(effects
 				(font
@@ -327,8 +369,8 @@
 				(justify left)
 			)
 		)
-		(pin "CAM_GPIO1" output
-			(at 123.19 104.14 180)
+		(pin "CAM1_EN" output
+			(at 123.19 99.06 180)
 			(uuid "ca8461df-541c-48ae-84a3-c17d047adbad")
 			(effects
 				(font
@@ -348,7 +390,7 @@
 			)
 		)
 		(pin "I2C1{I2C}" bidirectional
-			(at 123.19 92.71 180)
+			(at 123.19 96.52 180)
 			(uuid "1733eeec-c8d0-4bf8-9808-8042c3380de6")
 			(effects
 				(font
@@ -358,8 +400,18 @@
 			)
 		)
 		(pin "SPI0{SPI}" bidirectional
-			(at 123.19 96.52 180)
+			(at 123.19 109.22 180)
 			(uuid "f38a83dc-9372-4d28-88a1-c31fcac0ed2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 123.19 104.14 180)
+			(uuid "6639db16-fc5d-4258-8a45-9741704f4210")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,8 +428,8 @@
 		)
 	)
 	(sheet
-		(at 153.67 76.2)
-		(size 25.4 31.75)
+		(at 153.67 74.93)
+		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -392,7 +444,7 @@
 		)
 		(uuid "a16d2f87-5159-48aa-a50b-c816b9ab5677")
 		(property "Sheetname" "High-Speed Serial"
-			(at 153.67 75.4884 0)
+			(at 153.67 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +453,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5-serial.kicad_sch"
-			(at 153.67 108.5346 0)
+			(at 153.67 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +462,7 @@
 			)
 		)
 		(pin "DPHY0{DPHY}" bidirectional
-			(at 179.07 80.01 0)
+			(at 179.07 78.74 0)
 			(uuid "1e72579d-5c24-40f1-9937-16d7acc7a6c8")
 			(effects
 				(font
@@ -420,7 +472,7 @@
 			)
 		)
 		(pin "DPHY1{DPHY}" bidirectional
-			(at 179.07 83.82 0)
+			(at 179.07 82.55 0)
 			(uuid "2242abbc-b8eb-4af4-a0c6-59d2a5fe55eb")
 			(effects
 				(font
@@ -430,7 +482,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 179.07 100.33 0)
+			(at 179.07 106.68 0)
 			(uuid "2394e3a7-fdf2-4e84-99f2-c5f4b43819a7")
 			(effects
 				(font
@@ -440,8 +492,18 @@
 			)
 		)
 		(pin "PCIEsb{PCIEsb}" bidirectional
-			(at 179.07 104.14 0)
+			(at 179.07 109.22 0)
 			(uuid "55814b94-9723-4356-81c2-de966d3b7b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB3{USB3}" bidirectional
+			(at 179.07 86.36 0)
+			(uuid "b369a7d9-e049-44f1-8642-2ad70889dceb")
 			(effects
 				(font
 					(size 1.27 1.27)

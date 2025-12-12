@@ -644,12 +644,24 @@
       "Cameras"
     ],
     [
+      "c435b26d-65b8-456a-808c-01ed650239be",
+      "Camera 0"
+    ],
+    [
+      "e2d7d845-68d0-4072-8934-178d4df5ee5d",
+      "Camera 1"
+    ],
+    [
       "7953df6c-8185-4fff-8cd2-b6d3791adbaa",
       "NVME"
     ],
     [
       "66b6385f-f0c0-4feb-8706-85a19fc48611",
       "Sensors"
+    ],
+    [
+      "bd78a290-caec-4bd5-8f7d-b2f2bcbf8020",
+      "Backplane Connector"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,46 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f3f362e5-e1cf-44eb-83ac-4de02cf9aa42")
+	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS PCB")
+		(date "2025-12-11")
+		(rev "A")
+		(company "Andre S Winkel | Highlander Space Program | University of California, Riverside")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1846b48f-cb14-4246-80c1-562c367a1bb0")
+	)
+	(label "5V0"
+		(at 138.43 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75efb613-5e42-4ac6-a86b-8f81ee1dfe68")
+	)
+	(hierarchical_label "5V0"
+		(shape output)
+		(at 152.4 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fec8759-c0be-4827-8441-88cbc29cc4fd")
+	)
+)

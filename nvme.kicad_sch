@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CUTIE-CITRUS PCB")
-		(date "2025-11-24")
+		(date "2025-12-11")
 		(rev "A")
 		(company "Andre S Winkel | Highlander Space Program | University of California, Riverside")
 	)
@@ -2688,6 +2688,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 82.55 67.31)
@@ -2748,6 +2849,12 @@
 		(diameter 0)
 		(color 255 0 255 1)
 		(uuid "537d03d5-5c11-4122-ba7b-daa429854899")
+	)
+	(junction
+		(at 132.08 120.65)
+		(diameter 0)
+		(color 255 0 255 1)
+		(uuid "544f8e0b-363b-4318-b7b6-50777632b6fb")
 	)
 	(junction
 		(at 257.81 102.87)
@@ -3197,6 +3304,17 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 120.65) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "16b56d7c-da8a-4723-8d94-e2c517a425b0")
+	)
+	(wire
+		(pts
 			(xy 257.81 102.87) (xy 255.27 102.87)
 		)
 		(stroke
@@ -3606,6 +3724,17 @@
 			(type default)
 		)
 		(uuid "591b9cac-b206-4eb2-b8bd-ed66153ef518")
+	)
+	(wire
+		(pts
+			(xy 132.08 119.38) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "5960caa8-5a6d-43f4-a570-ad4aac2c0c7d")
 	)
 	(wire
 		(pts
@@ -4362,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.65) (xy 140.97 120.65)
+			(xy 124.46 120.65) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0.381)
@@ -5260,6 +5389,72 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe7192a-c80d-49ec-858c-fd2c6cda4a12")
+		(property "Reference" "#FLG03"
+			(at 132.08 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2445f37-9c24-4159-bf7d-3162648749db")
+		)
+		(instances
+			(project ""
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
