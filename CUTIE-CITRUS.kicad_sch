@@ -222,7 +222,7 @@
 	)
 	(text "Cameras"
 		(exclude_from_sim no)
-		(at 129.54 62.23 0)
+		(at 152.4 53.34 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -231,6 +231,7 @@
 				(italic yes)
 				(color 0 0 0 1)
 			)
+			(justify right)
 		)
 		(uuid "2a0f4ad0-477b-47dc-ba1c-44efacca7491")
 	)
@@ -251,7 +252,7 @@
 	)
 	(text "Sensors"
 		(exclude_from_sim no)
-		(at 143.51 91.44 0)
+		(at 152.4 91.44 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -266,7 +267,7 @@
 	)
 	(text "M.2"
 		(exclude_from_sim no)
-		(at 143.51 118.11 0)
+		(at 152.4 118.11 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -295,16 +296,16 @@
 		(uuid "e8a14b21-b52a-45c3-8d23-23ce619cb56e")
 	)
 	(junction
-		(at 95.25 69.85)
+		(at 87.63 69.85)
 		(diameter 0)
 		(color 255 153 0 1)
-		(uuid "3e5fe53b-b0fd-46b3-8347-b909836917ed")
+		(uuid "098f8a46-a848-451f-ae44-61ff0185b653")
 	)
 	(junction
-		(at 87.63 121.92)
+		(at 87.63 123.19)
 		(diameter 0)
 		(color 255 0 0 1)
-		(uuid "c72b00fd-af2e-4aba-9dfe-8268e99a67c0")
+		(uuid "280ed062-b384-4b6a-a245-ed91beeaccc4")
 	)
 	(bus_entry
 		(at 242.57 95.25)
@@ -493,7 +494,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 113.03 85.09)
+			(xy 87.63 85.09) (xy 113.03 85.09)
 		)
 		(stroke
 			(width 0.381)
@@ -501,6 +502,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "1a864cb3-2f17-457c-a68d-c2c13ae9971c")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1e08822e-7af1-433f-ae59-ce357110579f")
 	)
 	(bus
 		(pts
@@ -524,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 121.92) (xy 113.03 121.92)
+			(xy 77.47 123.19) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0.508)
@@ -532,6 +544,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "307996f3-8ea8-44ff-88cc-420542c40347")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "35a6fce8-1e05-4bc1-b7fb-605509b78256")
 	)
 	(wire
 		(pts
@@ -686,18 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 69.85) (xy 113.03 69.85)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "717e7172-a571-43e6-a4ec-16b0ec3df286")
-	)
-	(wire
-		(pts
-			(xy 77.47 69.85) (xy 95.25 69.85)
+			(xy 77.47 69.85) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0.381)
@@ -705,6 +717,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "71a36ca0-90ae-4f88-8289-5dd3e962e719")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "7e1eec37-dcbc-465e-81f6-c0eb7fe67b33")
 	)
 	(wire
 		(pts
@@ -819,17 +842,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 121.92) (xy 87.63 151.13)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a77b21b3-f841-4f95-88cf-a2daca6e83a0")
-	)
-	(wire
-		(pts
 			(xy 245.11 97.79) (xy 264.16 97.79)
 		)
 		(stroke
@@ -867,6 +879,16 @@
 			(type default)
 		)
 		(uuid "bd2b1ac7-06e3-40b0-89a5-dc1dd9ef53e8")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be65d9d7-1e7a-481c-9ca7-6c49e2ab6595")
 	)
 	(bus
 		(pts
@@ -918,17 +940,6 @@
 		)
 		(uuid "c8f9542f-135d-4861-b242-b0c07124b317")
 	)
-	(wire
-		(pts
-			(xy 77.47 121.92) (xy 87.63 121.92)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "cb84d2fe-3003-47e0-b171-b85c00b201de")
-	)
 	(bus
 		(pts
 			(xy 77.47 48.26) (xy 113.03 48.26)
@@ -941,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 69.85) (xy 95.25 85.09)
+			(xy 87.63 69.85) (xy 87.63 85.09)
 		)
 		(stroke
 			(width 0.381)
@@ -1020,6 +1031,16 @@
 		)
 		(uuid "10ff6fbd-97ee-4195-9c02-d46273e16ef3")
 	)
+	(label "I2C1{I2C}"
+		(at 95.25 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "1eb0e5f7-adf6-48f9-9f5b-28e377c56a5b")
+	)
 	(label "SPI0.SCLK"
 		(at 246.38 36.83 0)
 		(effects
@@ -1029,6 +1050,16 @@
 			(justify left bottom)
 		)
 		(uuid "40c59982-63ee-40c2-8343-d1dfab69166e")
+	)
+	(label "SPI0{SPI}"
+		(at 95.25 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "49314221-64da-4536-9ebc-b08291e5c3b5")
 	)
 	(label "I2C1.SDA"
 		(at 246.38 67.31 0)
@@ -1101,7 +1132,7 @@
 		(uuid "7ab6fe2a-ec32-4f77-930a-81cbc96a6746")
 	)
 	(label "5V0"
-		(at 95.25 121.92 0)
+		(at 95.25 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1140,6 +1171,16 @@
 		)
 		(uuid "94e3a1f6-8d22-4ca8-a1e2-bcfc745f180d")
 	)
+	(label "PCIEsb{PCIEsb}"
+		(at 95.25 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "a1a5aad4-ed27-4226-9c24-dfc46c7ff2f8")
+	)
 	(label "PCIEsb.PWR_EN"
 		(at 246.38 100.33 0)
 		(effects
@@ -1170,6 +1211,16 @@
 		)
 		(uuid "c40e6ead-52c7-404d-920e-cf544040f73e")
 	)
+	(label "I2C2{I2C}"
+		(at 95.25 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "cbd58484-bec0-49e5-a735-f11b6679d549")
+	)
 	(label "3V3"
 		(at 256.54 156.21 0)
 		(effects
@@ -1179,6 +1230,16 @@
 			(justify bottom)
 		)
 		(uuid "cc818601-9b7d-4d4a-b786-8c149679aaa3")
+	)
+	(label "I2C0{I2C}"
+		(at 95.25 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "e3538662-a0ad-4436-b04f-3e51da2a21a6")
 	)
 	(hierarchical_label "PCIEsb{PCIEsb}"
 		(shape bidirectional)
@@ -1396,7 +1457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -1996,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 264.16 165.1 0)
 			(effects
 				(font
@@ -2504,7 +2565,7 @@
 	)
 	(sheet
 		(at 43.18 33.02)
-		(size 34.29 92.71)
+		(size 34.29 93.98)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2528,7 +2589,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 43.18 126.3146 0)
+			(at 43.18 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2608,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 77.47 121.92 0)
+			(at 77.47 123.19 0)
 			(uuid "84b453c2-e9d5-4dbb-8def-c6518abe4c87")
 			(effects
 				(font
@@ -2676,7 +2737,7 @@
 	)
 	(sheet
 		(at 113.03 33.02)
-		(size 33.02 40.64)
+		(size 41.91 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2788,7 +2849,7 @@
 	)
 	(sheet
 		(at 113.03 81.28)
-		(size 33.02 20.32)
+		(size 41.91 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2860,7 +2921,7 @@
 	)
 	(sheet
 		(at 113.03 109.22)
-		(size 33.02 16.51)
+		(size 41.91 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2884,7 +2945,7 @@
 			)
 		)
 		(property "Sheetfile" "nvme.kicad_sch"
-			(at 113.03 126.3146 0)
+			(at 113.03 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2954,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 113.03 121.92 180)
+			(at 113.03 123.19 180)
 			(uuid "e6e659cc-bfb2-451b-aa2d-3070461a5614")
 			(effects
 				(font
@@ -2931,8 +2992,8 @@
 		)
 	)
 	(sheet
-		(at 43.18 151.13)
-		(size 102.87 19.05)
+		(at 43.18 140.97)
+		(size 111.76 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2947,7 +3008,7 @@
 		)
 		(uuid "bd78a290-caec-4bd5-8f7d-b2f2bcbf8020")
 		(property "Sheetname" "Backplane Connector"
-			(at 43.18 150.4184 0)
+			(at 42.4684 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3017,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
-			(at 43.18 170.7646 0)
+			(at 155.5246 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3026,7 @@
 			)
 		)
 		(pin "5V0" output
-			(at 87.63 151.13 90)
+			(at 87.63 140.97 90)
 			(uuid "6010a7ed-8bdc-40c1-884a-3643594f613b")
 			(effects
 				(font

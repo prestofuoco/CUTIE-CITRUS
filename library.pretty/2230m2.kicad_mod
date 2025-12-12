@@ -809,7 +809,7 @@
 		(uuid "aef73218-bc2d-43fa-b3eb-23959e67d223")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/CM5IO.3dshapes/MTSSD03-67MSW337.STEP"
+	(model "${KIPRJMOD}/library.3dshapes/MTSSD03-67MSW337.STEP"
 		(offset
 			(xyz 0 1.8 1.3)
 		)
