@@ -1961,7 +1961,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Addr: 0x1C"
+	(text "Addr: 0x19"
 		(exclude_from_sim no)
 		(at 238.76 114.3 0)
 		(effects
