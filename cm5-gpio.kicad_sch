@@ -4304,13 +4304,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I2C0 and I2C1 reserved for MIPI0 and MIPI1 respectively"
+	(text "I2C0 and I2C1 reserved for MIPI0 and MIPI1"
 		(exclude_from_sim no)
-		(at 255.27 15.24 0)
+		(at 283.21 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "fda7cd45-1708-44c4-a976-836100670aa1")
 	)

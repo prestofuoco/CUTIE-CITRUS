@@ -1,4 +1,4 @@
-26756171222407060
+26757937014209330
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106455,3 +106455,10 @@ Raspberry Pi 5 Compute Module
 0
 200
 200
+library
+SAMTEC_ERM8-025-XX-X-D-RA-XX
+
+
+0
+54
+54
