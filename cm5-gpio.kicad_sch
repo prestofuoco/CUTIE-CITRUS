@@ -6594,6 +6594,28 @@
 		)
 		(uuid "b6a7ded8-5bf5-4b56-bd59-25dac2a5ba64")
 	)
+	(hierarchical_label "CAN_INT"
+		(shape input)
+		(at 36.83 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0e7b481-84ca-47b6-b892-ddcf6fd99e4b")
+	)
+	(hierarchical_label "SPI4{SPI}"
+		(shape bidirectional)
+		(at 36.83 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e578ab3a-71c8-4914-b37e-c90fa3180678")
+	)
 	(symbol
 		(lib_id "library:R_US")
 		(at 252.73 77.47 0)
