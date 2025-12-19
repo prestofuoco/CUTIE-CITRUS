@@ -58,7 +58,7 @@
 	)
 	(text "M.2"
 		(exclude_from_sim no)
-		(at 153.67 113.03 0)
+		(at 153.67 119.38 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -92,14 +92,14 @@
 		(uuid "098f8a46-a848-451f-ae44-61ff0185b653")
 	)
 	(junction
-		(at 104.14 132.08)
+		(at 104.14 130.81)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "fca978f2-2a3d-4ec5-9fff-b6af921ddd89")
 	)
 	(wire
 		(pts
-			(xy 104.14 132.08) (xy 114.3 132.08)
+			(xy 104.14 130.81) (xy 114.3 130.81)
 		)
 		(stroke
 			(width 0.508)
@@ -121,7 +121,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 128.27) (xy 88.9 148.59)
+			(xy 88.9 127) (xy 88.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -131,7 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 132.08) (xy 104.14 148.59)
+			(xy 104.14 130.81) (xy 104.14 144.78)
 		)
 		(stroke
 			(width 0.508)
@@ -142,7 +142,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 148.59) (xy 99.06 120.65)
+			(xy 99.06 144.78) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -162,7 +162,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 120.65) (xy 78.74 120.65)
+			(xy 99.06 119.38) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -199,17 +199,6 @@
 			(type default)
 		)
 		(uuid "531311e0-b304-4f8e-8e5f-c82cc34ed93c")
-	)
-	(wire
-		(pts
-			(xy 78.74 132.08) (xy 104.14 132.08)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "5396255a-bb25-4f45-978c-88eac9a0f6ae")
 	)
 	(wire
 		(pts
@@ -265,7 +254,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 148.59) (xy 93.98 124.46)
+			(xy 93.98 144.78) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -282,6 +271,17 @@
 			(type default)
 		)
 		(uuid "c3e99126-16a8-4f65-81e6-8a136e7de0e3")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d32f218d-658c-4a28-a44f-4b1b170422e9")
 	)
 	(bus
 		(pts
@@ -306,7 +306,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 128.27) (xy 88.9 128.27)
+			(xy 78.74 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +316,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 124.46) (xy 78.74 124.46)
+			(xy 93.98 123.19) (xy 78.74 123.19)
 		)
 		(stroke
 			(width 0)
@@ -336,7 +336,7 @@
 	)
 	(sheet
 		(at 45.72 35.56)
-		(size 33.02 100.33)
+		(size 33.02 99.06)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -359,7 +359,7 @@
 			)
 		)
 		(property "Sheetfile" "cm5.kicad_sch"
-			(at 45.72 137.16 0)
+			(at 45.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +378,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 78.74 132.08 0)
+			(at 78.74 130.81 0)
 			(uuid "84b453c2-e9d5-4dbb-8def-c6518abe4c87")
 			(effects
 				(font
@@ -478,7 +478,7 @@
 			)
 		)
 		(pin "USB3{USB3}" bidirectional
-			(at 78.74 128.27 0)
+			(at 78.74 127 0)
 			(uuid "4e2d6bc6-d5dc-4008-a1c3-565c4d97d1cd")
 			(effects
 				(font
@@ -498,7 +498,7 @@
 			)
 		)
 		(pin "SPI1{SPI}" bidirectional
-			(at 78.74 120.65 0)
+			(at 78.74 119.38 0)
 			(uuid "7874ff89-ab85-48d7-aff0-b8cc6cccd8d4")
 			(effects
 				(font
@@ -508,7 +508,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 78.74 124.46 0)
+			(at 78.74 123.19 0)
 			(uuid "a679cdb5-2554-4370-8e91-34c31ee412c5")
 			(effects
 				(font
@@ -709,7 +709,7 @@
 	)
 	(sheet
 		(at 114.3 104.14)
-		(size 41.91 31.75)
+		(size 41.91 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -732,7 +732,7 @@
 			)
 		)
 		(property "Sheetfile" "nvme.kicad_sch"
-			(at 114.3 137.16 0)
+			(at 114.3 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,7 +741,7 @@
 			)
 		)
 		(pin "5V0" input
-			(at 114.3 132.08 180)
+			(at 114.3 130.81 180)
 			(uuid "e6e659cc-bfb2-451b-aa2d-3070461a5614")
 			(effects
 				(font
@@ -779,7 +779,7 @@
 		)
 	)
 	(sheet
-		(at 45.72 148.59)
+		(at 45.72 144.78)
 		(size 110.49 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -794,7 +794,7 @@
 		)
 		(uuid "bd78a290-caec-4bd5-8f7d-b2f2bcbf8020")
 		(property "Sheetname" "Backplane Connector"
-			(at 45.72 147.32 0)
+			(at 45.72 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +803,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
-			(at 45.72 179.07 0)
+			(at 45.72 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +812,7 @@
 			)
 		)
 		(pin "5V0" output
-			(at 104.14 148.59 90)
+			(at 104.14 144.78 90)
 			(uuid "6010a7ed-8bdc-40c1-884a-3643594f613b")
 			(effects
 				(font
@@ -822,7 +822,7 @@
 			)
 		)
 		(pin "USB3{USB3}" bidirectional
-			(at 88.9 148.59 90)
+			(at 88.9 144.78 90)
 			(uuid "0450a2c9-3280-4b9e-963d-aa5d52fc3eb1")
 			(effects
 				(font
@@ -832,7 +832,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 93.98 148.59 90)
+			(at 93.98 144.78 90)
 			(uuid "4b071e56-1f18-4e72-b618-caf4521a15c4")
 			(effects
 				(font
@@ -842,7 +842,7 @@
 			)
 		)
 		(pin "SPI1{SPI}" bidirectional
-			(at 99.06 148.59 90)
+			(at 99.06 144.78 90)
 			(uuid "584cf0d1-8ad9-4fe9-829a-8bc1d6ead818")
 			(effects
 				(font

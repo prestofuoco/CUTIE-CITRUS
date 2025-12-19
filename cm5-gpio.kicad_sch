@@ -6473,17 +6473,6 @@
 		)
 		(uuid "16e73cd6-265d-4262-b924-cf09f8d478c5")
 	)
-	(hierarchical_label "SPI4{SPI}"
-		(shape bidirectional)
-		(at 36.83 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "171c67a1-5d77-414b-bc21-c4a5ec34fd6c")
-	)
 	(hierarchical_label "CAM1_EN"
 		(shape output)
 		(at 59.69 153.67 180)

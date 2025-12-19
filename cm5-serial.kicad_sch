@@ -3856,16 +3856,6 @@
 	(bus_alias "USB3"
 		(members "D_N" "D_P" "RX_N" "RX_P" "TX_N" "TX_P")
 	)
-	(text "vbus en is for usb pwr"
-		(exclude_from_sim no)
-		(at 223.52 57.15 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0e48d66a-ed6a-4e39-b8b9-3c3090cd06d8")
-	)
 	(junction
 		(at 81.28 90.17)
 		(diameter 1.016)
