@@ -142,16 +142,6 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 144.78) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361b6360-8848-4ed8-a950-71013ea443ea")
-	)
-	(bus
-		(pts
 			(xy 78.74 53.34) (xy 114.3 53.34)
 		)
 		(stroke
@@ -159,16 +149,6 @@
 			(type default)
 		)
 		(uuid "3f2de3cc-1e5f-40da-b1c1-6bdd4085f6a3")
-	)
-	(bus
-		(pts
-			(xy 99.06 119.38) (xy 78.74 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43cc92d4-967e-4cff-aaf5-02e3e49a09c1")
 	)
 	(bus
 		(pts
@@ -199,6 +179,16 @@
 			(type default)
 		)
 		(uuid "531311e0-b304-4f8e-8e5f-c82cc34ed93c")
+	)
+	(bus
+		(pts
+			(xy 99.06 144.78) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566e42b8-1c53-48a1-a044-ba86bf9c3e8c")
 	)
 	(wire
 		(pts
@@ -271,6 +261,16 @@
 			(type default)
 		)
 		(uuid "c3e99126-16a8-4f65-81e6-8a136e7de0e3")
+	)
+	(bus
+		(pts
+			(xy 99.06 119.38) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e92dc8-f765-4892-b099-f6456884b15e")
 	)
 	(wire
 		(pts
@@ -437,16 +437,6 @@
 				(justify right)
 			)
 		)
-		(pin "SPI0{SPI}" bidirectional
-			(at 78.74 91.44 0)
-			(uuid "e7cdcd81-baf2-45d1-b2f2-b953db319644")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C0{I2C}" bidirectional
 			(at 78.74 41.91 0)
 			(uuid "b6ea4112-f1ca-423b-89b5-ee9facde498b")
@@ -497,9 +487,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI1{SPI}" bidirectional
-			(at 78.74 119.38 0)
-			(uuid "7874ff89-ab85-48d7-aff0-b8cc6cccd8d4")
+		(pin "CAN0{CAN}" bidirectional
+			(at 78.74 123.19 0)
+			(uuid "a679cdb5-2554-4370-8e91-34c31ee412c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,9 +497,19 @@
 				(justify right)
 			)
 		)
-		(pin "CAN0{CAN}" bidirectional
-			(at 78.74 123.19 0)
-			(uuid "a679cdb5-2554-4370-8e91-34c31ee412c5")
+		(pin "SPI1{SPI}" bidirectional
+			(at 78.74 91.44 0)
+			(uuid "8d434397-406f-4ff7-b10a-b0abf2a79da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2{SPI}" bidirectional
+			(at 78.74 119.38 0)
+			(uuid "e690bfdc-5424-4f2a-86b1-bd7d28607f35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,9 +679,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPI0{SPI}" bidirectional
-			(at 114.3 91.44 180)
-			(uuid "bcccb80b-7aec-4ebe-b938-75b5e3886166")
+		(pin "I2C2{I2C}" bidirectional
+			(at 114.3 85.09 180)
+			(uuid "64da7455-9a14-4342-9ddc-07f7bd919c95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,9 +689,9 @@
 				(justify left)
 			)
 		)
-		(pin "I2C2{I2C}" bidirectional
-			(at 114.3 85.09 180)
-			(uuid "64da7455-9a14-4342-9ddc-07f7bd919c95")
+		(pin "SPI1{SPI}" bidirectional
+			(at 114.3 91.44 180)
+			(uuid "212dd7d2-ec50-41d5-ad85-377e6bfd0aee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,9 +841,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI1{SPI}" bidirectional
+		(pin "SPI2{SPI}" bidirectional
 			(at 99.06 144.78 90)
-			(uuid "584cf0d1-8ad9-4fe9-829a-8bc1d6ead818")
+			(uuid "4bcd5db9-667a-400f-89aa-fee4d729fffa")
 			(effects
 				(font
 					(size 1.27 1.27)

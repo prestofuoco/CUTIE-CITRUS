@@ -15,7 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CM5-"
+			(property "Reference" "CM5-1"
 				(at 0 69.85 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "library:RPi-CM5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -430,7 +430,7 @@
 				(pin passive line
 					(at -33.02 19.05 0)
 					(length 5.08)
-					(name "ID_SD"
+					(name "GPIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,7 +826,7 @@
 				(pin passive line
 					(at -33.02 -36.83 0)
 					(length 5.08)
-					(name "SCL0"
+					(name "GPIO39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -844,7 +844,7 @@
 				(pin passive line
 					(at -33.02 -39.37 0)
 					(length 5.08)
-					(name "SDA0"
+					(name "GPIO38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 				(pin passive line
 					(at -33.02 -62.23 0)
 					(length 5.08)
-					(name "CAM_GPIO1"
+					(name "GPIO35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 				(pin passive line
 					(at 33.02 19.05 180)
 					(length 5.08)
-					(name "ID_SC"
+					(name "GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1888,7 +1888,7 @@
 				(pin passive line
 					(at 33.02 -59.69 180)
 					(length 5.08)
-					(name "CAM_GPIO0"
+					(name "GPIO34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7031,7 +7031,11 @@
 			(uuid "1c2f3688-c415-480b-acd2-773235d2f8a1")
 		)
 		(instances
-			(project "CUTIE-CITRUS"
+			(project ""
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
+					(reference "CM5-1")
+					(unit 2)
+				)
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/a16d2f87-5159-48aa-a50b-c816b9ab5677"
 					(reference "CM5-1")
 					(unit 2)
