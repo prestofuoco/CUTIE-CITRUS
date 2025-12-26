@@ -167,3 +167,8 @@
 	(constraint silk_clearance (min 0.15mm))
 	(layer outer)
 	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+# --------------------------------- andre rule ----------------------------
+(rule "Zone_to_Track_Clearance"
+    (constraint clearance (min 0.25mm))
+    (condition "A.Type == 'Zone' && B.Type == 'Track'"))

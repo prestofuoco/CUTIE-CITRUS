@@ -1077,7 +1077,7 @@
 		)
 	)
 	(bus_alias "CAN"
-		(members "H" "L")
+		(members "P" "N")
 	)
 	(junction
 		(at 127 95.25)
@@ -2221,7 +2221,7 @@
 		)
 		(uuid "3c4f7558-6d75-4367-8a96-67e92784cf20")
 	)
-	(label "CAN0.L"
+	(label "CAN0.N"
 		(at 102.87 69.85 0)
 		(effects
 			(font
@@ -2251,7 +2251,7 @@
 		)
 		(uuid "ac1669df-7ff3-4f0a-b65d-74185d18506a")
 	)
-	(label "CAN0.H"
+	(label "CAN0.P"
 		(at 102.87 72.39 0)
 		(effects
 			(font

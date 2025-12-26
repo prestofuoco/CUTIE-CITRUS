@@ -1491,12 +1491,6 @@
 		(color 255 153 0 1)
 		(uuid "e54c1d74-4843-471f-a52c-5f8a690b9700")
 	)
-	(junction
-		(at 237.49 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f56f31bc-7783-45f7-898a-a549cc42b1bc")
-	)
 	(no_connect
 		(at 93.98 96.52)
 		(uuid "8502c3b1-a239-4b0d-8ac6-20c62ee1fd9e")
@@ -1604,24 +1598,6 @@
 		(uuid "7fa4120a-4a07-4a26-b1ee-c2d1f4ff6b93")
 	)
 	(bus_entry
-		(at 237.49 76.2)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f210cd-4907-4558-81c5-bdbf52c1b1b9")
-	)
-	(bus_entry
-		(at 237.49 78.74)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984dce11-2a8e-4d31-b1ef-15b5af217253")
-	)
-	(bus_entry
 		(at 130.81 127)
 		(size 2.54 2.54)
 		(stroke
@@ -1694,24 +1670,6 @@
 		(uuid "de4749af-56d8-4712-be9b-8788c9a89cae")
 	)
 	(bus_entry
-		(at 237.49 83.82)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a31341-4f42-4f08-bfb1-9d18908e28df")
-	)
-	(bus_entry
-		(at 237.49 81.28)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e873c893-7fc7-4363-8b20-dbb3dda4ab4d")
-	)
-	(bus_entry
 		(at 134.62 111.76)
 		(size 2.54 2.54)
 		(stroke
@@ -1747,16 +1705,6 @@
 			(type default)
 		)
 		(uuid "0021f7fa-ffbb-4fad-a473-9b659becd1fa")
-	)
-	(wire
-		(pts
-			(xy 240.03 86.36) (xy 259.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004641be-0fea-4986-ade4-677586e45dc6")
 	)
 	(bus
 		(pts
@@ -1860,26 +1808,6 @@
 		)
 		(uuid "1256f32f-db11-4f16-9186-0701971b810b")
 	)
-	(bus
-		(pts
-			(xy 237.49 81.28) (xy 237.49 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "132471cf-72a4-4800-a797-a9bc69a73528")
-	)
-	(wire
-		(pts
-			(xy 240.03 81.28) (xy 259.08 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1479302c-a5c6-4177-b92f-7b8168879e1f")
-	)
 	(wire
 		(pts
 			(xy 88.9 127) (xy 120.65 127)
@@ -1932,7 +1860,7 @@
 	)
 	(bus
 		(pts
-			(xy 224.79 63.5) (xy 237.49 63.5)
+			(xy 224.79 63.5) (xy 256.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2064,16 +1992,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "294aaee0-60ee-421a-a0fd-d968d12aaefc")
-	)
-	(wire
-		(pts
-			(xy 240.03 83.82) (xy 259.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a70804a-5a34-45cb-ac58-ddbc8e84b108")
 	)
 	(wire
 		(pts
@@ -2238,16 +2156,6 @@
 		)
 		(uuid "459b0bfa-ea88-4ca6-a588-213f57aa52ef")
 	)
-	(bus
-		(pts
-			(xy 237.49 63.5) (xy 256.54 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46cafa4d-70ef-484f-9638-73da6751de3d")
-	)
 	(wire
 		(pts
 			(xy 118.11 80.01) (xy 93.98 80.01)
@@ -2348,16 +2256,6 @@
 			(type default)
 		)
 		(uuid "5292f0ee-9e74-4949-9d07-e1a6f3950654")
-	)
-	(bus
-		(pts
-			(xy 237.49 63.5) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579fd7dc-f4df-4c53-bbaa-c2e24b0e0fbe")
 	)
 	(bus
 		(pts
@@ -2500,16 +2398,6 @@
 			(type default)
 		)
 		(uuid "7a6f777d-56b7-41bd-acd7-082c9c415862")
-	)
-	(bus
-		(pts
-			(xy 237.49 76.2) (xy 237.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0ef957-c520-4483-b8ae-087a77591fb4")
 	)
 	(wire
 		(pts
@@ -2708,16 +2596,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 78.74) (xy 259.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b346cf6b-1938-4f51-9da2-d27f1625d49e")
-	)
-	(wire
-		(pts
 			(xy 257.81 144.78) (xy 257.81 147.32)
 		)
 		(stroke
@@ -2888,16 +2766,6 @@
 		)
 		(uuid "dbc78261-c74e-4da4-9b67-d0bc80e16ab3")
 	)
-	(bus
-		(pts
-			(xy 237.49 78.74) (xy 237.49 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1706eea-73b3-49b0-a0d0-6b1eb3ea9eb9")
-	)
 	(wire
 		(pts
 			(xy 60.96 175.26) (xy 53.34 175.26)
@@ -3063,16 +2931,6 @@
 		)
 		(uuid "fedd62e4-71be-40d8-9f92-69e35e2e0ca5")
 	)
-	(label "PCIEsb.nRST"
-		(at 241.3 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00d43c21-7141-4a3a-9693-e6affa8f5416")
-	)
 	(label "OSC1"
 		(at 116.84 93.98 180)
 		(effects
@@ -3203,7 +3061,7 @@
 		)
 		(uuid "6420866f-d923-4515-8d73-dafb8bea88a1")
 	)
-	(label "CAN0.H"
+	(label "CAN0.P"
 		(at 114.3 162.56 180)
 		(effects
 			(font
@@ -3212,16 +3070,6 @@
 			(justify right bottom)
 		)
 		(uuid "687267bf-d7e6-4ded-9f53-ceed2aedd350")
-	)
-	(label "PCIEsb.nWAKE"
-		(at 241.3 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72c04213-7414-4f0d-a304-6b1285594114")
 	)
 	(label "SPI2.SCLK"
 		(at 241.3 134.62 0)
@@ -3273,7 +3121,7 @@
 		)
 		(uuid "8857d843-6253-4221-bca7-814fda06ee59")
 	)
-	(label "CAN0.L"
+	(label "CAN0.N"
 		(at 114.3 160.02 180)
 		(effects
 			(font
@@ -3282,16 +3130,6 @@
 			(justify right bottom)
 		)
 		(uuid "98df4277-82cc-4191-9818-9b149bd9604f")
-	)
-	(label "PCIEsb.PWR_EN"
-		(at 241.3 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b943303-fbb0-4f13-951f-88a13c5bdef0")
 	)
 	(label "SPI3.SCLK"
 		(at 116.84 87.63 180)
@@ -3412,16 +3250,6 @@
 			(justify right bottom)
 		)
 		(uuid "eeb4b6b3-ff52-49a9-bbf3-8703d24bd120")
-	)
-	(label "PCIEsb.nCLKREQ"
-		(at 241.3 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4226d9c-6316-4d39-88e0-9500691091c2")
 	)
 	(hierarchical_label "SPI2{SPI}"
 		(shape bidirectional)
@@ -4479,73 +4307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:TestPoint")
-		(at 259.08 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "505aabbc-f933-4e2e-9f4c-c03314140357")
-		(property "Reference" "TP4"
-			(at 264.16 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c046f083-84ef-4432-93c3-04ad3263a5c8")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:GND")
 		(at 90.17 185.42 0)
 		(mirror y)
@@ -4607,207 +4368,6 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:TestPoint")
-		(at 259.08 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "608db4c5-21cf-4787-add9-cf3e24522680")
-		(property "Reference" "TP3"
-			(at 264.16 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2502467c-582c-4a61-986a-c678e517feb7")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:TestPoint")
-		(at 259.08 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62882071-6223-49fa-984d-37d0f2874790")
-		(property "Reference" "TP1"
-			(at 264.16 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fdae19d-3a2d-470b-9bfc-a95a8641b799")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:TestPoint")
-		(at 259.08 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66a9d8fb-a2e8-4b28-a62e-dcab7bd6249b")
-		(property "Reference" "TP2"
-			(at 264.16 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "673ccdb8-e40d-41d6-ac8b-468962562feb")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
