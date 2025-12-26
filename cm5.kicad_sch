@@ -1504,6 +1504,10 @@
 		(uuid "b726599b-3e84-4f62-b8f1-f49515cc8d0d")
 	)
 	(no_connect
+		(at 259.08 124.46)
+		(uuid "e6953e82-9ef0-49ff-a46f-e874ff15e03d")
+	)
+	(no_connect
 		(at 58.42 85.09)
 		(uuid "f14a39e2-7524-410d-9e08-e43afc592e41")
 	)
@@ -5386,73 +5390,6 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
 					(reference "GND2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:TestPoint")
-		(at 259.08 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3361363-e441-4446-b04a-86add03762bc")
-		(property "Reference" "TP15"
-			(at 264.16 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 264.16 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c666049-0861-417c-8c7b-7eba9421b204")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9"
-					(reference "TP15")
 					(unit 1)
 				)
 			)

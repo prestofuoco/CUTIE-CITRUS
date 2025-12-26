@@ -64,17 +64,17 @@
 	#(condition "A.Type == 'via'"))
 
 # 4-layer advanced
-(rule "Minimum Via Diameter and Hole Size"
-	(constraint hole_size (min 0.25mm))
-	(constraint via_diameter (min 0.4mm))
-	(constraint disallow buried_via)
-	(condition "A.Type == 'via'"))
+#(rule "Minimum Via Diameter and Hole Size"
+	#(constraint hole_size (min 0.25mm))
+	#(constraint via_diameter (min 0.4mm))
+	#(constraint disallow buried_via)
+	#(condition "A.Type == 'via'"))
 
 # 4-layer advanced
-#(rule "Minimum Via Diameter and Hole Size"
-	#(constraint hole_size (min 0.2mm))
-	#(constraint via_diameter (min 0.35mm))
-	#(condition "A.Type == 'via'"))
+(rule "Minimum Via Diameter and Hole Size"
+	(constraint hole_size (min 0.2mm))
+	(constraint via_diameter (min 0.35mm))
+	(condition "A.Type == 'via'"))
 
 # 4-layer advanced
 #(rule "Minimum Via Diameter and Hole Size"
