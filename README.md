@@ -1,8 +1,12 @@
 # computational imaging & telemetry for reconnaissance under suborbit
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/e4d5ed08-20d3-4478-b682-f4896dc2760a" />
-<img width="674" height="698" alt="Screenshot 2025-12-27 at 12 29 54 PM" src="https://github.com/user-attachments/assets/d677937a-d064-45f4-a47d-6dee81781f45" />
-<img width="674" height="698" alt="Screenshot 2025-12-27 at 12 29 58 PM" src="https://github.com/user-attachments/assets/390c36d0-d3fe-4272-b3ee-f2c98b5446b1" />
-<img width="674" height="698" alt="Screenshot 2025-12-27 at 12 30 04 PM" src="https://github.com/user-attachments/assets/1389c20a-f056-4e4d-acdf-8b0cceab457a" />
-<img width="674" height="698" alt="Screenshot 2025-12-27 at 12 30 08 PM" src="https://github.com/user-attachments/assets/8a3f3c94-c8e6-4efd-9685-5bfe40f97501" />
-<img width="700" height="762" alt="Screenshot 2025-12-27 at 12 31 16 PM" src="https://github.com/user-attachments/assets/c3a1c9c5-02fd-4e0c-96ae-a0fd526c6b14" />
-<img width="705" height="735" alt="Screenshot 2025-12-27 at 12 31 38 PM" src="https://github.com/user-attachments/assets/d00a704a-a6bf-4889-a757-152210830895" />
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/c067b2a5-5e6e-43ad-b12e-ff46f16205f7" />
+
+<img width="664" height="662" alt="Screenshot 2025-12-28 at 7 28 14 PM" src="https://github.com/user-attachments/assets/77cffacc-070f-4cf5-b8d6-58e2f6465dab" />
+<img width="664" height="662" alt="Screenshot 2025-12-28 at 7 28 10 PM" src="https://github.com/user-attachments/assets/b4818b37-2ca8-45f6-9f92-a66947d9bf41" />
+<img width="664" height="662" alt="Screenshot 2025-12-28 at 7 28 07 PM" src="https://github.com/user-attachments/assets/57bacd84-2c61-45fb-b737-ad5a69ece809" />
+<img width="664" height="662" alt="Screenshot 2025-12-28 at 7 28 02 PM" src="https://github.com/user-attachments/assets/3fac9041-823b-4b4e-b865-00d3be0b42c5" />
+
+
+<img width="2626" height="1564" alt="image" src="https://github.com/user-attachments/assets/2a7416fa-bec2-45a7-a23a-a0a0e6e446ef" />
+<img width="2626" height="1564" alt="image" src="https://github.com/user-attachments/assets/4860e51b-e7c0-4cb4-a664-11edb136fab2" />
+<img width="2626" height="1564" alt="image" src="https://github.com/user-attachments/assets/dd6273d5-ffd4-46e8-832b-50e8f2ba43f1" />
