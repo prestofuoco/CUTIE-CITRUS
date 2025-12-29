@@ -2289,6 +2289,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "F32Q-1A7H1-11022"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "d7a21b43-839e-4861-bcf3-eef08a560803")
 		)
@@ -2409,6 +2427,24 @@
 		)
 		(property "Description" "22 Position FFC, FPC Connector Contacts, Top 0.020\" (0.50mm) Surface Mount, Right Angle"
 			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "F32Q-1A7H1-11022"
+			(at 213.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

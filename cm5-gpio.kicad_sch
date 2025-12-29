@@ -6970,130 +6970,6 @@
 		(uuid "f12ccd2f-daf0-4482-9adb-980473088553")
 	)
 	(symbol
-		(lib_id "library:R_US")
-		(at 251.46 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d3423d2")
-		(property "Reference" "R1"
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2K 1%"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eca8c1f1-6751-4304-8a65-b05952048507")
-		)
-		(pin "2"
-			(uuid "35506831-8c22-45ab-9b57-69eb0f9ef003")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:LED")
 		(at 167.64 35.56 90)
 		(unit 1)
@@ -7138,7 +7014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED GREEN CLEAR CHIP SMD R/A"
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -7147,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
+		(property "Manufacturer" "Lite-On Inc."
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -7156,43 +7032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "LTST-S270KGKT"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12M8TT86N"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "650263301"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+		(property "Manufacturer Product Number" "LTST-S270KGKT"
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -7252,7 +7092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -7270,7 +7110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Manufacturer" "YAGEO"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -7279,43 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239235"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73H1ETTP1001F"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "125049511"
+		(property "Manufacturer Product Number" "RC0402JR-071KL"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -7340,135 +7144,11 @@
 		)
 	)
 	(symbol
-		(lib_id "library:R_US")
-		(at 247.65 110.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "014d864a-cda4-49dd-87ec-c741e7d5a5e0")
-		(property "Reference" "R10"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2K 1%"
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 249.428 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 247.65 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1a55e21-164b-4a96-8b65-f86a3ccb6c84")
-		)
-		(pin "2"
-			(uuid "896e7b7b-b82b-44e4-a5a7-717ca6dd0bde")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:TestPoint")
 		(at 173.99 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1e1f3b12-a3b8-4c26-831c-840df58a56c9")
@@ -7531,6 +7211,94 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
+		(at 251.46 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2165c5ae-c7bd-4bb0-b6b5-257fe758de0b")
+		(property "Reference" "R11"
+			(at 254 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K 1%"
+			(at 254 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 253.238 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c0370aa-b0ee-41b2-96ed-73fd457e8645")
+		)
+		(pin "2"
+			(uuid "d710aef6-05fc-4b27-a0b6-d8b7a158ae3f")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
 		(at 247.65 39.37 0)
 		(mirror y)
 		(unit 1)
@@ -7566,7 +7334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -7584,7 +7352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Manufacturer" "Vishay Dale"
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -7593,43 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 247.65 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -7720,157 +7452,34 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 186.69 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "519ff09c-f01f-4383-9e71-2a5dbdc9b3b5")
-		(property "Reference" "R4"
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 189.23 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.912 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9239235"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73H1ETTP1001F"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "125049511"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a5d6c6c-85d3-4224-8684-202611ece058")
-		)
-		(pin "2"
-			(uuid "d548dbc5-13ce-4ddf-bea2-f4d3d80c5835")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:R_US")
-		(at 251.46 35.56 0)
+		(at 247.65 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "528e5724-6f1e-4e1f-aee1-3b0e359f3a8c")
-		(property "Reference" "R11"
-			(at 254 34.29 0)
+		(uuid "61dada3b-4019-4f43-a389-531a910b18d8")
+		(property "Reference" "R2"
+			(at 245.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2K 1%"
-			(at 254 36.83 0)
+			(at 245.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 35.56 90)
+			(at 249.428 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,8 +7487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 251.46 35.56 0)
+		(property "Datasheet" ""
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +7497,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 35.56 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,8 +7505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 251.46 35.56 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,44 +7514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 251.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 251.46 35.56 0)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,15 +7524,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8c60388-93b4-4e85-b1d5-4135f3c63965")
+			(uuid "6aed25c3-0a22-4333-968a-2b2ca5b4c8b5")
 		)
 		(pin "2"
-			(uuid "4376daf6-aee2-4932-be67-86b961cba01b")
+			(uuid "d585e707-7db6-40fa-9952-4685a08f3d97")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8010,7 +7583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR CHIP SMD R/A"
 			(at 186.69 129.54 0)
 			(effects
 				(font
@@ -8019,7 +7592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
+		(property "Manufacturer" "Lite-On Inc."
 			(at 186.69 129.54 0)
 			(effects
 				(font
@@ -8028,43 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "LTST-S270KGKT"
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12M8TT86N"
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "650263301"
-			(at 186.69 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+		(property "Manufacturer Product Number" "LTST-S270KRKT"
 			(at 186.69 129.54 0)
 			(effects
 				(font
@@ -8090,34 +7627,34 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 247.65 74.93 0)
+		(at 251.46 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "68a9c80c-c2cf-47ba-81b4-6bce524784f8")
-		(property "Reference" "R2"
-			(at 245.11 73.66 0)
+		(uuid "750dde53-34a7-4829-a01f-b3b7ca49a043")
+		(property "Reference" "R9"
+			(at 254 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "2.2K 1%"
-			(at 245.11 76.2 0)
+			(at 254 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 249.428 74.93 90)
+			(at 253.238 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,8 +7662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 247.65 74.93 0)
+		(property "Datasheet" ""
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +7672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 74.93 0)
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,8 +7680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 247.65 74.93 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,44 +7689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 247.65 74.93 0)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,15 +7699,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "b13735ad-4f96-4736-81d4-a3e60dc16af9")
+			(uuid "584d3f1b-7a7d-46cd-96b1-b23894ebcde3")
 		)
 		(pin "2"
-			(uuid "85c2d490-a7eb-40fc-a9b7-fa79ac549cd9")
+			(uuid "04d6d81c-52a5-4215-9d37-54a4918c92bc")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R2")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 186.69 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77354118-5c64-4ac9-b701-f51bc912fd20")
+		(property "Reference" "R4"
+			(at 189.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 189.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.912 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402JR-071KL"
+			(at 186.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088cb0f3-0bac-48bd-9171-1c406ea6000d")
+		)
+		(pin "2"
+			(uuid "4756cd4d-f6a5-4f20-90e3-630fe9a303c3")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8217,7 +7805,7 @@
 		(at 66.04 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9380eafb-4ba7-4ac7-9e95-7541e86d2630")
@@ -8280,16 +7868,16 @@
 	)
 	(symbol
 		(lib_id "library:R_US")
-		(at 251.46 106.68 0)
+		(at 251.46 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f7ce199a-a325-4cb7-bf4b-039de6906d78")
-		(property "Reference" "R9"
-			(at 254 105.41 0)
+		(uuid "e3e2c30f-d091-4f20-8e29-1e1d76d4697a")
+		(property "Reference" "R1"
+			(at 254 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +7886,7 @@
 			)
 		)
 		(property "Value" "2.2K 1%"
-			(at 254 107.95 0)
+			(at 254 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +7895,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 106.68 90)
+			(at 253.238 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,8 +7903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 251.46 106.68 0)
+		(property "Datasheet" ""
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +7913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 106.68 0)
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,8 +7921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 251.46 106.68 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,44 +7930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 251.46 106.68 0)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,15 +7940,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fc6f6ca-35a0-449f-b821-7c278bfc38cb")
+			(uuid "edd8cd2f-1641-46e1-95c1-2594c22229d8")
 		)
 		(pin "2"
-			(uuid "d506b656-7e49-4c8f-8546-3d89f0bbc469")
+			(uuid "1db3e13d-d01a-4cae-98aa-9ba0af19e98f")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "R9")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 247.65 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4e7a48a-1849-4824-a0e0-72b308722c86")
+		(property "Reference" "R10"
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K 1%"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.428 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74d95dd2-fc19-4995-bcd9-c45d5d716163")
+		)
+		(pin "2"
+			(uuid "2695db44-f7d4-453c-a9d9-3cb293d557a3")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8477,7 +8117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdc48959-215f-4f6e-a57c-3bdb2bdf80d7")
-		(property "Reference" "CM5-1"
+		(property "Reference" "CM5"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -8512,6 +8152,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "10164227-1001A1RLF"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -9123,7 +8781,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/51c471cb-84e3-4543-900e-78eb33bc5a70"
-					(reference "CM5-1")
+					(reference "CM5")
 					(unit 1)
 				)
 			)

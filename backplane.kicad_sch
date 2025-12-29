@@ -2530,6 +2530,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "ERM8-025-01-L-D-RA-K-TR"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "47"
 			(uuid "4a642b74-1181-4127-8d7b-df9ffcee33aa")
 		)

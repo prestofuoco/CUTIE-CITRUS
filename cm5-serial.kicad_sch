@@ -6335,7 +6335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a531067-963f-400f-9889-b402fbb30e70")
-		(property "Reference" "CM5-1"
+		(property "Reference" "CM5"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -6370,6 +6370,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "10164227-1001A1RLF"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -6985,7 +7003,7 @@
 					(unit 2)
 				)
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/a16d2f87-5159-48aa-a50b-c816b9ab5677"
-					(reference "CM5-1")
+					(reference "CM5")
 					(unit 2)
 				)
 			)

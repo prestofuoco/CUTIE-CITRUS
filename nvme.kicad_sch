@@ -4978,7 +4978,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Green"
+		(property "Value" "LED Blue"
 			(at 181.61 134.62 90)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" ""
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED GREEN CLEAR CHIP SMD R/A"
 			(at 179.07 133.35 0)
 			(effects
 				(font
@@ -5014,8 +5014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
-			(at 179.07 133.35 0)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 179.07 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,44 +5023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "LTST-S270KGKT"
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12M8TT86N"
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "650263301"
-			(at 179.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
-			(at 179.07 133.35 0)
+		(property "Manufacturer Product Number" "LTST-S270TBKT"
+			(at 179.07 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,16 +5048,16 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 158.75 125.73 0)
+		(lib_id "library:R_US")
+		(at 124.46 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05ac92f4-afc5-4889-acdd-9cddeba0376e")
-		(property "Reference" "C8"
-			(at 160.02 123.19 0)
+		(uuid "0547ce87-99cf-4b72-ab93-ba64aa4cc794")
+		(property "Reference" "R7"
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,8 +5065,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 160.02 128.27 0)
+		(property "Value" "2.2K 1%"
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,8 +5074,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 159.7152 129.54 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 122.682 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,8 +5083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
-			(at 158.75 125.73 0)
+		(property "Datasheet" ""
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 125.73 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,8 +5101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
-			(at 158.75 125.73 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,44 +5110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 158.75 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 158.75 125.73 0)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,15 +5120,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a2a68d9-eca5-42e6-8db9-393c0f77437e")
+			(uuid "7cf2d190-c58d-4184-b30f-5741fee45595")
 		)
 		(pin "2"
-			(uuid "980f9fea-c31a-4e68-869a-8fb800d858d6")
+			(uuid "659d5881-4050-4555-ae03-68814ca74c2e")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "C8")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 53.34 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b917ad-846e-4129-a4b7-7a7d92388c0d")
+		(property "Reference" "C2"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 54.3052 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c9a439-c0d1-4877-bb32-404510d1fecb")
+		)
+		(pin "2"
+			(uuid "2a006711-cc34-4b2d-aee6-aa8b8c0abf5b")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5272,134 +5287,11 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 53.34 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0be8a27b-1e10-4c67-a0ee-02dc30ff42ad")
-		(property "Reference" "C2"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 54.61 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 54.3052 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Digikey"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "490-14381-1-ND"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 53.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b733c12-9688-4a6f-adb6-5086fb94825c")
-		)
-		(pin "2"
-			(uuid "7205a4d7-ddd7-4b01-8256-e7b8644e520c")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:PWR_FLAG")
 		(at 132.08 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5455,6 +5347,267 @@
 			(project ""
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 149.86 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109234ac-a24b-4046-9d28-f8496059cae6")
+		(property "Reference" "C7"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 150.8252 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0324a75d-8464-4b7c-82ee-23825327c464")
+		)
+		(pin "2"
+			(uuid "6ca80d2b-9081-4b8e-8a21-cd4bc493a9f7")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:R_US")
+		(at 179.07 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a9be2fc-b7b8-466c-9eaf-6c06b5347b3e")
+		(property "Reference" "R8"
+			(at 181.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 181.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.292 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RC0402JR-071KL"
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b006e3bd-03a4-48d1-9737-aba2d3aca556")
+		)
+		(pin "2"
+			(uuid "c4c4f7e0-61bb-494d-8d63-1fcf88276a09")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 158.75 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20b07366-6c2e-43e6-8125-4920811650fc")
+		(property "Reference" "C8"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 159.7152 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "729ff125-8fef-4a3f-9e79-55b6b7899e5e")
+		)
+		(pin "2"
+			(uuid "163149e8-11d2-4df1-a286-3e071424f4e1")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5656,129 +5809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:R_US")
-		(at 179.07 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33ced925-5051-4ed7-9375-b3264bb2d4b3")
-		(property "Reference" "R8"
-			(at 181.61 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 181.61 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.292 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9239235"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73H1ETTP1001F"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "125049511"
-			(at 179.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c37cfdb4-e075-458a-90b9-2fb9750c6afa")
-		)
-		(pin "2"
-			(uuid "80a29dd3-dbb3-4999-a110-927476868780")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:L")
 		(at 106.68 120.65 90)
 		(unit 1)
@@ -5803,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-1616"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -5812,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp5030cc.pdf"
+		(property "Datasheet" ""
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -5830,8 +5860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "SRP5030CC-2R2M"
-			(at 106.68 120.65 0)
+		(property "Manufacturer" "Vishay Dale"
+			(at 106.68 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,26 +5869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Bourns"
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Inductor, SMT, 2520, 2u2, IRMS=7A, ISAT=8A, DCR=0.032R"
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "SRP5030CC-2R2M"
-			(at 106.68 120.65 0)
+		(property "Manufacturer Product Number" "IHLP1616BZER1R0M01"
+			(at 106.68 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -5935,7 +5947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Manufacturer" "Vishay Dale"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -5944,34 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1002"
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+		(property "Manufacturer Product Number" "CRCW040210K0FKED"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -6031,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -6040,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -6049,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Manufacturer" "KEMET"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -6058,43 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "110091611"
-			(at 86.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -6113,6 +6062,93 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 62.23 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4edc4bb4-b6f3-4a9d-a9f8-64b97f213fee")
+		(property "Reference" "C3"
+			(at 63.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.1952 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4bb0bcc-da3c-4ed5-8fe0-210e6fe7fe51")
+		)
+		(pin "2"
+			(uuid "5ef9dfb9-f14b-4210-aebb-2d7054147e6a")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" ""
 			(at 48.26 105.41 0)
 			(effects
 				(font
@@ -6172,7 +6208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Manufacturer" "YAGEO"
 			(at 48.26 105.41 0)
 			(effects
 				(font
@@ -6181,43 +6217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1003"
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 100K M1005 1% 63mW"
-			(at 48.26 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
+		(property "Manufacturer Product Number" "RC0402FR-07100KL"
 			(at 48.26 105.41 0)
 			(effects
 				(font
@@ -6236,111 +6236,6 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:R_US")
-		(at 124.46 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "518da8b8-8528-40ea-8092-65cf642145c5")
-		(property "Reference" "R7"
-			(at 127 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2K 1%"
-			(at 127 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 122.682 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8bf4dc9-8e1f-434b-9280-c08e046d520f")
-		)
-		(pin "2"
-			(uuid "bd6e1f29-92d8-4492-aa70-50ce3b078dcd")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6390,7 +6285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XTAL OSC XO 32.7680KHZ CMOS SMD"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -6399,7 +6294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "ASEK-32.768KHZ-L-R-T"
+		(property "Manufacturer" "Abracon LLC"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -6408,25 +6303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "ASEK-32.768KHZ-L-R-T"
-			(at 97.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "abracon"
-			(at 97.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "32KHz Xtal oscilator"
+		(property "Manufacturer Product Number" "ASEK-32.768KHZ-L-R-T"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -6492,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -6501,7 +6378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -6510,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Manufacturer" "Murata Electronics"
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -6519,43 +6396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
-			(at 44.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 44.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 44.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 44.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -6623,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.6V 1 Output 3A 8-UFDFN Exposed Pad"
 			(at 82.55 127 0)
 			(effects
 				(font
@@ -6632,7 +6473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "AP3441SHE-7B"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 82.55 124.46 0)
 			(effects
 				(font
@@ -6641,25 +6482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "AP3441SHE-7B"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Diodes"
-			(at 82.55 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "3A DC-DC converter"
+		(property "Manufacturer Product Number" "AP3441SHE-7B"
 			(at 82.55 124.46 0)
 			(effects
 				(font
@@ -6706,136 +6529,13 @@
 	)
 	(symbol
 		(lib_id "library:C")
-		(at 62.23 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dfa2014-f34d-44be-9162-e0ecc482a5f0")
-		(property "Reference" "C3"
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 63.5 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.1952 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2611911"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "110091611"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 62.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf3649ee-6c06-4953-abda-cb7012a3e139")
-		)
-		(pin "2"
-			(uuid "87700fc7-eb00-47b3-8c16-963505eb448d")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:C")
 		(at 140.97 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "604c2dfc-65d0-41e3-9107-da96cfdf155b")
+		(uuid "611010b5-5ec6-425e-9eb0-f870476fee4f")
 		(property "Reference" "C6"
 			(at 142.24 123.19 0)
 			(effects
@@ -6863,7 +6563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" ""
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -6872,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -6881,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Manufacturer" "Murata Electronics"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -6890,43 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
 			(at 140.97 125.73 0)
 			(effects
 				(font
@@ -6936,10 +6600,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72bdd7a0-9daa-4b3f-b8a1-58e59f07c11d")
+			(uuid "2057c4d4-1364-4e94-aa3b-27d41acafaed")
 		)
 		(pin "2"
-			(uuid "41a9102c-abc0-41a0-9399-eaea2f30cafc")
+			(uuid "c21c9206-809a-4b42-abbf-d80db0f1c0de")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
@@ -7020,7 +6684,7 @@
 		(at 173.99 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "72e76e07-b1c1-4bc4-b1ae-bd2f02bf56ec")
@@ -7312,7 +6976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -7330,7 +6994,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "4.7nF capacitor 0402"
+		(property "Manufacturer" "KEMET"
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C472J5RECTU"
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -7485,129 +7158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 149.86 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c75569f8-e083-4852-bdc3-f66c84061f35")
-		(property "Reference" "C7"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 151.13 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 150.8252 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Digikey"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "490-14381-1-ND"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e1fd3ca-78c4-4c28-9eeb-489941c8616d")
-		)
-		(pin "2"
-			(uuid "4c80af60-eb8d-435e-a7da-f62344c0189e")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:GND")
 		(at 86.36 85.09 0)
 		(unit 1)
@@ -7682,21 +7232,19 @@
 		(dnp no)
 		(uuid "d23f5dbc-759a-43d4-bd39-1b05cee6022e")
 		(property "Reference" "J3"
-			(at 227.33 31.75 0)
+			(at 227.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Bus_M.2_Socket_M"
-			(at 241.046 32.766 0)
+		(property "Value" "SM3ZS067U410ABR1000"
+			(at 227.33 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "library:2230m2"
@@ -7726,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "MTSSD03-67MSW337"
+		(property "Manufacturer" "JAE Electronics"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -7735,25 +7283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "MTSSD03-67MSW337"
-			(at 227.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "MTCONN"
-			(at 227.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "M.2 M Key connector"
+		(property "Manufacturer Product Number" "SM3ZS067U410ABR1000"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -7982,129 +7512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:C")
-		(at 167.64 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e09bbf7f-fc97-4ba3-a424-8e5e7046c73f")
-		(property "Reference" "C9"
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 168.91 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 168.6052 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Digikey"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "490-14381-1-ND"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "GRM21BR71A106KA73L"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Murata"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "111893011"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e67d528a-c90d-4cdd-810a-d09600466276")
-		)
-		(pin "2"
-			(uuid "57412694-f93a-44f3-af6d-2c372efca802")
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:GND")
 		(at 110.49 74.93 0)
 		(mirror y)
@@ -8165,6 +7572,93 @@
 			(project "CUTIE-CITRUS"
 				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 167.64 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5ccc93-30fe-44f0-9d38-bf5ebb9c0a80")
+		(property "Reference" "C9"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 168.6052 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "GRM21BR71A106KA73L"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f901a603-7f6d-492a-9b8e-72373f4da338")
+		)
+		(pin "2"
+			(uuid "a579913a-ea76-4e54-ab65-746d7fab1a51")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/40af415e-5e3a-41a5-ab07-08c2181863e4/7953df6c-8185-4fff-8cd2-b6d3791adbaa"
+					(reference "C9")
 					(unit 1)
 				)
 			)
