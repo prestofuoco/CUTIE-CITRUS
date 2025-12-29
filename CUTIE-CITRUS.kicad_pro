@@ -668,7 +668,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./layout/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "CUTIE-CITRUS.step",
