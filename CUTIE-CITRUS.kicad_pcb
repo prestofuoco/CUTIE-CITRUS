@@ -91,10 +91,10 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_55555555)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -110,7 +110,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
-			(pdf_single_document yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
@@ -122,12 +122,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./layout/")
+			(outputdirectory "./fabrication/")
 		)
 	)
 	(net 0 "")
@@ -4089,6 +4089,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3554766-58d4-451d-9f18-3c0224492974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CC0402KRX5R7BB225"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdebdb21-15a1-46d0-9467-1b9401bbd073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/66b6385f-f0c0-4feb-8706-85a19fc48611/39c72ea6-fa0c-4b07-bfab-2a253d508815")
 		(sheetname "/Sensors/")
@@ -4294,6 +4320,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b04db22-3a0a-4d99-b2da-4bd074abceb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81da0eff-009c-4bf8-b2ed-04d57970da00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C103K3REC7411"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "251acbd5-5b00-4474-93e4-ee36a8a904d1")
 			(effects
 				(font
 					(size 1 1)
@@ -7725,7 +7777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7820,6 +7872,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf26911a-db31-465f-a6f5-8db361d044f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba51b64a-efb3-4e0a-8aeb-527ffe8489e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cfa5418-fe83-478a-bb64-1d4d6cebdb77")
 			(effects
 				(font
 					(size 1 1)
@@ -8105,7 +8183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8200,6 +8278,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31e1e3c2-cadc-4013-ae8e-0650f4ec8d39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b5680b1-0116-4a0c-8008-9bd25aaa54d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e16129c5-159c-4808-9466-ad2d2fa2067f")
 			(effects
 				(font
 					(size 1 1)
@@ -10922,7 +11026,7 @@
 				)
 			)
 		)
-		(property "Value" "ICM-42688-P"
+		(property "Value" "ICM-42605"
 			(at 0 2.2 90)
 			(layer "F.Fab")
 			(uuid "acfb4301-2a3b-4831-9fe9-49a78d0b7146")
@@ -10945,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor Output"
+		(property "Description" "IMU ACCEL/GYRO/TEMP I2C/SPI LGA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10970,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "ICM-42688-P"
+		(property "Manufacturer Product Number" "ICM-42605"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10983,7 +11087,7 @@
 				)
 			)
 		)
-		(path "/66b6385f-f0c0-4feb-8706-85a19fc48611/d290b70e-b697-40fc-b972-a07bc08b3a2e")
+		(path "/66b6385f-f0c0-4feb-8706-85a19fc48611/5885c347-db61-48b5-8088-f093759d0aad")
 		(sheetname "/Sensors/")
 		(sheetfile "sensors.kicad_sch")
 		(attr smd)
@@ -11199,7 +11303,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 4 "GND")
-			(pinfunction "CLKIN")
+			(pinfunction "FSYNC")
 			(pintype "input")
 			(uuid "27ae39ca-5faa-44a2-8a0b-06f636136fe6")
 		)
@@ -17125,6 +17229,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c4eba91-ea54-412b-bf14-3c1aad3d2cde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW04022K20FKED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbd3dd32-d004-4eff-abf9-488541e7c9ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ab77a57-2cdd-42e3-9db1-21e8f0163da9/7880a4bd-c9c0-4fb4-8cad-3d88e1b06af5")
 		(sheetname "/CM5/")
@@ -17525,7 +17655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17620,6 +17750,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07126469-aa8a-4404-b66f-29a344a89033")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90e1237c-f6cd-479e-b607-44370ffca5fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54ef553-8dae-4a8d-9539-5259ad184784")
 			(effects
 				(font
 					(size 1 1)

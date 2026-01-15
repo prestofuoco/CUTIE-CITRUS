@@ -7392,7 +7392,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ICM-42688-P"
+	(symbol "ICM-42605"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7404,7 +7404,7 @@
 				)
 			)
 		)
-		(property "Value" "ICM-42688-P"
+		(property "Value" "ICM-42605"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -7439,7 +7439,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ICM-42688-P_1_1"
+		(symbol "ICM-42605_1_1"
 			(rectangle
 				(start -10.16 12.7)
 				(end 10.16 -12.7)
@@ -7581,7 +7581,7 @@
 			(pin input line
 				(at 15.24 10.16 180)
 				(length 5.08)
-				(name "CLKIN"
+				(name "FSYNC"
 					(effects
 						(font
 							(size 1.27 1.27)

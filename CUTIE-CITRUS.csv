@@ -9,7 +9,7 @@
 "8","U8","1","TCAN334","Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm","Texas Instruments","TCAN334GDR"
 "9","U7","1","MCP2518FD-xQBB","Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm","Microchip Technology","MCP2518FDT-E/QBB"
 "10","U5","1","MCP98243","Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm","Microchip Technology","MCP98243T-BE/MNY"
-"11","U3","1","ICM-42688-P","Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y","TDK InvenSense","ICM-42688-P"
+"11","U3","1","ICM-42605","Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y","TDK InvenSense","ICM-42605"
 "12","U1","1","AP3441SHE-7B","Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm","Diodes Incorporated","AP3441SHE-7B"
 "13","R6","1","10K 1%","Resistor_SMD:R_0402_1005Metric","Vishay Dale","CRCW040210K0FKED"
 "14","R5","1","100K 1%","Resistor_SMD:R_0402_1005Metric","YAGEO","RC0402FR-07100KL"

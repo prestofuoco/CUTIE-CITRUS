@@ -668,10 +668,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./layout/",
+      "plot": "./fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "CUTIE-CITRUS.step",
+      "step": "CUTIE-CITRUS.glb",
       "svg": "",
       "vrml": ""
     },
