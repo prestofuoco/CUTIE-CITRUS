@@ -1,3 +1,19 @@
+*.stp
+*.step
+fp-info-cache
+*.mxproject
+*.su
+*.d
+*.o
+*.map
+*.elf
+*.bin
+*.hex
+*.list
+Debug/
+Release/
+build/
+bin/
 .DS_Store
 *.aux
 *.log
@@ -6,4 +22,4 @@
 *.zip
 *.minted
 *.lck
-#auto_saved_files#
+*/#auto_saved_files#
