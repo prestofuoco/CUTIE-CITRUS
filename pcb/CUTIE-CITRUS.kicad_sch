@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 875da261-7543-41df-9bd5-25bca104c872)
+	(uuid "875da261-7543-41df-9bd5-25bca104c872")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 91.44 137.16)
+		(size 50.8 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a8b7f90-7813-42f1-8297-a71d16d70760")
+		(property "Sheetname" "Backplane Connector"
+			(at 91.44 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane.kicad_sch"
+			(at 91.44 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 81.28)
+		(size 20.32 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 0 194 0.0600)
+		)
+		(uuid "ed92714e-f3d1-4199-bde0-4965b17657c9")
+		(property "Sheetname" "Zynq"
+			(at 127 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc.kicad_sch"
+			(at 127 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
