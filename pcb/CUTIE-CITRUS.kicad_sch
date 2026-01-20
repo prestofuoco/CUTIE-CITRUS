@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 91.44 137.16)
-		(size 50.8 35.56)
+		(at 71.12 137.16)
+		(size 63.5 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "2a8b7f90-7813-42f1-8297-a71d16d70760")
 		(property "Sheetname" "Backplane Connector"
-			(at 91.44 136.4484 0)
+			(at 71.12 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
-			(at 91.44 173.3046 0)
+			(at 71.12 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
