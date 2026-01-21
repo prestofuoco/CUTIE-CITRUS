@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "1f19dbb3-7045-43ca-882f-2f63e2ed7096")
 	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+	)
 	(lib_symbols
 		(symbol "library:XC7Z020CLG484"
 			(exclude_from_sim no)

@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "08aa9f77-4e8f-49db-aed0-7dbe6a27e54d")
+	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+	)
+	(lib_symbols)
+	(text "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6621/Kingston05032024EMMC32GTS0A01001v12.pdf"
+		(exclude_from_sim no)
+		(at 147.32 96.52 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "5588406b-c223-4466-bbf9-efb98411f2ff")
+	)
+)

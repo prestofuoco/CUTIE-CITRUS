@@ -1,0 +1,25 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "64170a50-591f-4453-93c4-bbffa70688f9")
+	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+	)
+	(lib_symbols)
+	(text "i have no idea"
+		(exclude_from_sim no)
+		(at 149.86 93.98 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "aecf6203-f906-48a8-91e7-62324bbc2f40")
+	)
+)

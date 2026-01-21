@@ -4,10 +4,589 @@
 	(generator_version "9.0")
 	(uuid "875da261-7543-41df-9bd5-25bca104c872")
 	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+		(company "Andre S Winkel | Highlander Space Program")
+	)
 	(lib_symbols)
+	(rectangle
+		(start 152.4 40.64)
+		(end 193.04 60.96)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 0 132 0.07)
+		)
+		(uuid 7f69b8f2-46dd-4755-b621-3f5353f6aff3)
+	)
+	(rectangle
+		(start 152.4 60.96)
+		(end 193.04 86.36)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.04)
+		)
+		(uuid 98c16a14-75e9-4a19-8a3e-60a97b3e0634)
+	)
+	(rectangle
+		(start 152.4 86.36)
+		(end 193.04 106.68)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 0 0 0.06)
+		)
+		(uuid f3217599-f69e-4b31-a0ca-575f981f26b7)
+	)
+	(text "SoC Power"
+		(exclude_from_sim no)
+		(at 172.72 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "285e138f-687a-47d5-a4f6-42640031b427")
+	)
+	(text "PL"
+		(exclude_from_sim no)
+		(at 172.72 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c9eb39cc-66fe-417a-8e41-94207f7c3522")
+	)
+	(text "PS"
+		(exclude_from_sim no)
+		(at 172.72 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d7333294-fd99-4006-ba39-5a7804674949")
+	)
+	(bus
+		(pts
+			(xy 246.38 134.62) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2d0daf-9466-42ff-b860-a468cbc0e557")
+	)
+	(bus
+		(pts
+			(xy 152.4 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3699685f-abc7-4afe-adbf-86a7fd307fd9")
+	)
+	(bus
+		(pts
+			(xy 104.14 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608c0d91-e74f-47c0-9f6e-980250dd4f41")
+	)
+	(bus
+		(pts
+			(xy 142.24 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62be0a55-3082-472e-b863-4d0d925a0257")
+	)
+	(bus
+		(pts
+			(xy 43.18 48.26) (xy 43.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6377db4a-16ea-403e-90a8-7d8dcac461de")
+	)
+	(bus
+		(pts
+			(xy 38.1 134.62) (xy 55.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6689a34e-4875-4e7a-8858-51992fc8afa0")
+	)
+	(bus
+		(pts
+			(xy 43.18 129.54) (xy 55.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4244e1-5a10-4af7-8003-e252d1442851")
+	)
+	(bus
+		(pts
+			(xy 226.06 134.62) (xy 246.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bced4f-afdd-4b0f-947d-4fac586e3769")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 193.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61d8012-b215-4747-9014-942041369725")
+	)
+	(bus
+		(pts
+			(xy 193.04 73.66) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5fe1eb-3ce1-4e34-aa98-97afd1e677df")
+	)
+	(bus
+		(pts
+			(xy 152.4 43.18) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5241e8-f03f-4345-bf89-8dee3ff17e0f")
+	)
+	(bus
+		(pts
+			(xy 193.04 96.52) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4322cae-d9c6-4e1e-9a8c-8a152cb1e6a5")
+	)
+	(bus
+		(pts
+			(xy 142.24 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1cacd4-7759-456d-820b-caf9d16b15ab")
+	)
+	(bus
+		(pts
+			(xy 38.1 43.18) (xy 38.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1515e46-34a2-465d-bbb9-8def4db6b744")
+	)
+	(bus
+		(pts
+			(xy 86.36 134.62) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d276b7-eeab-47e0-b21d-153a6c998a12")
+	)
 	(sheet
-		(at 71.12 137.16)
-		(size 63.5 15.24)
+		(at 124.46 55.88)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 0.0400)
+		)
+		(uuid "1edff41f-1781-4ab1-8293-452f989504f2")
+		(property "Sheetname" "Debug Connectors"
+			(at 124.46 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug.kicad_sch"
+			(at 124.46 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 142.24 63.5 0)
+			(uuid "e69e42dc-031e-4700-a780-4f53adc4152b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0{UART}" bidirectional
+			(at 142.24 58.42 0)
+			(uuid "eb3aea9b-eefe-440f-8d28-c3cfc3e68d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 124.46)
+		(size 60.96 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 72 0 72 0.0600)
+		)
+		(uuid "2a8b7f90-7813-42f1-8297-a71d16d70760")
+		(property "Sheetname" "Backplane Connector"
+			(at 106.68 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane.kicad_sch"
+			(at 106.68 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN0{CAN}" bidirectional
+			(at 106.68 134.62 180)
+			(uuid "ea90412b-47fb-489b-a0c7-fbbee6e2f7d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH0{ETH}" bidirectional
+			(at 106.68 129.54 180)
+			(uuid "016642b3-be25-4078-8126-8a449e025613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V0_RAW" output
+			(at 167.64 134.62 0)
+			(uuid "fe148752-aa89-4423-9efe-8122d32d8a08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 127)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 132 0 0.1200)
+		)
+		(uuid "35ff31e2-5977-44c6-8d54-93f4207ceb80")
+		(property "Sheetname" "PHYs"
+			(at 55.88 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phy.kicad_sch"
+			(at 55.88 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN0{CAN}" bidirectional
+			(at 86.36 134.62 0)
+			(uuid "eec857ff-dfff-45ee-8e25-886858016ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH0{ETH}" bidirectional
+			(at 55.88 129.54 180)
+			(uuid "3323c026-bc51-498a-b919-2d4f387bebcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN0{UART}" bidirectional
+			(at 55.88 134.62 180)
+			(uuid "1c5df968-0144-419b-b32c-a5acc729e01a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 124.46)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.0600)
+		)
+		(uuid "423bfa17-46b0-4894-a7fa-f4858c267d0e")
+		(property "Sheetname" "Power Supply"
+			(at 193.04 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main-pwr.kicad_sch"
+			(at 193.04 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V0_RAW" input
+			(at 193.04 134.62 180)
+			(uuid "2b703693-807e-4dd1-8366-9fe6037348f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 60.96)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 0.0800)
+		)
+		(uuid "dbf4a46a-e80d-4fba-a076-8bed8e26f422")
+		(property "Sheetname" "EMMC"
+			(at 218.44 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emmc.kicad_sch"
+			(at 218.44 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 66.04)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 255 0.0900)
+		)
+		(uuid "e2199110-c80f-4daa-aed1-7e31d5db1ccf")
+		(property "Sheetname" "Camera Connector"
+			(at 83.82 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "camera.kicad_sch"
+			(at 83.82 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 40.64)
+		(size 40.64 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,51 +599,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2a8b7f90-7813-42f1-8297-a71d16d70760")
-		(property "Sheetname" "Backplane Connector"
-			(at 71.12 136.4484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "backplane.kicad_sch"
-			(at 71.12 152.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CUTIE-CITRUS"
-				(path "/875da261-7543-41df-9bd5-25bca104c872"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 81.28)
-		(size 20.32 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 194 0 194 0.0600)
-		)
 		(uuid "ed92714e-f3d1-4199-bde0-4965b17657c9")
-		(property "Sheetname" "Zynq"
-			(at 127 80.5684 0)
+		(property "Sheetname" "SoC"
+			(at 152.4 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +610,52 @@
 			)
 		)
 		(property "Sheetfile" "soc.kicad_sch"
-			(at 127 117.4246 0)
+			(at 152.4 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART0{UART}" bidirectional
+			(at 152.4 58.42 180)
+			(uuid "10c34465-60bf-498d-8dc6-24f3f8ce0c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH0{ETH}" bidirectional
+			(at 152.4 48.26 180)
+			(uuid "5c5e033c-1d3b-48de-8249-98cb79c0893c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 152.4 63.5 180)
+			(uuid "4da6aa29-48d9-4a4f-bd77-abd9f0a36c81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN0{UART}" bidirectional
+			(at 152.4 43.18 180)
+			(uuid "fc5f649d-078d-40f7-bbb2-8eec20048290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

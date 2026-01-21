@@ -616,15 +616,7 @@
     ],
     [
       "ed92714e-f3d1-4199-bde0-4965b17657c9",
-      "Zynq"
-    ],
-    [
-      "146a59c3-ff18-4654-860b-d761fd130e5f",
-      "Power"
-    ],
-    [
-      "2a8b7f90-7813-42f1-8297-a71d16d70760",
-      "Backplane Connector"
+      "SoC"
     ],
     [
       "73a27263-8599-464b-937c-871c9e5b89cb",
@@ -636,11 +628,47 @@
     ],
     [
       "ed027a6c-3d99-4299-a5b4-1d92bfba3f65",
-      "SoC banks 500, 501"
+      "SoC 500, 501"
     ],
     [
       "81db8e14-7897-4186-b37d-28b435322a18",
-      "SoC DDR"
+      "SoC 502"
+    ],
+    [
+      "146a59c3-ff18-4654-860b-d761fd130e5f",
+      "SoC Power"
+    ],
+    [
+      "b5d15457-937a-44b3-a846-c0bbef503f0f",
+      "DRAM"
+    ],
+    [
+      "dac30d8d-7a8b-44d0-9d3f-d7e0928892df",
+      "Flash Memory"
+    ],
+    [
+      "dbf4a46a-e80d-4fba-a076-8bed8e26f422",
+      "EMMC"
+    ],
+    [
+      "35ff31e2-5977-44c6-8d54-93f4207ceb80",
+      "PHYs"
+    ],
+    [
+      "423bfa17-46b0-4894-a7fa-f4858c267d0e",
+      "Power Supply"
+    ],
+    [
+      "1edff41f-1781-4ab1-8293-452f989504f2",
+      "Debug Connectors"
+    ],
+    [
+      "2a8b7f90-7813-42f1-8297-a71d16d70760",
+      "Backplane Connector"
+    ],
+    [
+      "e2199110-c80f-4daa-aed1-7e31d5db1ccf",
+      "Camera Connector"
     ]
   ],
   "text_variables": {}

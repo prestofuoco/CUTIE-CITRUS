@@ -4,10 +4,176 @@
 	(generator_version "9.0")
 	(uuid "1ba77100-8724-454b-82f9-0b840062851f")
 	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+	)
 	(lib_symbols)
+	(rectangle
+		(start 121.92 93.98)
+		(end 172.72 119.38)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 132 0.04)
+		)
+		(uuid 1c2f2c9e-9122-4232-be5d-1460105ff789)
+	)
+	(rectangle
+		(start 121.92 60.96)
+		(end 172.72 86.36)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 132 0 132 0.07)
+		)
+		(uuid 79d037a8-be44-4a9d-948d-3f729a5450c4)
+	)
+	(text "PL"
+		(exclude_from_sim no)
+		(at 147.32 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "09afa909-13e6-4377-8e1e-55d67fb8feba")
+	)
+	(text "PS"
+		(exclude_from_sim no)
+		(at 147.32 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6b4b5c66-4d92-4a33-a5d3-c612ad0b3f7b")
+	)
+	(text "SoC Power"
+		(exclude_from_sim no)
+		(at 147.32 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "78cd7e03-46ab-454a-9eab-84aed857eb23")
+	)
+	(bus
+		(pts
+			(xy 111.76 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106e2976-d943-4a72-bd6b-6005f30904ca")
+	)
+	(bus
+		(pts
+			(xy 111.76 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221e2ee6-b8a9-4544-9db5-efc9ad1d5fb5")
+	)
+	(bus
+		(pts
+			(xy 111.76 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62053482-0d4c-44eb-b022-cccf7b736419")
+	)
+	(bus
+		(pts
+			(xy 76.2 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6426d6bc-f9c9-467f-8888-cc2389685630")
+	)
+	(bus
+		(pts
+			(xy 111.76 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c93afe-f21a-4bd1-a939-af48f2598e18")
+	)
+	(hierarchical_label "UART0{UART}"
+		(shape bidirectional)
+		(at 111.76 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "803ff167-7721-482b-9d8a-e62dc249132f")
+	)
+	(hierarchical_label "ETH0{ETH}"
+		(shape bidirectional)
+		(at 111.76 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d014985-ee27-4426-b939-4e06ca8c38b5")
+	)
+	(hierarchical_label "CAN0{UART}"
+		(shape bidirectional)
+		(at 111.76 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92495bea-d004-45d4-a8dc-6f9700676f2b")
+	)
+	(hierarchical_label "JTAG{JTAG}"
+		(shape bidirectional)
+		(at 111.76 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf022737-8dc4-4627-95be-89a33e5c88a1")
+	)
 	(sheet
 		(at 121.92 127)
-		(size 48.26 15.24)
+		(size 50.8 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,10 +184,10 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 0 0 0.0588)
 		)
 		(uuid "146a59c3-ff18-4654-860b-d761fd130e5f")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "SoC Power"
 			(at 121.92 126.2884 0)
 			(effects
 				(font
@@ -31,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "soc-pwr.kicad_sch"
-			(at 121.92 142.8246 0)
+			(at 121.92 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,35 +206,35 @@
 			)
 		)
 		(pin "1V0_FD" input
-			(at 170.18 132.08 0)
+			(at 121.92 129.54 180)
 			(uuid "478d6fe6-862c-4624-952a-6af77eacaf28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1V8_FD" input
-			(at 170.18 137.16 0)
+			(at 121.92 134.62 180)
 			(uuid "e4557406-dbef-4806-a58e-4b43b5238c26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
-					(page "3")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 121.92 55.88)
+		(at 121.92 93.98)
 		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -84,7 +250,7 @@
 		)
 		(uuid "73a27263-8599-464b-937c-871c9e5b89cb")
 		(property "Sheetname" "FPGA 0, 13, 33"
-			(at 121.92 55.1684 0)
+			(at 121.92 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +259,7 @@
 			)
 		)
 		(property "Sheetfile" "soc-1.kicad_sch"
-			(at 121.92 81.8646 0)
+			(at 121.92 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,16 +267,46 @@
 				(justify left top)
 			)
 		)
+		(pin "1V8_FD" input
+			(at 121.92 114.3 180)
+			(uuid "31a20cc0-8a7b-4080-b0fc-c06bc271fd94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_FD" input
+			(at 121.92 116.84 180)
+			(uuid "a5f69d29-d70a-49e6-9b8d-b730e4e3844f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 121.92 96.52 180)
+			(uuid "870b1fac-c23e-4719-98df-ff6596a9bc13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
-					(page "5")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 149.86 91.44)
+		(at 152.4 60.96)
 		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -125,8 +321,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "81db8e14-7897-4186-b37d-28b435322a18")
-		(property "Sheetname" "SoC DDR"
-			(at 149.86 90.7284 0)
+		(property "Sheetname" "SoC 502"
+			(at 152.4 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +331,131 @@
 			)
 		)
 		(property "Sheetfile" "soc-ddr.kicad_sch"
-			(at 149.86 117.4246 0)
+			(at 152.4 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DDR_A[0..14]" bidirectional
+			(at 172.72 66.04 0)
+			(uuid "0bfe06ee-a288-401b-b545-61472cb4d0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR_BA[0..2]" bidirectional
+			(at 172.72 71.12 0)
+			(uuid "990cfb8d-228f-44d8-bf76-b1dde597d5ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR_DM[0..3]" bidirectional
+			(at 172.72 68.58 0)
+			(uuid "102a7e8b-61a5-45fb-b19d-45623c151f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR_DQ[0..31]" bidirectional
+			(at 172.72 63.5 0)
+			(uuid "e5003646-1c67-4936-9d23-c647ee0c101e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 93.98)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a03f9710-9c30-428c-ad22-06f621e90025")
+		(property "Sheetname" "FPGA 34, 35"
+			(at 152.4 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc-2.kicad_sch"
+			(at 152.4 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 60.96)
+		(size 15.24 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 72 0 72 0.0700)
+		)
+		(uuid "b5d15457-937a-44b3-a846-c0bbef503f0f")
+		(property "Sheetname" "DRAM"
+			(at 185.42 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc-dram.kicad_sch"
+			(at 185.42 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,8 +472,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 55.88)
-		(size 20.32 25.4)
+		(at 58.42 66.04)
+		(size 17.78 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -164,11 +484,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 194 0 0.0600)
 		)
-		(uuid "a03f9710-9c30-428c-ad22-06f621e90025")
-		(property "Sheetname" "FPGA 34, 35"
-			(at 149.86 55.1684 0)
+		(uuid "dac30d8d-7a8b-44d0-9d3f-d7e0928892df")
+		(property "Sheetname" "Flash Memory"
+			(at 58.42 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,8 +496,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "soc-2.kicad_sch"
-			(at 149.86 81.8646 0)
+		(property "Sheetfile" "soc-flash.kicad_sch"
+			(at 58.42 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,16 +505,26 @@
 				(justify left top)
 			)
 		)
+		(pin "QSPI0{QSPI}" bidirectional
+			(at 76.2 71.12 0)
+			(uuid "06e734b3-5740-4f5f-9fc9-3d1df3afe89d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 121.92 91.44)
+		(at 121.92 60.96)
 		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -209,8 +539,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ed027a6c-3d99-4299-a5b4-1d92bfba3f65")
-		(property "Sheetname" "SoC banks 500, 501"
-			(at 121.92 90.7284 0)
+		(property "Sheetname" "SoC 500, 501"
+			(at 121.92 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -219,7 +549,7 @@
 			)
 		)
 		(property "Sheetfile" "soc-ps.kicad_sch"
-			(at 121.92 117.4246 0)
+			(at 121.92 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,10 +557,70 @@
 				(justify left top)
 			)
 		)
+		(pin "QSPI0{QSPI}" bidirectional
+			(at 121.92 71.12 180)
+			(uuid "7655f88f-f06e-4d6c-9739-45b872ffb52d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0{UART}" bidirectional
+			(at 121.92 66.04 180)
+			(uuid "5ac0979a-9cff-4f8c-9d52-cb97aeb1ce39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_FD" input
+			(at 121.92 83.82 180)
+			(uuid "e9c145d8-b638-4e47-877d-ade32bd45470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH0{ETH}" bidirectional
+			(at 121.92 76.2 180)
+			(uuid "ed357406-20a5-45d6-bb52-87eaeae5f3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8_FD" input
+			(at 121.92 81.28 180)
+			(uuid "8e85175e-bf6b-4e7b-8959-c7227ae33a9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN0{UART}" bidirectional
+			(at 121.92 63.5 180)
+			(uuid "de5d5afd-9df1-4c9f-b89f-0760a7f75efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9"
-					(page "7")
+					(page "5")
 				)
 			)
 		)

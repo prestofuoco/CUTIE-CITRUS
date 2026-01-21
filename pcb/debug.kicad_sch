@@ -1,0 +1,301 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "973e2b6a-d9ad-4ad9-a076-d38ee0e99160")
+	(paper "A4")
+	(title_block
+		(title "CUTIE-CITRUS")
+		(date "2026-01-21")
+		(rev "2.0")
+	)
+	(lib_symbols)
+	(text "likely ffc connector"
+		(exclude_from_sim no)
+		(at 203.2 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "5e98e0ec-9628-45b9-8e4a-9ba778a0f84a")
+	)
+	(bus_entry
+		(at 149.86 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65729182-e0ae-4a91-9926-3db35db14f78")
+	)
+	(bus_entry
+		(at 149.86 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9550c595-3f51-4ac6-abdc-7ad1744b5e87")
+	)
+	(bus_entry
+		(at 149.86 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a391ca6e-2ce2-4df5-b2c8-7273add7051e")
+	)
+	(bus_entry
+		(at 149.86 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ecd246-0397-454d-a779-0a8f93293b72")
+	)
+	(bus_entry
+		(at 149.86 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdec94b2-2cc2-45ab-8af8-0eae9f69052b")
+	)
+	(bus_entry
+		(at 149.86 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefd05bf-2d1b-4795-a99b-9bc2ea369998")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9f88de-0554-4fe8-aae2-df0454243885")
+	)
+	(bus
+		(pts
+			(xy 139.7 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9fefca-3599-40c4-aa6b-0fae3456a8d9")
+	)
+	(bus
+		(pts
+			(xy 149.86 93.98) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c233796-d038-4458-9aa3-0831462720f8")
+	)
+	(bus
+		(pts
+			(xy 149.86 99.06) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd15fb8-0443-45d5-b271-60d9c9c69367")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d65902f-888e-4940-badb-baa6c343cf84")
+	)
+	(bus
+		(pts
+			(xy 149.86 78.74) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958351a9-8ce5-4417-ada3-7fc26cf104af")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992b2895-ce13-49f8-b453-801b4ada504b")
+	)
+	(bus
+		(pts
+			(xy 149.86 96.52) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d43cb22-cad3-4e80-8932-da4d33531e14")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4508c64-0618-4284-bc49-f444b66231d1")
+	)
+	(bus
+		(pts
+			(xy 149.86 101.6) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e5db43-77d3-4c03-89ae-22d860cb507f")
+	)
+	(bus
+		(pts
+			(xy 139.7 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31ff4ac-3b1f-496e-9f13-b8ddc2b17065")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81d5d5a-a7a1-47cb-8654-6810d4a8a8cc")
+	)
+	(bus
+		(pts
+			(xy 149.86 81.28) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5da170a-f470-401b-9088-9224501629f0")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef171596-146e-4f32-9c08-1e5c99da51c5")
+	)
+	(label "JTAG.TMS"
+		(at 154.94 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081c7740-c86b-4407-8671-608a8fae26cb")
+	)
+	(label "JTAG.TDI"
+		(at 154.94 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5852ff31-d913-44a6-80a6-5fadf46dcfd2")
+	)
+	(label "JTAG.TDO"
+		(at 154.94 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f564dd-f69c-4fe5-9415-208edc6fc3da")
+	)
+	(label "UART0.RX"
+		(at 154.94 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d80bf020-15f6-4602-9fc4-eae60aabe68f")
+	)
+	(label "JTAG.TCK"
+		(at 154.94 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaaf581a-5166-42c7-830c-bc828ccff487")
+	)
+	(label "UART0.TX"
+		(at 154.94 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe1c1c2f-082d-493d-bd68-6532776b97dc")
+	)
+	(hierarchical_label "UART0{UART}"
+		(shape bidirectional)
+		(at 139.7 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b79326d9-8712-48d9-949f-c6f7bfb24697")
+	)
+	(hierarchical_label "JTAG{JTAG}"
+		(shape bidirectional)
+		(at 139.7 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6f890e9-f97d-4ea7-b8de-81601af9ec45")
+	)
+)
