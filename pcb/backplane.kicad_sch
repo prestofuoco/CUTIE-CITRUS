@@ -537,7 +537,7 @@
 		)
 		(uuid "28e57c82-30ff-4fc0-acb0-729878ce744f")
 	)
-	(hierarchical_label "ETH0{ETH}"
+	(hierarchical_label "ETH0{MDI}"
 		(shape bidirectional)
 		(at 116.84 101.6 180)
 		(effects

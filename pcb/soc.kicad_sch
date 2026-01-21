@@ -138,7 +138,7 @@
 		)
 		(uuid "803ff167-7721-482b-9d8a-e62dc249132f")
 	)
-	(hierarchical_label "ETH0{ETH}"
+	(hierarchical_label "ETH0{RGMII}"
 		(shape bidirectional)
 		(at 111.76 76.2 180)
 		(effects

@@ -774,7 +774,7 @@
 		)
 		(uuid "ffe5e7af-caec-473b-b722-a5810595bd05")
 	)
-	(hierarchical_label "ETH0{ETH}"
+	(hierarchical_label "ETH0{MDI}"
 		(shape bidirectional)
 		(at 213.36 73.66 0)
 		(effects
@@ -807,7 +807,7 @@
 		)
 		(uuid "9654466b-a623-4162-bef8-77a582ecfd52")
 	)
-	(hierarchical_label "ETH0{ETH}"
+	(hierarchical_label "ETH0{RGMII}"
 		(shape bidirectional)
 		(at 53.34 76.2 180)
 		(effects

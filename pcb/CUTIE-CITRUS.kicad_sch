@@ -11,6 +11,9 @@
 		(company "Andre S Winkel | Highlander Space Program")
 	)
 	(lib_symbols)
+	(bus_alias "MDI"
+		(members "0_P" "0_N" "1_P" "1_N" "2_P" "2_N" "3_P" "3_N")
+	)
 	(rectangle
 		(start 152.4 40.64)
 		(end 193.04 60.96)
@@ -91,6 +94,16 @@
 			)
 		)
 		(uuid "d7333294-fd99-4006-ba39-5a7804674949")
+	)
+	(bus
+		(pts
+			(xy 86.36 129.54) (xy 106.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114c27f2-5036-4664-92df-9a66be6bdd9c")
 	)
 	(bus
 		(pts
@@ -348,7 +361,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH0{ETH}" bidirectional
+		(pin "ETH0{MDI}" bidirectional
 			(at 106.68 129.54 180)
 			(uuid "016642b3-be25-4078-8126-8a449e025613")
 			(effects
@@ -420,7 +433,7 @@
 				(justify right)
 			)
 		)
-		(pin "ETH0{ETH}" bidirectional
+		(pin "ETH0{RGMII}" bidirectional
 			(at 55.88 129.54 180)
 			(uuid "3323c026-bc51-498a-b919-2d4f387bebcb")
 			(effects
@@ -438,6 +451,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ETH0{MDI}" bidirectional
+			(at 86.36 129.54 0)
+			(uuid "7a0d1117-55e2-49ab-a3d2-a2efe9659080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -628,7 +651,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH0{ETH}" bidirectional
+		(pin "ETH0{RGMII}" bidirectional
 			(at 152.4 48.26 180)
 			(uuid "5c5e033c-1d3b-48de-8249-98cb79c0893c")
 			(effects

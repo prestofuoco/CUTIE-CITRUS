@@ -8943,16 +8943,16 @@
 	(bus_alias "CAN"
 		(members "P" "N")
 	)
-	(bus_alias "ETH"
-		(members "TX_CLK" "TX_D0" "TX_D1" "TX_D2" "TX_D3" "TX_CTL" "RX_CLK" "RX_D0"
-			"RX_D1" "RX_D2" "RX_D3" "RX_CTL" "MDCK" "MDIO"
-		)
-	)
 	(bus_alias "I2C"
 		(members "SCL" "SDA")
 	)
 	(bus_alias "QSPI"
 		(members "CS1" "CS0" "IO0" "IO1" "IO2" "IO3" "SCLK")
+	)
+	(bus_alias "RGMII"
+		(members "TX_CLK" "TX_D0" "TX_D1" "TX_D2" "TX_D3" "TX_CTL" "RX_CLK" "RX_D0"
+			"RX_D1" "RX_D2" "RX_D3" "RX_CTL" "MDCK" "MDIO"
+		)
 	)
 	(bus_alias "UART"
 		(members "TX" "RX")
@@ -10171,7 +10171,7 @@
 		)
 		(uuid "b77731a8-4933-40d0-a618-9b7fed898e01")
 	)
-	(hierarchical_label "ETH0{ETH}"
+	(hierarchical_label "ETH0{RGMII}"
 		(shape bidirectional)
 		(at 203.2 22.86 0)
 		(effects
