@@ -32,6 +32,16 @@
 		)
 		(uuid "82448dd3-6241-48a4-8332-a2f6c3aa5631")
 	)
+	(text "maybe change 12v back to 5v\ndepending on budget"
+		(exclude_from_sim no)
+		(at 114.3 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "99cfb774-cb89-4aef-9f5d-b4026c44fe2e")
+	)
 	(wire
 		(pts
 			(xy 162.56 93.98) (xy 165.1 93.98)
