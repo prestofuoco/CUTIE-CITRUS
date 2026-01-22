@@ -11415,7 +11415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "583775c0-e32a-479f-aac2-de50bd6f8daa")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 251.46 33.0199 0)
 			(effects
 				(font
@@ -11487,7 +11487,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/73a27263-8599-464b-937c-871c9e5b89cb"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14567,7 +14567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e52e66f4-2963-4aec-b242-f3c8c1760d5e")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 241.3 33.0199 0)
 			(effects
 				(font
@@ -14639,7 +14639,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/73a27263-8599-464b-937c-871c9e5b89cb"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14655,7 +14655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc399fcd-ced3-467e-b68e-dd616e5c1f1e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 205.74 113.03 0)
 			(effects
 				(font
@@ -14705,7 +14705,7 @@
 		(instances
 			(project ""
 				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/73a27263-8599-464b-937c-871c9e5b89cb"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
