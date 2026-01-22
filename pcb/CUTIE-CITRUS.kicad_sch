@@ -107,16 +107,6 @@
 	)
 	(bus
 		(pts
-			(xy 246.38 134.62) (xy 246.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a2d0daf-9466-42ff-b860-a468cbc0e557")
-	)
-	(bus
-		(pts
 			(xy 152.4 48.26) (xy 43.18 48.26)
 		)
 		(stroke
@@ -175,16 +165,6 @@
 		)
 		(uuid "6b4244e1-5a10-4af7-8003-e252d1442851")
 	)
-	(bus
-		(pts
-			(xy 226.06 134.62) (xy 246.38 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78bced4f-afdd-4b0f-947d-4fac586e3769")
-	)
 	(wire
 		(pts
 			(xy 167.64 134.62) (xy 193.04 134.62)
@@ -214,16 +194,6 @@
 			(type default)
 		)
 		(uuid "be5241e8-f03f-4345-bf89-8dee3ff17e0f")
-	)
-	(bus
-		(pts
-			(xy 193.04 96.52) (xy 246.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4322cae-d9c6-4e1e-9a8c-8a152cb1e6a5")
 	)
 	(bus
 		(pts
@@ -679,6 +649,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "1V0_FD" input
+			(at 193.04 91.44 0)
+			(uuid "36e90e8e-744b-4ecf-8909-559a4b7d5150")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V8_FD" input
+			(at 193.04 96.52 0)
+			(uuid "b227b93b-a916-4806-8d60-e2486745518e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V35_DDR" input
+			(at 193.04 93.98 0)
+			(uuid "cb5adbb4-6a70-43bd-a1bf-f7228e4b9f86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_FD" input
+			(at 193.04 101.6 0)
+			(uuid "2dc23344-adcc-4ea2-bc4a-2430881ee63e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
