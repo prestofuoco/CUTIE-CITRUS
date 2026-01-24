@@ -1,0 +1,61 @@
+name: export assets
+on: [push, workflow_dispatch]
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:nightly
+      options: --user root
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install libraries
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends kicad-packages3d
+
+      - name: prep directories
+        run: mkdir -p export/3d export/schematic export/layers
+
+      - name: 3d
+        env:
+          KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
+        run: >
+          kicad-cli pcb export step 
+          --subst-models 
+          --board-adapter-type 1
+          --include-tracks
+          --include-vias
+          --include-pads
+          --include-zones
+          --include-silkscreen
+          --include-soldermask
+          --include-components
+          --cut-vias
+          --fill-all-vias
+          --fuse-shapes
+          --board-center-origin
+          --min-thickness 0.01
+          -o export/3d/cutie-citrus.step 
+          pcb/cutie-citrus.kicad_pcb
+
+      - name: schematics
+        run: >
+          kicad-cli sch export pdf 
+          -o export/schematic/cutie-citrus.pdf 
+          pcb/cutie-citrus.kicad_sch
+
+      - name: layout
+        run: |
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.Cu   -o export/layers/L1.svg pcb/cutie-citrus.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In1.Cu -o export/layers/L2.svg pcb/cutie-citrus.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In2.Cu -o export/layers/L3.svg pcb/cutie-citrus.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=B.Cu   -o export/layers/L4.svg pcb/cutie-citrus.kicad_pcb
+
+      - name: upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cutie-citrus-assets
+          path: export
