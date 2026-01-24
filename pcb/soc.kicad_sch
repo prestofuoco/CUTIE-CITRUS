@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "1ba77100-8724-454b-82f9-0b840062851f")
 	(paper "A4")
 	(title_block
@@ -22,7 +22,7 @@
 			(type color)
 			(color 0 0 132 0.04)
 		)
-		(uuid 1c2f2c9e-9122-4232-be5d-1460105ff789)
+		(uuid "1c2f2c9e-9122-4232-be5d-1460105ff789")
 	)
 	(rectangle
 		(start 111.76 35.56)
@@ -36,7 +36,7 @@
 			(type color)
 			(color 132 0 132 0.07)
 		)
-		(uuid 79d037a8-be44-4a9d-948d-3f729a5450c4)
+		(uuid "79d037a8-be44-4a9d-948d-3f729a5450c4")
 	)
 	(rectangle
 		(start 106.68 30.48)
@@ -49,7 +49,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f2e656dc-4f82-427e-b96f-425511eb6d2e)
+		(uuid "f2e656dc-4f82-427e-b96f-425511eb6d2e")
 	)
 	(text "PL"
 		(exclude_from_sim no)
@@ -588,6 +588,8 @@
 		(uuid "146a59c3-ff18-4654-860b-d761fd130e5f")
 		(property "Sheetname" "SoC Power"
 			(at 111.76 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,6 +599,8 @@
 		)
 		(property "Sheetfile" "soc-pwr.kicad_sch"
 			(at 111.76 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,11 +649,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "73a27263-8599-464b-937c-871c9e5b89cb")
 		(property "Sheetname" "FPGA 0, 13, 33"
 			(at 111.76 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,6 +665,8 @@
 		)
 		(property "Sheetfile" "soc-1.kicad_sch"
 			(at 111.76 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,11 +725,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "81db8e14-7897-4186-b37d-28b435322a18")
 		(property "Sheetname" "SoC 502"
 			(at 142.24 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,6 +741,8 @@
 		)
 		(property "Sheetfile" "soc-ddr.kicad_sch"
 			(at 142.24 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,11 +951,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a03f9710-9c30-428c-ad22-06f621e90025")
 		(property "Sheetname" "FPGA 34, 35"
 			(at 142.24 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,6 +967,8 @@
 		)
 		(property "Sheetfile" "soc-2.kicad_sch"
 			(at 142.24 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,11 +997,13 @@
 			(type solid)
 		)
 		(fill
-			(color 72 0 72 0.0700)
+			(color 72 0 72 0.07)
 		)
 		(uuid "b5d15457-937a-44b3-a846-c0bbef503f0f")
 		(property "Sheetname" "DRAM"
 			(at 198.12 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,6 +1013,8 @@
 		)
 		(property "Sheetfile" "soc-dram.kicad_sch"
 			(at 198.12 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,11 +1223,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 194 0 0.0600)
+			(color 0 194 0 0.06)
 		)
 		(uuid "dac30d8d-7a8b-44d0-9d3f-d7e0928892df")
 		(property "Sheetname" "Flash Memory"
 			(at 63.5 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,6 +1239,8 @@
 		)
 		(property "Sheetfile" "soc-flash.kicad_sch"
 			(at 63.5 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,11 +1279,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ed027a6c-3d99-4299-a5b4-1d92bfba3f65")
 		(property "Sheetname" "SoC 500, 501"
 			(at 111.76 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,6 +1295,8 @@
 		)
 		(property "Sheetfile" "soc-ps.kicad_sch"
 			(at 111.76 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

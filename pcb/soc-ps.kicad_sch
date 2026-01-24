@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "65dbec69-1b82-4c65-ba19-3a42250b1e5b")
 	(paper "A4")
 	(title_block
@@ -14,8 +14,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,6 +28,8 @@
 			)
 			(property "Value" "XC7Z020CLG484"
 				(at 0 33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,51 +38,63 @@
 			)
 			(property "Footprint" "Package_BGA:Xilinx_CLG484_CLG485"
 				(at -2.54 -132.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 				(at -2.54 -132.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "IC SOC CORTEX-A9 766MHZ 484BGA"
 				(at -2.54 -132.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "AMD"
 				(at -2.54 -132.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer Product Number" "XC7Z020-1CLG484I"
 				(at -2.54 -132.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -509,16 +527,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 27.94 180)
+					(at 22.86 -86.36 180)
 					(length 7.62)
-					(name "IO_0_13"
+					(name "IO_L23P_T3_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R7"
+					(number "V7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -526,17 +544,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 25.4 180)
+				(pin power_in line
+					(at 22.86 -116.84 180)
 					(length 7.62)
-					(name "IO_L1P_T0_13"
+					(name "VCCO_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V10"
+					(number "AB3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1319,16 +1337,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -86.36 180)
+					(at 22.86 27.94 180)
 					(length 7.62)
-					(name "IO_L23P_T3_13"
+					(name "IO_0_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V7"
+					(number "R7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1516,17 +1534,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -116.84 180)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "VCCO_13"
+					(name "IO_L1P_T0_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB3"
+					(number "V10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1567,16 +1585,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 25.4 180)
+					(at 22.86 -86.36 180)
 					(length 7.62)
-					(name "IO_L1P_T0_33"
+					(name "IO_L23P_T3_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T21"
+					(number "Y13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1837,16 +1855,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -12.7 180)
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "IO_L8N_T1_33"
+					(name "IO_L1P_T0_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB21"
+					(number "T21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2359,16 +2377,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -86.36 180)
+					(at 22.86 -12.7 180)
 					(length 7.62)
-					(name "IO_L23P_T3_33"
+					(name "IO_L8N_T1_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Y13"
+					(number "AB21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2571,16 +2589,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 27.94 180)
+					(at 22.86 -25.4 180)
 					(length 7.62)
-					(name "IO_0_34"
+					(name "IO_L11P_T1_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H15"
+					(number "K19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2588,17 +2606,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 25.4 180)
+				(pin power_in line
+					(at 22.86 -114.3 180)
 					(length 7.62)
-					(name "IO_L1P_T0_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J15"
+					(number "N16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2949,16 +2967,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -25.4 180)
+					(at 22.86 -71.12 180)
 					(length 7.62)
-					(name "IO_L11P_T1_SRCC_34"
+					(name "IO_L20P_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K19"
+					(number "P17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,16 +3111,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -45.72 180)
+					(at 22.86 27.94 180)
 					(length 7.62)
-					(name "IO_L15P_T2_DQS_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M21"
+					(number "H15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3273,16 +3291,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -71.12 180)
+					(at 22.86 -45.72 180)
 					(length 7.62)
-					(name "IO_L20P_T3_34"
+					(name "IO_L15P_T2_DQS_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P17"
+					(number "M21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3560,17 +3578,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -114.3 180)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "VCCO_34"
+					(name "IO_L1P_T0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N16"
+					(number "J15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3592,6 +3610,24 @@
 						(color 255 255 194 1)
 					)
 				)
+				(pin power_in line
+					(at 22.86 -104.14 180)
+					(length 7.62)
+					(name "VCCO_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 22.86 27.94 180)
 					(length 7.62)
@@ -3603,24 +3639,6 @@
 						)
 					)
 					(number "H17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 25.4 180)
-					(length 7.62)
-					(name "IO_L1P_T0_AD0P_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3719,16 +3737,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 22.86 -55.88 180)
 					(length 7.62)
-					(name "IO_L4P_T0_35"
+					(name "IO_L17P_T2_AD5P_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G15"
+					(number "E21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3791,16 +3809,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 0 180)
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "IO_L6P_T0_35"
+					(name "IO_L1P_T0_AD0P_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G17"
+					(number "F16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3935,16 +3953,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 10.16 180)
 					(length 7.62)
-					(name "IO_L10P_T1_AD11P_35"
+					(name "IO_L4P_T0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A18"
+					(number "G15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4187,16 +4205,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -55.88 180)
+					(at 22.86 0 180)
 					(length 7.62)
-					(name "IO_L17P_T2_AD5P_35"
+					(name "IO_L6P_T0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E21"
+					(number "G17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4510,17 +4528,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -104.14 180)
+				(pin bidirectional line
+					(at 22.86 -20.32 180)
 					(length 7.62)
-					(name "VCCO_35"
+					(name "IO_L10P_T1_AD11P_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "A18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5223,16 +5241,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -2.54 180)
+					(at 20.32 -71.12 180)
 					(length 7.62)
-					(name "PS_MIO28_501"
+					(name "PS_SRST_B_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A12"
+					(number "C9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5475,16 +5493,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -38.1 180)
+					(at 20.32 -2.54 180)
 					(length 7.62)
-					(name "PS_MIO42_501"
+					(name "PS_MIO28_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D8"
+					(number "A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5691,16 +5709,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -71.12 180)
+					(at 20.32 -38.1 180)
 					(length 7.62)
-					(name "PS_SRST_B_501"
+					(name "PS_MIO42_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C9"
+					(number "D8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5813,16 +5831,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 27.94 0)
+					(at -30.48 -50.8 0)
 					(length 7.62)
-					(name "PS_DDR_A0_502"
+					(name "PS_DDR_DQS_N0_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M4"
+					(number "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5830,17 +5848,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -30.48 25.4 0)
+				(pin power_in line
+					(at 30.48 -99.06 180)
 					(length 7.62)
-					(name "PS_DDR_A1_502"
+					(name "VCCO_DDR_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M5"
+					(number "F5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6173,16 +6191,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -27.94 0)
+					(at -30.48 27.94 0)
 					(length 7.62)
-					(name "PS_DDR_CAS_B_502"
+					(name "PS_DDR_A0_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P3"
+					(number "M4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6281,16 +6299,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -50.8 0)
+					(at -30.48 -76.2 0)
 					(length 7.62)
-					(name "PS_DDR_DQS_N0_502"
+					(name "PS_DDR_DM3_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D2"
+					(number "AA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6407,16 +6425,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -76.2 0)
+					(at -30.48 -27.94 0)
 					(length 7.62)
-					(name "PS_DDR_DM3_502"
+					(name "PS_DDR_CAS_B_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AA2"
+					(number "P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7306,17 +7324,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 30.48 -99.06 180)
+				(pin bidirectional line
+					(at -30.48 25.4 0)
 					(length 7.62)
-					(name "VCCO_DDR_502"
+					(name "PS_DDR_A1_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F5"
+					(number "M5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7339,42 +7357,6 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 27.94 0)
-					(length 7.62)
-					(name "VCCINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 25.4 0)
-					(length 7.62)
-					(name "VCCINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -20.32 22.86 0)
 					(length 7.62)
 					(name "VCCINT"
@@ -7385,6 +7367,42 @@
 						)
 					)
 					(number "J14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 2.54 180)
+					(length 7.62)
+					(name "VCCPLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 27.94 0)
+					(length 7.62)
+					(name "VCCINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7771,16 +7789,16 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 2.54 180)
+					(at -20.32 25.4 0)
 					(length 7.62)
-					(name "VCCPLL"
+					(name "VCCINT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H10"
+					(number "J12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7803,7 +7821,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 27.94 0)
+					(at -20.32 -20.32 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -7812,7 +7830,7 @@
 							)
 						)
 					)
-					(number "F10"
+					(number "E17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7821,7 +7839,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 25.4 0)
+					(at 20.32 -50.8 180)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -7830,7 +7848,7 @@
 							)
 						)
 					)
-					(number "H6"
+					(number "R17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8145,7 +8163,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 -20.32 0)
+					(at -20.32 27.94 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -8154,7 +8172,7 @@
 							)
 						)
 					)
-					(number "E17"
+					(number "F10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8919,7 +8937,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -50.8 180)
+					(at -20.32 25.4 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -8928,7 +8946,7 @@
 							)
 						)
 					)
-					(number "R17"
+					(number "H6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8939,23 +8957,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(bus_alias "CAN"
-		(members "P" "N")
-	)
-	(bus_alias "I2C"
-		(members "SCL" "SDA")
-	)
-	(bus_alias "QSPI"
-		(members "CS1" "CS0" "IO0" "IO1" "IO2" "IO3" "SCLK")
-	)
-	(bus_alias "RGMII"
-		(members "TX_CLK" "TX_D0" "TX_D1" "TX_D2" "TX_D3" "TX_CTL" "RX_CLK" "RX_D0"
-			"RX_D1" "RX_D2" "RX_D3" "RX_CTL" "MDCK" "MDIO"
-		)
-	)
-	(bus_alias "UART"
-		(members "TX" "RX")
 	)
 	(junction
 		(at 63.5 81.28)
@@ -10186,13 +10187,17 @@
 		(lib_id "library:XC7Z020CLG484")
 		(at 40.64 55.88 0)
 		(unit 6)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "393ed0bf-9482-4357-a831-ee658f075ed8")
 		(property "Reference" "U1"
 			(at 40.64 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,6 +10206,8 @@
 		)
 		(property "Value" "XC7Z020CLG484"
 			(at 40.64 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,47 +10216,57 @@
 		)
 		(property "Footprint" "Package_BGA:Xilinx_CLG484_CLG485"
 			(at 38.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 38.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "IC SOC CORTEX-A9 766MHZ 484BGA"
 			(at 38.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "AMD"
 			(at 38.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "XC7Z020-1CLG484I"
 			(at 38.1 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "Y6"
@@ -11717,13 +11734,17 @@
 		(lib_id "library:XC7Z020CLG484")
 		(at 160.02 55.88 0)
 		(unit 7)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e069b6de-19cf-4157-b7e2-41debaa3dff1")
 		(property "Reference" "U1"
 			(at 160.02 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,6 +11753,8 @@
 		)
 		(property "Value" "XC7Z020CLG484"
 			(at 160.02 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,47 +11763,57 @@
 		)
 		(property "Footprint" "Package_BGA:Xilinx_CLG484_CLG485"
 			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "IC SOC CORTEX-A9 766MHZ 484BGA"
 			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "AMD"
 			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number" "XC7Z020-1CLG484I"
 			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "Y6"

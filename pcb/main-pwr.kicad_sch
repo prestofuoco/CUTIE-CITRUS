@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "9.99")
 	(uuid "0851b558-2a5e-4c30-980a-4fc155002b38")
 	(paper "A4")
 	(title_block
@@ -20,7 +20,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 5231773e-0e65-4a38-8de5-01185496bce4)
+		(uuid "5231773e-0e65-4a38-8de5-01185496bce4")
 	)
 	(text "arbitrary abstraction"
 		(exclude_from_sim no)

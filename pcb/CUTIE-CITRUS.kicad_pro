@@ -222,6 +222,15 @@
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -415,7 +424,9 @@
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -438,6 +449,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -470,13 +482,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -498,6 +511,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -569,6 +586,61 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {
+      "CAN": [
+        "P",
+        "N"
+      ],
+      "I2C": [
+        "SCL",
+        "SDA"
+      ],
+      "JTAG": [
+        "TDO",
+        "TDI",
+        "TMS",
+        "TCK"
+      ],
+      "MDI": [
+        "0_P",
+        "0_N",
+        "1_P",
+        "1_N",
+        "2_P",
+        "2_N",
+        "3_P",
+        "3_N"
+      ],
+      "QSPI": [
+        "CS1",
+        "CS0",
+        "IO0",
+        "IO1",
+        "IO2",
+        "IO3",
+        "SCLK"
+      ],
+      "RGMII": [
+        "TX_CLK",
+        "TX_D0",
+        "TX_D1",
+        "TX_D2",
+        "TX_D3",
+        "TX_CTL",
+        "RX_CLK",
+        "RX_D0",
+        "RX_D1",
+        "RX_D2",
+        "RX_D3",
+        "RX_CTL",
+        "MDCK",
+        "MDIO"
+      ],
+      "UART": [
+        "TX",
+        "RX"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -576,6 +648,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -599,6 +672,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -607,12 +681,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "CUTIE-CITRUS.kicad_sch",
+        "name": "CUTIE-CITRUS",
+        "uuid": "875da261-7543-41df-9bd5-25bca104c872"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "875da261-7543-41df-9bd5-25bca104c872",
-      "Root"
+      "CUTIE-CITRUS"
     ],
     [
       "ed92714e-f3d1-4199-bde0-4965b17657c9",
@@ -671,5 +754,11 @@
       "Camera Connector"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
