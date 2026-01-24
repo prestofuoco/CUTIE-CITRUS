@@ -25,7 +25,6 @@ jobs:
         run: >
           kicad-cli pcb export step 
           --subst-models 
-          --board-adapter-type 1
           --include-tracks
           --include-vias
           --include-pads
