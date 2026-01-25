@@ -24,18 +24,17 @@ jobs:
           KICAD9_3DMODEL_DIR: /usr/share/kicad/3dmodels/
         run: >
           kicad-cli pcb export step 
-          --subst-models 
+          --no-dnp 
+          --user-origin
+          --cut-vias-in-body
           --include-tracks
           --include-pads
           --include-zones
+          --include-inner-copper
           --include-silkscreen
           --include-soldermask
-          --include-components
-          --cut-vias
-          --fill-all-vias
           --fuse-shapes
-          --board-center-origin
-          --min-thickness 0.01
+          --fill-all-vias
           -o export/3d/cutie-citrus.step 
           pcb/cutie-citrus.kicad_pcb
 
