@@ -1538,7 +1538,7 @@
 			(uuid "ec89bdef-3de7-4d2a-9490-52b25a9c8e84")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
 					(reference "J1")
 					(unit 1)
@@ -1616,7 +1616,7 @@
 			(uuid "d3d4edf5-6abd-4866-a1f7-a7b611838679")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
 					(reference "#PWR015")
 					(unit 1)

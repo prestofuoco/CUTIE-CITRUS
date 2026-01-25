@@ -2810,7 +2810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266cfeef-0929-4c2a-95b2-7ade1698d0be")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 215.9 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,9 +2911,9 @@
 			(uuid "d7f319eb-0efb-48b1-acbf-831d144103d3")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2931,7 +2931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f63d3b0-be6d-4637-b912-48e68ff2b115")
-		(property "Reference" "C6"
+		(property "Reference" "C1101"
 			(at 196.85 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3041,7 @@
 				)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Part Description" ""
 			(at 200.66 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3052,7 +3052,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" ""
 			(at 200.66 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3063,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "C0402C104K4RACTU"
+		(property "Manufacturer Product Number" ""
 			(at 200.66 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3083,7 +3083,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "C6")
+					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -3101,7 +3101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b77e02c-0e64-4ccb-a1db-1f842a4cb003")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01103"
 			(at 231.14 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3161,7 +3161,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "#PWR013")
+					(reference "#PWR01103")
 					(unit 1)
 				)
 			)
@@ -3179,7 +3179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94041852-0188-4487-8ff7-c2d9c8a320ea")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR01101"
 			(at 71.12 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3237,9 +3237,9 @@
 			(uuid "9893eb3d-02b4-4a74-8803-30cf64029fb3")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "#PWR014")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -3257,7 +3257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1dece8-4279-44df-b462-a81759000681")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR01102"
 			(at 200.66 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3317,7 +3317,7 @@
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "#PWR012")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b94544-5bf4-4fec-ac42-4fbb8c3e3d95")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 93.98 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,9 +3561,9 @@
 			(uuid "7b12a739-bc5f-45b5-bc38-976fe4ff56fe")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/35ff31e2-5977-44c6-8d54-93f4207ceb80"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)

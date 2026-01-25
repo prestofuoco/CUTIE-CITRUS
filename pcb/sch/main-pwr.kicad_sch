@@ -64,6 +64,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f1b7ba-5211-4139-a28a-90f15802e7d2")
+	)
+	(wire
+		(pts
 			(xy 162.56 86.36) (xy 165.1 86.36)
 		)
 		(stroke
@@ -124,6 +134,17 @@
 			(justify left)
 		)
 		(uuid "4a5b999f-54c1-4ed4-ab26-105d752f83e3")
+	)
+	(hierarchical_label "2V5_FD"
+		(shape output)
+		(at 165.1 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c60426-7a2f-441e-a1b1-96c31339e082")
 	)
 	(hierarchical_label "1V8_FD"
 		(shape output)

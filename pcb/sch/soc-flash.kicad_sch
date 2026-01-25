@@ -199,6 +199,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:S25FL128SAGNFV003"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -602,13 +757,19 @@
 		(at 187.96 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7f83e0f-167b-42c7-9d2e-de1135527514")
+		(uuid "cc8bb2ef-e9fe-47ed-a9ae-260635222293")
 	)
 	(junction
 		(at 129.54 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccedeaa9-41f3-464d-9828-b4893b1679a5")
+	)
+	(junction
+		(at 152.4 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0de01ec-9916-4911-b86c-d306625ef7d7")
 	)
 	(bus_entry
 		(at 96.52 99.06)
@@ -666,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 154.94 109.22)
+			(xy 139.7 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -856,6 +1017,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e293e3-3d9e-46ea-8e6f-cf742c92eaf8")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 154.94 96.52)
 		)
 		(stroke
@@ -866,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 109.22) (xy 187.96 111.76)
+			(xy 187.96 109.22) (xy 187.96 121.92)
 		)
 		(stroke
 			(width 0)
@@ -966,6 +1137,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 119.38) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5405b03-8d7b-4067-b9b6-2cfcbfd8b85d")
+	)
+	(wire
+		(pts
 			(xy 154.94 104.14) (xy 129.54 104.14)
 		)
 		(stroke
@@ -983,6 +1164,16 @@
 			(type default)
 		)
 		(uuid "e0f92de8-f262-42a2-87b4-6118052d4cca")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1effd61-05df-497b-b429-60deda3950bc")
 	)
 	(wire
 		(pts
@@ -1088,7 +1279,7 @@
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
-		(at 147.32 109.22 180)
+		(at 139.7 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1213,7 +1404,7 @@
 		)
 		(instances
 			(project "CUTIE-CITRUS"
-				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
 					(reference "U3")
 					(unit 1)
 				)
@@ -1229,10 +1420,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "40b49861-8bf4-4bfb-a8ca-31456d04d31a")
-		(property "Reference" "R6"
+		(property "Reference" "R901"
 			(at 132.08 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1243,7 +1434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 132.08 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1276,7 +1467,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 4.7K OHM 1% 1/16W 0402"
+		(property "Description" ""
 			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1287,7 +1478,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1298,7 +1489,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "RC0402FR-074K7L"
+		(property "Manufacturer Product Number" ""
 			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1317,8 +1508,8 @@
 		)
 		(instances
 			(project "CUTIE-CITRUS"
-				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
-					(reference "R6")
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -1326,7 +1517,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 111.76 0)
+		(at 187.96 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1337,7 +1528,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c20a620-1dea-4510-bc10-71e97007bf81")
 		(property "Reference" "#PWR011"
-			(at 187.96 118.11 0)
+			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 116.84 0)
+			(at 187.96 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,7 +1549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 111.76 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +1560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1380,7 +1571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 111.76 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1394,8 +1585,8 @@
 			(uuid "d122681b-035a-4213-9445-2630559e01aa")
 		)
 		(instances
-			(project ""
-				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -1411,10 +1602,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7daec662-91f1-4321-a73a-dc20793f738e")
-		(property "Reference" "R8"
+		(property "Reference" "R903"
 			(at 195.58 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1425,7 +1616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 195.58 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1458,7 +1649,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 4.7K OHM 1% 1/16W 0402"
+		(property "Description" ""
 			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1469,7 +1660,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1480,7 +1671,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "RC0402FR-074K7L"
+		(property "Manufacturer Product Number" ""
 			(at 193.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1499,8 +1690,8 @@
 		)
 		(instances
 			(project "CUTIE-CITRUS"
-				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
-					(reference "R8")
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -1515,10 +1706,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7f2b6dae-1959-4b7f-85fe-aadba94afdb4")
-		(property "Reference" "R7"
+		(property "Reference" "R902"
 			(at 142.24 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1529,7 +1720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 142.24 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1562,7 +1753,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 4.7K OHM 1% 1/16W 0402"
+		(property "Description" ""
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1573,7 +1764,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1584,7 +1775,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "RC0402FR-074K7L"
+		(property "Manufacturer Product Number" ""
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1603,8 +1794,201 @@
 		)
 		(instances
 			(project "CUTIE-CITRUS"
-				(path "/875da261-7543-41df-9bd5-25bca104c872/ed92714e-f3d1-4199-bde0-4965b17657c9/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
-					(reference "R7")
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+					(reference "R902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:C")
+		(at 152.4 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95d5e954-3334-4593-af22-be0fc3efa65f")
+		(property "Reference" "C901"
+			(at 148.59 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 148.59 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.3652 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 152.4 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" ""
+			(at 152.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d762d6b-3673-4973-879d-54a7b5044ed8")
+		)
+		(pin "2"
+			(uuid "cda76c07-33dc-4805-85c4-9b9790a00e1e")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+					(reference "C901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a03af08c-0d4e-4999-af73-ad59f0ff7d89")
+		(property "Reference" "#PWR0901"
+			(at 152.4 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e69bb910-b00a-4192-a708-c9f1b69480da")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/4765c578-d94d-4399-9ede-c55bb882f808/dac30d8d-7a8b-44d0-9d3f-d7e0928892df"
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
