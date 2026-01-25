@@ -46,10 +46,10 @@ jobs:
 
       - name: layout
         run: |
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.Cu   -o export/layers/L1.svg pcb/cutie-citrus.kicad_pcb
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In1.Cu -o export/layers/L2.svg pcb/cutie-citrus.kicad_pcb
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In2.Cu -o export/layers/L3.svg pcb/cutie-citrus.kicad_pcb
-          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=B.Cu   -o export/layers/L4.svg pcb/cutie-citrus.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=F.Cu   -o export/layers/L1.svg pcb/CUTIE-CITRUS.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In1.Cu -o export/layers/L2.svg pcb/CUTIE-CITRUS.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=In2.Cu -o export/layers/L3.svg pcb/CUTIE-CITRUS.kicad_pcb
+          kicad-cli pcb export svg --page-size-mode=2 --exclude-drawing-sheet --layers=B.Cu   -o export/layers/L4.svg pcb/CUTIE-CITRUS.kicad_pcb
 
       - name: upload artifacts
         uses: actions/upload-artifact@v4
