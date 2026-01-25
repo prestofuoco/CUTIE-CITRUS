@@ -26,7 +26,6 @@ jobs:
           kicad-cli pcb export step 
           --subst-models 
           --include-tracks
-          --include-vias
           --include-pads
           --include-zones
           --include-silkscreen
