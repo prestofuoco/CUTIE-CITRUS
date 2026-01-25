@@ -36,13 +36,13 @@ jobs:
           --fuse-shapes
           --fill-all-vias
           -o export/3d/cutie-citrus.step 
-          pcb/cutie-citrus.kicad_pcb
+          pcb/CUTIE-CITRUS.kicad_pcb
 
       - name: schematics
         run: >
           kicad-cli sch export pdf 
           -o export/schematic/cutie-citrus.pdf 
-          pcb/cutie-citrus.kicad_sch
+          pcb/CUTIE-CITRUS.kicad_sch
 
       - name: layout
         run: |
