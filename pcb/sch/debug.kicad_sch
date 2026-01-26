@@ -781,309 +781,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TC2030"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TC2030"
-				(at 1.27 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-				(at 1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-				(at 1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Tag-Connect’s 6-pins connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Debug plug-of-nails"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*TC2030*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TC2030_1_1"
-				(rectangle
-					(start -2.54 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -0.762 -5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.302 -5.842)
-					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1391,7 +1088,7 @@
 	)
 	(text "1x16 ffc connector"
 		(exclude_from_sim no)
-		(at 157.48 137.16 0)
+		(at 172.72 132.08 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1401,20 +1098,10 @@
 		)
 		(uuid "5e98e0ec-9628-45b9-8e4a-9ba778a0f84a")
 	)
-	(text "connect arbitrary 3v3 fpga gpios here"
+	(text_box "BOOT_MODE signal should be tied to GND on debug board"
 		(exclude_from_sim no)
-		(at 139.7 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a3f44002-675c-4ce8-b5dc-42cffd231f87")
-	)
-	(text_box "implement boot strap to gnd for jtag mode here, on opposide end of this connector which will just have the digilent hs2/3 connector and a header for uart to access linux terminal"
-		(exclude_from_sim no)
-		(at 180.34 104.14 0)
-		(size 22.86 25.4)
+		(at 200.66 99.06 0)
+		(size 22.86 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1422,54 +1109,56 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "32979ba0-92cd-4e0b-ac75-fbcf9d0a9d80")
 	)
 	(junction
-		(at 162.56 81.28)
+		(at 177.8 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0691125b-06d4-45ad-b316-3d723b392083")
 	)
 	(junction
-		(at 160.02 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2331225e-8f58-4cdf-9697-012e2fd9d299")
-	)
-	(junction
-		(at 162.56 104.14)
+		(at 177.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "606d4690-145b-4985-b634-238267dca4ed")
 	)
 	(junction
-		(at 162.56 88.9)
+		(at 177.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f754513-007f-4c54-937f-8a27f6f12379")
 	)
 	(junction
-		(at 162.56 106.68)
+		(at 175.26 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d13a616-6054-4482-8a91-8705bdda0129")
+	)
+	(junction
+		(at 177.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff2c6ef-3dc4-4d4f-ad05-07d53088333d")
 	)
 	(junction
-		(at 162.56 91.44)
+		(at 177.8 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e09e9ce3-c589-488a-b3cd-fedc38dc7043")
 	)
 	(bus_entry
-		(at 127 99.06)
+		(at 121.92 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1478,7 +1167,7 @@
 		(uuid "65729182-e0ae-4a91-9926-3db35db14f78")
 	)
 	(bus_entry
-		(at 127 73.66)
+		(at 121.92 68.58)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1487,7 +1176,7 @@
 		(uuid "9550c595-3f51-4ac6-abdc-7ad1744b5e87")
 	)
 	(bus_entry
-		(at 127 93.98)
+		(at 121.92 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1496,7 +1185,7 @@
 		(uuid "a391ca6e-2ce2-4df5-b2c8-7273add7051e")
 	)
 	(bus_entry
-		(at 127 96.52)
+		(at 121.92 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1505,7 +1194,7 @@
 		(uuid "a8ecd246-0397-454d-a779-0a8f93293b72")
 	)
 	(bus_entry
-		(at 127 71.12)
+		(at 121.92 66.04)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1514,7 +1203,7 @@
 		(uuid "bdec94b2-2cc2-45ab-8af8-0eae9f69052b")
 	)
 	(bus_entry
-		(at 127 91.44)
+		(at 121.92 86.36)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1524,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 165.1 106.68)
+			(xy 177.8 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1534,17 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 165.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9f88de-0554-4fe8-aae2-df0454243885")
-	)
-	(wire
-		(pts
-			(xy 162.56 78.74) (xy 162.56 81.28)
+			(xy 177.8 73.66) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 160.02 109.22)
+			(xy 175.26 106.68) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 160.02 109.22)
+			(xy 167.64 104.14) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1572,9 +1251,29 @@
 		)
 		(uuid "1c75e6fe-efd3-4e15-8553-8ab4bfad052e")
 	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d222390-79af-40d4-8a54-a81620735d4b")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2ceb6f-a81d-4c92-bebd-6b322085267f")
+	)
 	(bus
 		(pts
-			(xy 116.84 68.58) (xy 127 68.58)
+			(xy 119.38 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1283,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 162.56 91.44)
+			(xy 167.64 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348c37c7-dfc0-460f-85c0-43b6f760c9c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 162.56 116.84)
+			(xy 177.8 101.6) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 165.1 86.36)
+			(xy 167.64 81.28) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1614,7 +1323,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 88.9) (xy 127 91.44)
+			(xy 121.92 83.82) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +1333,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 93.98) (xy 127 96.52)
+			(xy 121.92 88.9) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 162.56 104.14)
+			(xy 180.34 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1644,17 +1353,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 165.1 96.52)
+			(xy 147.32 78.74) (xy 160.02 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d65902f-888e-4940-badb-baa6c343cf84")
+		(uuid "7ee63c47-6150-4872-b441-fd6edd04afb1")
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 165.1 83.82)
+			(xy 167.64 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 162.56 88.9)
+			(xy 180.34 83.82) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 162.56 78.74)
+			(xy 180.34 73.66) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1393,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 68.58) (xy 127 71.12)
+			(xy 121.92 63.5) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 165.1 109.22)
+			(xy 175.26 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1702,19 +1411,9 @@
 		)
 		(uuid "96f7d098-933c-4f34-808c-52ce0ae0c2db")
 	)
-	(wire
-		(pts
-			(xy 129.54 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992b2895-ce13-49f8-b453-801b4ada504b")
-	)
 	(bus
 		(pts
-			(xy 127 91.44) (xy 127 93.98)
+			(xy 121.92 86.36) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1423,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 162.56 106.68)
+			(xy 177.8 99.06) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 162.56 91.44)
+			(xy 177.8 83.82) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1443,27 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 162.56 81.28)
+			(xy 167.64 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd8ccb-03f8-4cb5-a938-1e40aca6061f")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa1821e-eb07-439b-b262-66c10c3e6ad5")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1754,17 +1473,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 165.1 76.2)
+			(xy 124.46 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4508c64-0618-4284-bc49-f444b66231d1")
+		(uuid "b7d43a33-3c9a-4edd-ace4-b6e0ac27ec93")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c778d84a-a99c-43be-9ec0-aa3fa31dcc43")
 	)
 	(bus
 		(pts
-			(xy 127 96.52) (xy 127 99.06)
+			(xy 121.92 91.44) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1772,9 +1501,19 @@
 		)
 		(uuid "c9e5db43-77d3-4c03-89ae-22d860cb507f")
 	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19d7d04-6edc-4b16-83a8-736859d0600a")
+	)
 	(bus
 		(pts
-			(xy 116.84 88.9) (xy 127 88.9)
+			(xy 119.38 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1784,17 +1523,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 165.1 99.06)
+			(xy 124.46 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d81d5d5a-a7a1-47cb-8654-6810d4a8a8cc")
+		(uuid "db0bbe9f-ccd4-4199-8962-149b83b6d5bc")
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 162.56 88.9)
+			(xy 167.64 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de74861a-0bae-4d20-a167-7657e81c283c")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1802,9 +1551,19 @@
 		)
 		(uuid "e0d151c3-eeba-4f82-800e-bf5f8cd5949f")
 	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2760a97-7f91-41de-ada5-2015501a0c05")
+	)
 	(bus
 		(pts
-			(xy 127 71.12) (xy 127 73.66)
+			(xy 121.92 66.04) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 165.1 91.44)
+			(xy 177.8 86.36) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1824,17 +1583,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 165.1 73.66)
+			(xy 167.64 91.44) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef171596-146e-4f32-9c08-1e5c99da51c5")
+		(uuid "f0a7b2ee-8444-47d5-b978-d263da23ee82")
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 160.02 111.76)
+			(xy 180.34 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1602,7 @@
 		(uuid "f27a1475-5ebd-4afb-b30c-681d66a978f5")
 	)
 	(label "JTAG.TMS"
-		(at 132.08 99.06 0)
+		(at 127 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1853,7 +1612,7 @@
 		(uuid "081c7740-c86b-4407-8671-608a8fae26cb")
 	)
 	(label "JTAG.TDI"
-		(at 132.08 96.52 0)
+		(at 127 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1622,7 @@
 		(uuid "5852ff31-d913-44a6-80a6-5fadf46dcfd2")
 	)
 	(label "JTAG.TDO"
-		(at 132.08 93.98 0)
+		(at 127 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1873,7 +1632,7 @@
 		(uuid "b3f564dd-f69c-4fe5-9415-208edc6fc3da")
 	)
 	(label "UART0.RX"
-		(at 132.08 76.2 0)
+		(at 127 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1883,7 +1642,7 @@
 		(uuid "d80bf020-15f6-4602-9fc4-eae60aabe68f")
 	)
 	(label "JTAG.TCK"
-		(at 132.08 101.6 0)
+		(at 127 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1893,7 +1652,7 @@
 		(uuid "eaaf581a-5166-42c7-830c-bc828ccff487")
 	)
 	(label "UART0.TX"
-		(at 132.08 73.66 0)
+		(at 127 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,7 +1663,7 @@
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
-		(at 139.7 109.22 180)
+		(at 167.64 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1915,7 +1674,7 @@
 	)
 	(hierarchical_label "UART0{UART}"
 		(shape bidirectional)
-		(at 116.84 68.58 180)
+		(at 119.38 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,9 +1683,20 @@
 		)
 		(uuid "b79326d9-8712-48d9-949f-c6f7bfb24697")
 	)
+	(hierarchical_label "BOOT_MODE"
+		(shape output)
+		(at 147.32 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc326b58-dbe7-4f7c-b2c1-f2f067652651")
+	)
 	(hierarchical_label "JTAG{JTAG}"
 		(shape bidirectional)
-		(at 116.84 88.9 180)
+		(at 119.38 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,8 +1706,8 @@
 		(uuid "d6f890e9-f97d-4ea7-b8de-81601af9ec45")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x16_Socket")
-		(at 170.18 91.44 0)
+		(lib_id "Device:R_US")
+		(at 163.83 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1945,10 +1715,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20f508aa-850f-4539-bf21-a2bf7e7d7339")
-		(property "Reference" "J1"
-			(at 171.45 91.4399 0)
+		(uuid "066068b0-a473-420d-b516-000cef5633c6")
+		(property "Reference" "R1308"
+			(at 160.02 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1958,19 +1727,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HIROSE_FH12-16S-0.5SH_55"
-			(at 171.45 93.9799 0)
+		(property "Value" "22 1%"
+			(at 167.64 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "library:HIROSE_FH12-16S-0.5SH_55_"
-			(at 170.18 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +1750,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 91.44 0)
+			(at 163.83 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88b7526d-2a7e-4e88-9427-6dc1866c82f9")
+		)
+		(pin "2"
+			(uuid "65d1dc30-f399-4521-8afb-4fcaf8ddc4da")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x16_Socket")
+		(at 185.42 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f508aa-850f-4539-bf21-a2bf7e7d7339")
+		(property "Reference" "J1"
+			(at 186.69 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HIROSE_FH12-16S-0.5SH_55"
+			(at 186.69 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:HIROSE_FH12-16S-0.5SH_55_"
+			(at 185.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1992,7 +1843,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 170.18 91.44 0)
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2060,8 +1911,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 116.84 0)
+		(lib_id "Device:R_US")
+		(at 163.83 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2069,31 +1920,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88390410-ed6b-4208-a1e7-8b641d66ebf3")
-		(property "Reference" "#PWR015"
-			(at 162.56 123.19 0)
-			(hide yes)
+		(uuid "303a294d-0505-4bb5-922c-d6e7398aea52")
+		(property "Reference" "R1303"
+			(at 160.02 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 162.56 121.92 0)
+		(property "Value" "22 1%"
+			(at 167.64 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 67.564 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2104,7 +1955,250 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 116.84 0)
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "876ff86b-6032-46c9-a756-8c55da3ab5ef")
+		)
+		(pin "2"
+			(uuid "0e617bdd-9475-4c93-8d41-2e964892b8ff")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33cc6301-9179-4b18-9923-fd4b073d5f14")
+		(property "Reference" "R1302"
+			(at 160.02 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 1%"
+			(at 167.64 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 80.264 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a5256d0-5d65-4005-a7e5-58ce69ba91ae")
+		)
+		(pin "2"
+			(uuid "2c3835e3-ab49-4381-b787-657502cd2e75")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83ac2739-a860-4076-8e1b-dc0129e178e5")
+		(property "Reference" "R1301"
+			(at 160.02 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 1%"
+			(at 167.64 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 77.724 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d4c2f8a-96ba-40b6-a6f5-365756dc3b1a")
+		)
+		(pin "2"
+			(uuid "3f318349-f08c-40b0-97ae-f8e0085748c9")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88390410-ed6b-4208-a1e7-8b641d66ebf3")
+		(property "Reference" "#PWR015"
+			(at 177.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2115,7 +2209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 116.84 0)
+			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 100.33 104.14 90)
+		(at 163.83 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2147,30 +2241,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "889858ec-d7b0-4c2b-a7c9-f543b0ad6ee2")
-		(property "Reference" "R1301"
-			(at 100.33 97.79 90)
+		(uuid "99948ee4-2368-4498-bac2-50f94005b1ce")
+		(property "Reference" "R1306"
+			(at 160.02 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22"
-			(at 100.33 100.33 90)
+		(property "Value" "22 1%"
+			(at 167.64 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 100.584 103.124 90)
+			(at 164.084 90.424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 104.14 0)
+			(at 163.83 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,29 +2287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 100.33 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" ""
-			(at 100.33 104.14 0)
+			(at 163.83 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,54 +2298,55 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a0164a9-9a88-41c4-9b28-f0a69a042198")
+			(uuid "b1345b34-c816-4e50-889d-4b83294587de")
 		)
 		(pin "2"
-			(uuid "8a181eb6-b20e-43d3-8691-4cba64dc2328")
+			(uuid "44e68812-16f1-4712-80b4-0ccbf0dc8f51")
 		)
 		(instances
 			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
-					(reference "R1301")
+					(reference "R1306")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TC2030")
-		(at 91.44 134.62 0)
+		(lib_id "Device:R_US")
+		(at 163.83 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93938074-4542-417d-914d-80689c97c3ed")
-		(property "Reference" "J2"
-			(at 92.71 121.92 0)
+		(uuid "cd2f4ccb-28f1-41fd-b3d4-ad7cd1061d24")
+		(property "Reference" "R1307"
+			(at 160.02 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TC2030"
-			(at 92.71 124.46 0)
+		(property "Value" "22 1%"
+			(at 167.64 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 92.71 134.62 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 92.964 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2282,8 +2356,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-			(at 92.71 134.62 0)
+		(property "Datasheet" ""
+			(at 163.83 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2293,8 +2367,8 @@
 				)
 			)
 		)
-		(property "Description" "Tag-Connect’s 6-pins connector"
-			(at 91.44 134.62 0)
+		(property "Description" ""
+			(at 163.83 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,27 +2379,177 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c525bbf-9e57-4a27-a32e-4025def3caa3")
-		)
-		(pin "3"
-			(uuid "12711fff-f746-4358-91e9-bf9d04b5ffca")
-		)
-		(pin "6"
-			(uuid "f51e7faf-8a06-42d0-9f65-f80016583299")
-		)
-		(pin "5"
-			(uuid "92353482-c905-4701-984a-9a659d918a02")
+			(uuid "9fcf4a2f-a915-4e2f-9179-37656660185b")
 		)
 		(pin "2"
-			(uuid "e34bea1b-7297-4868-8d6a-b0845d16fd3c")
-		)
-		(pin "4"
-			(uuid "6dcbfba8-bf40-4e0c-9338-64d934697713")
+			(uuid "1bcf1b70-9592-4438-9d20-8fe16b928e8b")
 		)
 		(instances
-			(project ""
+			(project "CUTIE-CITRUS"
 				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
-					(reference "J2")
+					(reference "R1307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d87d1eaa-48d4-4bb1-8494-14e22fbcbf73")
+		(property "Reference" "R1304"
+			(at 160.02 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 1%"
+			(at 167.64 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 70.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99ae20b6-5785-46d2-9fd8-d4cadf2c8e89")
+		)
+		(pin "2"
+			(uuid "8da76813-e8e4-4c22-9206-bc6e64daf4a3")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1f5d0e1-c03b-4d54-a88c-3cbd47780257")
+		(property "Reference" "R1305"
+			(at 160.02 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 1%"
+			(at 167.64 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 164.084 87.884 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b915833d-fdb8-4d86-9025-7fbbad51fa62")
+		)
+		(pin "2"
+			(uuid "93dd5323-df94-4895-9b61-79d7e6543fa0")
+		)
+		(instances
+			(project "CUTIE-CITRUS"
+				(path "/875da261-7543-41df-9bd5-25bca104c872/1edff41f-1781-4ab1-8293-452f989504f2"
+					(reference "R1305")
 					(unit 1)
 				)
 			)

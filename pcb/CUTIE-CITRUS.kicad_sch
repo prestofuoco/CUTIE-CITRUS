@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 157.48 50.8)
+		(start 157.48 45.72)
 		(end 198.12 71.12)
 		(stroke
 			(width 0.254)
@@ -94,7 +94,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 53.34) (xy 93.98 53.34)
+			(xy 78.74 50.8) (xy 93.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +134,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 58.42) (xy 157.48 58.42)
+			(xy 124.46 55.88) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +144,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 53.34) (xy 157.48 53.34)
+			(xy 124.46 50.8) (xy 157.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -164,7 +164,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 58.42) (xy 93.98 58.42)
+			(xy 78.74 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -183,8 +183,8 @@
 		(uuid "de1cacd4-7759-456d-820b-caf9d16b15ab")
 	)
 	(sheet
-		(at 129.54 66.04)
-		(size 17.78 10.16)
+		(at 129.54 60.96)
+		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -199,7 +199,7 @@
 		)
 		(uuid "1edff41f-1781-4ab1-8293-452f989504f2")
 		(property "Sheetname" "Debug Connectors"
-			(at 129.54 65.3284 0)
+			(at 129.54 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -249,8 +249,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 48.26)
-		(size 20.32 104.14)
+		(at 58.42 45.72)
+		(size 20.32 106.68)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -265,7 +265,7 @@
 		)
 		(uuid "2a8b7f90-7813-42f1-8297-a71d16d70760")
 		(property "Sheetname" "Backplane Connector"
-			(at 58.42 47.5484 0)
+			(at 58.42 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -287,7 +287,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 78.74 53.34 0)
+			(at 78.74 50.8 0)
 			(uuid "ea90412b-47fb-489b-a0c7-fbbee6e2f7d6")
 			(effects
 				(font
@@ -297,7 +297,7 @@
 			)
 		)
 		(pin "ETH0{MDI}" bidirectional
-			(at 78.74 58.42 0)
+			(at 78.74 55.88 0)
 			(uuid "016642b3-be25-4078-8126-8a449e025613")
 			(effects
 				(font
@@ -325,8 +325,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 50.8)
-		(size 30.48 10.16)
+		(at 93.98 45.72)
+		(size 30.48 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -341,7 +341,7 @@
 		)
 		(uuid "35ff31e2-5977-44c6-8d54-93f4207ceb80")
 		(property "Sheetname" "PHYs"
-			(at 93.98 50.0884 0)
+			(at 93.98 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -363,7 +363,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 93.98 53.34 180)
+			(at 93.98 50.8 180)
 			(uuid "eec857ff-dfff-45ee-8e25-886858016ae9")
 			(effects
 				(font
@@ -373,7 +373,7 @@
 			)
 		)
 		(pin "ETH0{RGMII}" bidirectional
-			(at 124.46 58.42 0)
+			(at 124.46 55.88 0)
 			(uuid "3323c026-bc51-498a-b919-2d4f387bebcb")
 			(effects
 				(font
@@ -383,7 +383,7 @@
 			)
 		)
 		(pin "CAN0{UART}" bidirectional
-			(at 124.46 53.34 0)
+			(at 124.46 50.8 0)
 			(uuid "1c5df968-0144-419b-b32c-a5acc729e01a")
 			(effects
 				(font
@@ -393,7 +393,7 @@
 			)
 		)
 		(pin "ETH0{MDI}" bidirectional
-			(at 93.98 58.42 180)
+			(at 93.98 55.88 180)
 			(uuid "7a0d1117-55e2-49ab-a3d2-a2efe9659080")
 			(effects
 				(font
@@ -467,8 +467,8 @@
 		)
 	)
 	(sheet
-		(at 157.48 50.8)
-		(size 40.64 66.04)
+		(at 157.48 45.72)
+		(size 40.64 71.12)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -483,7 +483,7 @@
 		)
 		(uuid "4765c578-d94d-4399-9ede-c55bb882f808")
 		(property "Sheetname" "SoC"
-			(at 157.48 50.0884 0)
+			(at 157.48 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -515,7 +515,7 @@
 			)
 		)
 		(pin "ETH0{RGMII}" bidirectional
-			(at 157.48 58.42 180)
+			(at 157.48 55.88 180)
 			(uuid "5d4734d9-b2c7-45ab-9a9a-79ee31382be1")
 			(effects
 				(font
@@ -535,7 +535,7 @@
 			)
 		)
 		(pin "CAN0{UART}" bidirectional
-			(at 157.48 53.34 180)
+			(at 157.48 50.8 180)
 			(uuid "a84fe2d7-92f3-4817-9a27-e4fa1fd64594")
 			(effects
 				(font
@@ -592,6 +592,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BOOT_MODE" input
+			(at 157.48 63.5 180)
+			(uuid "55971e53-2deb-47b7-80eb-1e6354ac3591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

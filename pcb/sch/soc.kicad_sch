@@ -566,6 +566,16 @@
 		)
 		(uuid "41a7c918-8be4-4faf-9f50-152bd7428fcf")
 	)
+	(bus
+		(pts
+			(xy 88.9 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a5ae35-6047-4772-b9cb-22c1501a265f")
+	)
 	(wire
 		(pts
 			(xy 238.76 91.44) (xy 246.38 91.44)
@@ -595,16 +605,6 @@
 			(type default)
 		)
 		(uuid "553f8fdb-42ec-4a25-88cd-5d8823094767")
-	)
-	(bus
-		(pts
-			(xy 58.42 76.2) (xy 88.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62053482-0d4c-44eb-b022-cccf7b736419")
 	)
 	(wire
 		(pts
@@ -725,6 +725,16 @@
 			(type default)
 		)
 		(uuid "a5c93afe-f21a-4bd1-a939-af48f2598e18")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac90807c-eca6-4a62-a2ef-7061e54d9839")
 	)
 	(wire
 		(pts
@@ -943,6 +953,17 @@
 			(justify right)
 		)
 		(uuid "92495bea-d004-45d4-a8dc-6f9700676f2b")
+	)
+	(hierarchical_label "BOOT_MODE"
+		(shape input)
+		(at 58.42 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9458e1bb-22b8-4607-9e44-b0aa83c7a2f4")
 	)
 	(hierarchical_label "3V3_FD"
 		(shape input)
@@ -2212,16 +2233,6 @@
 				(justify left)
 			)
 		)
-		(pin "ETH0{ETH}" bidirectional
-			(at 88.9 76.2 180)
-			(uuid "d51ef78f-baa5-4046-a590-459c136ae8d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "1V8_FD" input
 			(at 88.9 96.52 180)
 			(uuid "9f52ee82-d253-4d61-a770-d40417bd9c0f")
@@ -2235,6 +2246,26 @@
 		(pin "CAN0{UART}" bidirectional
 			(at 88.9 60.96 180)
 			(uuid "b1e45bd5-6e07-413c-b88c-7ad96e0a68da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT_MODE" input
+			(at 88.9 91.44 180)
+			(uuid "5130d244-3826-4d6a-8bb3-809bd20be559")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH0{RGMII}" bidirectional
+			(at 88.9 76.2 180)
+			(uuid "e7872d1a-7c5e-4682-9eb1-30bfaa364275")
 			(effects
 				(font
 					(size 1.27 1.27)

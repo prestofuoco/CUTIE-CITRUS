@@ -986,16 +986,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -86.36 180)
+					(at 22.86 27.94 180)
 					(length 7.62)
-					(name "IO_L23P_T3_13"
+					(name "IO_0_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V7"
+					(number "R7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1003,17 +1003,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -116.84 180)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "VCCO_13"
+					(name "IO_L1P_T0_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB3"
+					(number "V10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,16 +1796,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 27.94 180)
+					(at 22.86 -86.36 180)
 					(length 7.62)
-					(name "IO_0_13"
+					(name "IO_L23P_T3_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R7"
+					(number "V7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1993,17 +1993,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 25.4 180)
+				(pin power_in line
+					(at 22.86 -116.84 180)
 					(length 7.62)
-					(name "IO_L1P_T0_13"
+					(name "VCCO_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "V10"
+					(number "AB3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2044,16 +2044,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -12.7 180)
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "IO_L8N_T1_33"
+					(name "IO_L1P_T0_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AB21"
+					(number "T21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2314,16 +2314,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -86.36 180)
+					(at 22.86 -12.7 180)
 					(length 7.62)
-					(name "IO_L23P_T3_33"
+					(name "IO_L8N_T1_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "Y13"
+					(number "AB21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2836,16 +2836,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 25.4 180)
+					(at 22.86 -86.36 180)
 					(length 7.62)
-					(name "IO_L1P_T0_33"
+					(name "IO_L23P_T3_33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T21"
+					(number "Y13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3048,16 +3048,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -25.4 180)
+					(at 22.86 -71.12 180)
 					(length 7.62)
-					(name "IO_L11P_T1_SRCC_34"
+					(name "IO_L20P_T3_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "K19"
+					(number "P17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3065,17 +3065,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -114.3 180)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
 					(length 7.62)
-					(name "VCCO_34"
+					(name "IO_L1P_T0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N16"
+					(number "J15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3426,16 +3426,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -71.12 180)
+					(at 22.86 -45.72 180)
 					(length 7.62)
-					(name "IO_L20P_T3_34"
+					(name "IO_L15P_T2_DQS_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P17"
+					(number "M21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3570,16 +3570,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 27.94 180)
+					(at 22.86 -25.4 180)
 					(length 7.62)
-					(name "IO_0_34"
+					(name "IO_L11P_T1_SRCC_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H15"
+					(number "K19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3750,16 +3750,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -45.72 180)
+					(at 22.86 27.94 180)
 					(length 7.62)
-					(name "IO_L15P_T2_DQS_34"
+					(name "IO_0_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M21"
+					(number "H15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4037,17 +4037,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 25.4 180)
+				(pin power_in line
+					(at 22.86 -114.3 180)
 					(length 7.62)
-					(name "IO_L1P_T0_34"
+					(name "VCCO_34"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J15"
+					(number "N16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4070,6 +4070,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 22.86 25.4 180)
+					(length 7.62)
+					(name "IO_L1P_T0_AD0P_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 22.86 0 180)
 					(length 7.62)
 					(name "IO_L6P_T0_35"
@@ -4080,24 +4098,6 @@
 						)
 					)
 					(number "G17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -55.88 180)
-					(length 7.62)
-					(name "IO_L17P_T2_AD5P_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4195,17 +4195,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 22.86 -104.14 180)
+				(pin bidirectional line
+					(at 22.86 -20.32 180)
 					(length 7.62)
-					(name "VCCO_35"
+					(name "IO_L10P_T1_AD11P_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G18"
+					(number "A18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4268,16 +4268,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 22.86 -55.88 180)
 					(length 7.62)
-					(name "IO_L4P_T0_35"
+					(name "IO_L17P_T2_AD5P_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G15"
+					(number "E21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4411,17 +4411,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 27.94 180)
+				(pin power_in line
+					(at 22.86 -104.14 180)
 					(length 7.62)
-					(name "IO_0_35"
+					(name "VCCO_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "H17"
+					(number "G18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4664,16 +4664,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -20.32 180)
+					(at 22.86 10.16 180)
 					(length 7.62)
-					(name "IO_L10P_T1_AD11P_35"
+					(name "IO_L4P_T0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A18"
+					(number "G15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4988,16 +4988,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 25.4 180)
+					(at 22.86 27.94 180)
 					(length 7.62)
-					(name "IO_L1P_T0_AD0P_35"
+					(name "IO_0_35"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F16"
+					(number "H17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5700,16 +5700,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -38.1 180)
+					(at 20.32 -2.54 180)
 					(length 7.62)
-					(name "PS_MIO42_501"
+					(name "PS_MIO28_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D8"
+					(number "A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5952,16 +5952,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -71.12 180)
+					(at 20.32 -38.1 180)
 					(length 7.62)
-					(name "PS_SRST_B_501"
+					(name "PS_MIO42_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C9"
+					(number "D8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6168,16 +6168,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -2.54 180)
+					(at 20.32 -71.12 180)
 					(length 7.62)
-					(name "PS_MIO28_501"
+					(name "PS_SRST_B_501"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A12"
+					(number "C9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6290,16 +6290,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -50.8 0)
+					(at -30.48 -76.2 0)
 					(length 7.62)
-					(name "PS_DDR_DQS_N0_502"
+					(name "PS_DDR_DM3_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D2"
+					(number "AA2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6307,17 +6307,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 30.48 -99.06 180)
+				(pin bidirectional line
+					(at -30.48 25.4 0)
 					(length 7.62)
-					(name "VCCO_DDR_502"
+					(name "PS_DDR_A1_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "F5"
+					(number "M5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6650,16 +6650,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 27.94 0)
+					(at -30.48 -50.8 0)
 					(length 7.62)
-					(name "PS_DDR_A0_502"
+					(name "PS_DDR_DQS_N0_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M4"
+					(number "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6758,16 +6758,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -76.2 0)
+					(at -30.48 -27.94 0)
 					(length 7.62)
-					(name "PS_DDR_DM3_502"
+					(name "PS_DDR_CAS_B_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AA2"
+					(number "P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6884,16 +6884,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -30.48 -27.94 0)
+					(at -30.48 27.94 0)
 					(length 7.62)
-					(name "PS_DDR_CAS_B_502"
+					(name "PS_DDR_A0_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P3"
+					(number "M4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7783,17 +7783,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -30.48 25.4 0)
+				(pin power_in line
+					(at 30.48 -99.06 180)
 					(length 7.62)
-					(name "PS_DDR_A1_502"
+					(name "VCCO_DDR_502"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "M5"
+					(number "F5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7816,42 +7816,6 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 22.86 0)
-					(length 7.62)
-					(name "VCCINT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "J14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 2.54 180)
-					(length 7.62)
-					(name "VCCPLL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -20.32 27.94 0)
 					(length 7.62)
 					(name "VCCINT"
@@ -7862,6 +7826,42 @@
 						)
 					)
 					(number "K13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 25.4 0)
+					(length 7.62)
+					(name "VCCINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 22.86 0)
+					(length 7.62)
+					(name "VCCINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8248,16 +8248,16 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 25.4 0)
+					(at 20.32 2.54 180)
 					(length 7.62)
-					(name "VCCINT"
+					(name "VCCPLL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "J12"
+					(number "H10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8280,7 +8280,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 -20.32 0)
+					(at -20.32 27.94 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -8289,7 +8289,7 @@
 							)
 						)
 					)
-					(number "E17"
+					(number "F10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8298,7 +8298,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -50.8 180)
+					(at -20.32 25.4 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -8307,7 +8307,7 @@
 							)
 						)
 					)
-					(number "R17"
+					(number "H6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8622,7 +8622,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 27.94 0)
+					(at -20.32 -20.32 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -8631,7 +8631,7 @@
 							)
 						)
 					)
-					(number "F10"
+					(number "E17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9396,7 +9396,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 25.4 0)
+					(at 20.32 -50.8 180)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -9405,7 +9405,7 @@
 							)
 						)
 					)
-					(number "H6"
+					(number "R17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9534,7 +9534,7 @@
 	)
 	(text "Byte 1"
 		(exclude_from_sim no)
-		(at 208.28 63.5 0)
+		(at 205.74 40.64 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -9547,7 +9547,7 @@
 	)
 	(text "Byte 0"
 		(exclude_from_sim no)
-		(at 208.28 40.64 0)
+		(at 205.74 63.5 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -10397,7 +10397,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 30.48) (xy 205.74 50.8)
+			(xy 203.2 53.34) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0.254)
@@ -10738,7 +10738,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 50.8) (xy 205.74 50.8)
+			(xy 200.66 73.66) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0.254)
@@ -10759,7 +10759,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 53.34) (xy 205.74 53.34)
+			(xy 200.66 30.48) (xy 203.2 30.48)
 		)
 		(stroke
 			(width 0.254)
@@ -11020,7 +11020,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 73.66) (xy 205.74 73.66)
+			(xy 200.66 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0.254)
@@ -11871,7 +11871,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 30.48) (xy 205.74 30.48)
+			(xy 200.66 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0.254)
@@ -11882,7 +11882,7 @@
 	)
 	(polyline
 		(pts
-			(xy 205.74 53.34) (xy 205.74 73.66)
+			(xy 203.2 30.48) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0.254)
@@ -11981,16 +11981,6 @@
 		)
 		(uuid "ffd532f9-0a7c-45ec-96e9-4218f1704b26")
 	)
-	(label "DDR_DM1"
-		(at 81.28 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02871dd3-0b6f-4d7d-a2ef-6214d9f31065")
-	)
 	(label "DDR_A11"
 		(at 81.28 60.96 0)
 		(effects
@@ -12021,6 +12011,26 @@
 		)
 		(uuid "0d6581bc-1b5e-4d0b-8e90-c335bb518cdd")
 	)
+	(label "DDR_DQ3"
+		(at 192.8733 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10b6c5c9-9bdf-45a6-aaf1-5e68ce337f07")
+	)
+	(label "DDR_DM1"
+		(at 81.28 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16ad1f09-b725-4354-8ae4-0ea6ddebb1cb")
+	)
 	(label "DDR_DQ19"
 		(at 193.04 86.36 180)
 		(effects
@@ -12030,16 +12040,6 @@
 			(justify right bottom)
 		)
 		(uuid "18d58c8b-2b4f-4cdb-9ed5-42d1fff1d1c5")
-	)
-	(label "DDR_DQ0"
-		(at 193.04 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19c21e95-14ea-48d0-bacd-049b24040c07")
 	)
 	(label "DDR_DQ16"
 		(at 193.04 78.74 180)
@@ -12052,14 +12052,14 @@
 		(uuid "1e0a59ae-fc84-4d1f-a4ba-06915931a2cf")
 	)
 	(label "DDR_DQ1"
-		(at 193.04 35.56 180)
+		(at 192.8733 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2251fb4e-7e96-477b-ac9a-1454eeaf8234")
+		(uuid "20b74ebd-41f7-4280-9b34-ad66793295e0")
 	)
 	(label "DDR_A3"
 		(at 81.28 40.64 0)
@@ -12070,6 +12070,16 @@
 			(justify left bottom)
 		)
 		(uuid "273f50d2-8c6b-4c43-9749-d9c1ae917dd1")
+	)
+	(label "DDR_DQ0"
+		(at 192.8733 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c0c515c-2810-4b3a-928f-e247d5082d93")
 	)
 	(label "DDR_A9"
 		(at 81.28 55.88 0)
@@ -12101,6 +12111,16 @@
 		)
 		(uuid "2f8eeaaa-2ceb-433e-88a3-983935d53d94")
 	)
+	(label "DDR_DQ11"
+		(at 193.04 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fbfcd80-0ec1-4a40-8561-71466bc445f9")
+	)
 	(label "DDR_DQ26"
 		(at 193.04 106.68 180)
 		(effects
@@ -12111,15 +12131,25 @@
 		)
 		(uuid "3db0ade6-5d75-4167-9fe2-4b78856ff5df")
 	)
-	(label "DDR_DQ10"
-		(at 193.04 60.96 180)
+	(label "DDR_DQ15"
+		(at 193.04 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4494fdb9-220b-4b33-87e0-de746d1184c3")
+		(uuid "3e61b64d-e59c-48e3-877f-402111c219b0")
+	)
+	(label "DDR_DM0"
+		(at 81.1097 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "476b4392-f382-467f-81f6-b41883cb9d09")
 	)
 	(label "DDR_A4"
 		(at 81.28 43.18 0)
@@ -12130,6 +12160,16 @@
 			(justify left bottom)
 		)
 		(uuid "49a3567a-d124-4f94-955e-7f991b16dfee")
+	)
+	(label "DDR_DQ4"
+		(at 192.8733 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4dbda3ad-6a5c-4eb8-8237-082976c67c4f")
 	)
 	(label "DDR_A0"
 		(at 81.28 33.02 0)
@@ -12150,6 +12190,26 @@
 			(justify left bottom)
 		)
 		(uuid "5b4d731f-cfe2-437d-9762-438e5c0c0f8e")
+	)
+	(label "DDR_DQ14"
+		(at 193.04 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dc2f691-b515-4bed-80f2-85f3adcb52cb")
+	)
+	(label "DDR_DQ2"
+		(at 192.8733 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5df3b990-c831-494c-8d17-fd56dbc685c2")
 	)
 	(label "DDR_DQ21"
 		(at 193.04 91.44 180)
@@ -12191,6 +12251,16 @@
 		)
 		(uuid "64cf4f64-ff80-4154-b99b-25b6bb6ef7a4")
 	)
+	(label "DDR_DQ6"
+		(at 192.8733 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7201ce79-1e1f-41a7-9bb4-5d8966364c17")
+	)
 	(label "DDR_DQ23"
 		(at 193.04 96.52 180)
 		(effects
@@ -12211,25 +12281,15 @@
 		)
 		(uuid "76e8f57e-a219-4465-8408-06cb716e0a7d")
 	)
-	(label "DDR_DQ7"
-		(at 193.04 50.8 180)
+	(label "DDR_DQ10"
+		(at 193.04 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "80bb61af-015f-4769-b29b-1a53ae1271d8")
-	)
-	(label "DDR_DQ5"
-		(at 193.04 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8496fe88-4ce8-4631-84cf-ede1e9211867")
+		(uuid "7bfd9d13-6d52-49a2-96bf-1c297bbd6b1a")
 	)
 	(label "DDR_DM2"
 		(at 81.28 127 0)
@@ -12251,25 +12311,25 @@
 		)
 		(uuid "873ca1ea-7366-4574-af75-984793fc2e2f")
 	)
-	(label "DDR_DQ14"
-		(at 193.04 71.12 180)
+	(label "DDR_DQ8"
+		(at 193.04 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "921f0ec4-d840-441a-b280-bfc65c118ad3")
+		(uuid "8b3098d0-8533-4280-867c-850678592b4d")
 	)
-	(label "DDR_DQ15"
-		(at 193.04 73.66 180)
+	(label "DDR_DQ9"
+		(at 193.04 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "93d80b05-6b5c-47c5-bbd3-c01eca7baf26")
+		(uuid "92fbc6fd-3d00-423b-91ba-55316de57bd4")
 	)
 	(label "DDR_DQ22"
 		(at 193.04 93.98 180)
@@ -12281,16 +12341,6 @@
 		)
 		(uuid "96f18ed7-5afb-4b4b-86e7-094cdbbac437")
 	)
-	(label "DDR_DQ13"
-		(at 193.04 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97075982-c6dd-42f0-95fa-50d5b402ab29")
-	)
 	(label "DDR_BA0"
 		(at 81.28 73.66 0)
 		(effects
@@ -12300,16 +12350,6 @@
 			(justify left bottom)
 		)
 		(uuid "9a1cb038-d2e4-4448-98f0-813ed7590a0f")
-	)
-	(label "DDR_DQ8"
-		(at 193.04 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9af06b60-cce9-4c42-9c15-0af1264e3972")
 	)
 	(label "DDR_DQ29"
 		(at 193.04 114.3 180)
@@ -12321,6 +12361,16 @@
 		)
 		(uuid "a05f549e-ddac-4930-8aa5-9a9405e8a92e")
 	)
+	(label "DDR_DQ5"
+		(at 192.8733 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a08b9d01-982f-45ae-9b92-b700ad33d7be")
+	)
 	(label "DDR_BA1"
 		(at 81.28 76.2 0)
 		(effects
@@ -12330,6 +12380,26 @@
 			(justify left bottom)
 		)
 		(uuid "a28940df-12c4-4d2a-bed5-0b00fe473370")
+	)
+	(label "DDR_DQ7"
+		(at 192.8733 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a872ca44-8a70-49bb-aa01-6a5d621da2df")
+	)
+	(label "DDR_DQ12"
+		(at 193.04 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2dcf52f-b48a-428c-b0f0-2b968d7cee1d")
 	)
 	(label "DDR_DQ31"
 		(at 193.04 119.38 180)
@@ -12350,16 +12420,6 @@
 			(justify left bottom)
 		)
 		(uuid "b57f14f9-5267-4455-bc25-f9ce8e85470c")
-	)
-	(label "DDR_DQ6"
-		(at 193.04 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b61166fb-6ee4-4aff-9ba9-de7ff1da79a2")
 	)
 	(label "DDR_A13"
 		(at 81.28 66.04 0)
@@ -12390,16 +12450,6 @@
 			(justify right bottom)
 		)
 		(uuid "c0ee2d2f-ec04-44b2-9793-bc5c98c86958")
-	)
-	(label "DDR_DQ3"
-		(at 193.04 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1b17bfd-e5a6-4115-91ee-1a0cbb9422b6")
 	)
 	(label "DDR_DQ18"
 		(at 193.04 83.82 180)
@@ -12461,45 +12511,15 @@
 		)
 		(uuid "e341e4a1-690f-4d50-bfa8-d852e3815dfd")
 	)
-	(label "DDR_DQ11"
-		(at 193.04 63.5 180)
+	(label "DDR_DQ13"
+		(at 193.04 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e82a8eaa-36b6-49ea-b085-6c3a699972ca")
-	)
-	(label "DDR_DQ2"
-		(at 193.04 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef32837b-b10d-490a-a853-8ed9f5da990b")
-	)
-	(label "DDR_DQ9"
-		(at 193.04 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0b8cdcd-21ef-4ff9-9def-14547016434d")
-	)
-	(label "DDR_DQ12"
-		(at 193.04 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2792716-a4fb-4cc6-be43-0b0127fc27d8")
+		(uuid "f259eee8-4358-445d-bce1-9f9732eb876b")
 	)
 	(label "DDR_A12"
 		(at 81.28 63.5 0)
@@ -12510,26 +12530,6 @@
 			(justify left bottom)
 		)
 		(uuid "f4515a23-4b3c-4d5c-9319-8b39f740ca2c")
-	)
-	(label "DDR_DQ4"
-		(at 193.04 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f921a1b7-667e-4e87-a4e5-5a525b210fef")
-	)
-	(label "DDR_DM0"
-		(at 81.28 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd7f4795-173f-478f-b6d9-3ad475980f93")
 	)
 	(label "DDR_BA2"
 		(at 81.28 78.74 0)
@@ -12562,17 +12562,6 @@
 			(justify right)
 		)
 		(uuid "0d17a6c8-2642-4184-acbf-db502eb21944")
-	)
-	(hierarchical_label "DDR_DQS_1_P"
-		(shape bidirectional)
-		(at 101.6 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1afdc121-d317-4360-9e2d-1e6c33244cd6")
 	)
 	(hierarchical_label "DDR_RAS"
 		(shape input)
@@ -12609,14 +12598,14 @@
 	)
 	(hierarchical_label "DDR_DQS_1_N"
 		(shape bidirectional)
-		(at 101.6 121.92 180)
+		(at 101.6 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2cb4c23f-dbbb-425d-a7db-f9419a99ee3d")
+		(uuid "2e7cd8da-caf4-4960-a7ae-1b6ad4dba737")
 	)
 	(hierarchical_label "DDR_CK_P"
 		(shape output)
@@ -12651,6 +12640,17 @@
 		)
 		(uuid "70565f64-d59e-4a93-bbe4-bc16092b4835")
 	)
+	(hierarchical_label "DDR_DQS_0_P"
+		(shape bidirectional)
+		(at 101.6 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83f4dd03-3b6b-4541-9968-a65309cdc0ea")
+	)
 	(hierarchical_label "DDR_DM[0..3]"
 		(shape output)
 		(at 73.66 101.6 180)
@@ -12675,14 +12675,14 @@
 	)
 	(hierarchical_label "DDR_DQS_0_N"
 		(shape bidirectional)
-		(at 101.6 111.76 180)
+		(at 101.6 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8ae0e235-129a-41e2-a65b-a478540813f4")
+		(uuid "89e39aca-fae1-4aed-b9cb-b0e8ca749d10")
 	)
 	(hierarchical_label "DDR_CK_N"
 		(shape output)
@@ -12695,7 +12695,7 @@
 		)
 		(uuid "92649b0b-3584-44b3-b047-0f84440f9cee")
 	)
-	(hierarchical_label "DDR_DQS_0_P"
+	(hierarchical_label "DDR_DQS_1_P"
 		(shape bidirectional)
 		(at 101.6 109.22 180)
 		(effects
@@ -12704,7 +12704,7 @@
 			)
 			(justify right)
 		)
-		(uuid "98486302-dbb9-4e75-957d-aa2f63110ad1")
+		(uuid "97ab7496-1b7f-439f-a353-ec2e713d8656")
 	)
 	(hierarchical_label "DDR_DRST"
 		(shape output)
