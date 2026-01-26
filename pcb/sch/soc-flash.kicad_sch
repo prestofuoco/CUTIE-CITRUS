@@ -729,6 +729,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Weak pull-up resistors are typically included at R901, R902, and R903 to prevent unintended low logic level on active-low signals. However, due to the bootstrapping required by SoC on these signals, these are left unpopulated."
+		(exclude_from_sim no)
+		(at 15.24 175.26 0)
+		(size 33.02 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ac6e4275-2132-4838-87c1-5524957f0aac")
+	)
 	(junction
 		(at 129.54 104.14)
 		(diameter 0)

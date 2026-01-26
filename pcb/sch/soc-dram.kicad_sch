@@ -2573,7 +2573,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 255 229 191 1)
 		)
 		(effects
 			(font
