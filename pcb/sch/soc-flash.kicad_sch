@@ -1278,7 +1278,7 @@
 		)
 		(uuid "e7f575cd-7af7-4999-a709-51b4a583d09d")
 	)
-	(hierarchical_label "3V3_FD"
+	(hierarchical_label "3V3_Z"
 		(shape input)
 		(at 121.92 83.82 180)
 		(effects
@@ -1300,7 +1300,7 @@
 		)
 		(uuid "b0d9a369-2133-4c77-8234-032d2adcc4be")
 	)
-	(hierarchical_label "3V3_FD"
+	(hierarchical_label "3V3_Z"
 		(shape input)
 		(at 139.7 109.22 180)
 		(effects

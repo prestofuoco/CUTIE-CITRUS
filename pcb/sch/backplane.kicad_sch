@@ -432,7 +432,7 @@
 		)
 		(uuid "fd78df93-92d8-4751-8f79-e0b590e8a168")
 	)
-	(hierarchical_label "12V0_RAW"
+	(hierarchical_label "VBUS"
 		(shape output)
 		(at 170.18 91.44 0)
 		(effects

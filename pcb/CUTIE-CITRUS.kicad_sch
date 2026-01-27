@@ -104,16 +104,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 147.32) (xy 93.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e9b8e5-63cf-4d74-8fa5-ff488b81207b")
-	)
-	(wire
-		(pts
 			(xy 119.38 88.9) (xy 157.48 88.9)
 		)
 		(stroke
@@ -306,9 +296,9 @@
 				(justify right)
 			)
 		)
-		(pin "12V0_RAW" output
-			(at 78.74 147.32 0)
-			(uuid "fe148752-aa89-4423-9efe-8122d32d8a08")
+		(pin "VBUS" output
+			(at 78.74 142.24 0)
+			(uuid "93a0d8c6-ae3f-47f1-b477-ffd6d91c593e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,9 +438,9 @@
 				(justify left top)
 			)
 		)
-		(pin "12V0_RAW" input
-			(at 93.98 147.32 180)
-			(uuid "2b703693-807e-4dd1-8366-9fe6037348f9")
+		(pin "VBUS" input
+			(at 93.98 142.24 180)
+			(uuid "fb940064-7c20-467c-bd46-f853e5693cca")
 			(effects
 				(font
 					(size 1.27 1.27)

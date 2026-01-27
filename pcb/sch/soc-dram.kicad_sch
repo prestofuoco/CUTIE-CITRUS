@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Value" "240 1%"
+		(property "Value" "240"
 			(at 186.69 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6612,7 +6612,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 1%"
+		(property "Value" "100"
 			(at 93.98 127 0)
 			(show_name no)
 			(do_not_autoplace no)

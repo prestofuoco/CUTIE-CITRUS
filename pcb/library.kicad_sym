@@ -2,6 +2,526 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.99")
+	(symbol "MPM3650"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPM3650"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:QFN-24_MPM3650_MNP"
+			(at 0 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3650GQW-Z/document_id/6363/"
+			(at 0 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.2MHZ, SYNCHRONOUS, 2.75V TO 17"
+			(at 0 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MPM3650_1_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 10.16 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MT41K256M16"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4973,16 +5493,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 25.4 180)
+				(at 22.86 -12.7 180)
 				(length 7.62)
-				(name "IO_L1P_T0_33"
+				(name "IO_L8N_T1_33"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "T21"
+				(number "AB21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5243,16 +5763,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
+				(at 22.86 -86.36 180)
 				(length 7.62)
-				(name "IO_L8N_T1_33"
+				(name "IO_L23P_T3_33"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "AB21"
+				(number "Y13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5765,16 +6285,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -86.36 180)
+				(at 22.86 25.4 180)
 				(length 7.62)
-				(name "IO_L23P_T3_33"
+				(name "IO_L1P_T0_33"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "Y13"
+				(number "T21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5977,16 +6497,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -45.72 180)
+				(at 22.86 -25.4 180)
 				(length 7.62)
-				(name "IO_L15P_T2_DQS_34"
+				(name "IO_L11P_T1_SRCC_34"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M21"
+				(number "K19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6355,16 +6875,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 27.94 180)
+				(at 22.86 -71.12 180)
 				(length 7.62)
-				(name "IO_0_34"
+				(name "IO_L20P_T3_34"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H15"
+				(number "P17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6499,16 +7019,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -71.12 180)
+				(at 22.86 27.94 180)
 				(length 7.62)
-				(name "IO_L20P_T3_34"
+				(name "IO_0_34"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P17"
+				(number "H15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6679,16 +7199,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -25.4 180)
+				(at 22.86 -45.72 180)
 				(length 7.62)
-				(name "IO_L11P_T1_SRCC_34"
+				(name "IO_L15P_T2_DQS_34"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K19"
+				(number "M21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6999,16 +7519,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at 22.86 0 180)
 				(length 7.62)
-				(name "IO_L4P_T0_35"
+				(name "IO_L6P_T0_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G15"
+				(number "G17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7017,16 +7537,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -20.32 180)
+				(at 22.86 -55.88 180)
 				(length 7.62)
-				(name "IO_L10P_T1_AD11P_35"
+				(name "IO_L17P_T2_AD5P_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A18"
+				(number "E21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7124,17 +7644,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 22.86 25.4 180)
+			(pin power_in line
+				(at 22.86 -104.14 180)
 				(length 7.62)
-				(name "IO_L1P_T0_AD0P_35"
+				(name "VCCO_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F16"
+				(number "G18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7196,17 +7716,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 22.86 -104.14 180)
+			(pin bidirectional line
+				(at 22.86 10.16 180)
 				(length 7.62)
-				(name "VCCO_35"
+				(name "IO_L4P_T0_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G18"
+				(number "G15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7341,16 +7861,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at 22.86 27.94 180)
 				(length 7.62)
-				(name "IO_L6P_T0_35"
+				(name "IO_0_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "G17"
+				(number "H17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7593,16 +8113,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 27.94 180)
+				(at 22.86 -20.32 180)
 				(length 7.62)
-				(name "IO_0_35"
+				(name "IO_L10P_T1_AD11P_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H17"
+				(number "A18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7917,16 +8437,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -55.88 180)
+				(at 22.86 25.4 180)
 				(length 7.62)
-				(name "IO_L17P_T2_AD5P_35"
+				(name "IO_L1P_T0_AD0P_35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "E21"
+				(number "F16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8629,16 +9149,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -2.54 180)
+				(at 20.32 -38.1 180)
 				(length 7.62)
-				(name "PS_MIO28_501"
+				(name "PS_MIO42_501"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A12"
+				(number "D8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8881,16 +9401,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -38.1 180)
+				(at 20.32 -71.12 180)
 				(length 7.62)
-				(name "PS_MIO42_501"
+				(name "PS_SRST_B_501"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D8"
+				(number "C9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9097,16 +9617,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -71.12 180)
+				(at 20.32 -2.54 180)
 				(length 7.62)
-				(name "PS_SRST_B_501"
+				(name "PS_MIO28_501"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C9"
+				(number "A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9219,16 +9739,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -27.94 0)
+				(at -30.48 -50.8 0)
 				(length 7.62)
-				(name "PS_DDR_CAS_B_502"
+				(name "PS_DDR_DQS_N0_502"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P3"
+				(number "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9579,16 +10099,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -76.2 0)
+				(at -30.48 27.94 0)
 				(length 7.62)
-				(name "PS_DDR_DM3_502"
+				(name "PS_DDR_A0_502"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "AA2"
+				(number "M4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9687,16 +10207,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 27.94 0)
+				(at -30.48 -76.2 0)
 				(length 7.62)
-				(name "PS_DDR_A0_502"
+				(name "PS_DDR_DM3_502"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M4"
+				(number "AA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9813,16 +10333,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 -50.8 0)
+				(at -30.48 -27.94 0)
 				(length 7.62)
-				(name "PS_DDR_DQS_N0_502"
+				(name "PS_DDR_CAS_B_502"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D2"
+				(number "P3"
 					(effects
 						(font
 							(size 1.27 1.27)

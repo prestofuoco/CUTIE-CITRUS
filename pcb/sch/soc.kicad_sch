@@ -866,7 +866,7 @@
 		)
 		(uuid "fc72bb6f-7965-449e-b135-82573e301e4d")
 	)
-	(hierarchical_label "1V8_FD"
+	(hierarchical_label "1V8_Z"
 		(shape input)
 		(at 58.42 137.16 180)
 		(effects
@@ -877,7 +877,7 @@
 		)
 		(uuid "2a196f34-7f8b-4110-aeea-310abf6e931a")
 	)
-	(hierarchical_label "2V5_FD"
+	(hierarchical_label "2V5_Z"
 		(shape input)
 		(at 58.42 139.7 180)
 		(effects
@@ -888,7 +888,7 @@
 		)
 		(uuid "3fdcf0f9-ca3f-4312-ab93-fb8cd660bb61")
 	)
-	(hierarchical_label "1V8_FD"
+	(hierarchical_label "1V8_Z"
 		(shape input)
 		(at 58.42 162.56 180)
 		(effects
@@ -910,7 +910,7 @@
 		)
 		(uuid "6ba4da43-2518-4861-8e15-3e32908f2a78")
 	)
-	(hierarchical_label "1V8_FD"
+	(hierarchical_label "1V8_Z"
 		(shape input)
 		(at 58.42 96.52 180)
 		(effects
@@ -965,7 +965,7 @@
 		)
 		(uuid "9458e1bb-22b8-4607-9e44-b0aa83c7a2f4")
 	)
-	(hierarchical_label "3V3_FD"
+	(hierarchical_label "3V3_Z"
 		(shape input)
 		(at 58.42 142.24 180)
 		(effects
@@ -987,7 +987,7 @@
 		)
 		(uuid "ab26958e-a347-46fa-907f-c61dfdad5178")
 	)
-	(hierarchical_label "1V0_FD"
+	(hierarchical_label "1V0_Z"
 		(shape input)
 		(at 58.42 157.48 180)
 		(effects
@@ -1009,7 +1009,7 @@
 		)
 		(uuid "cf022737-8dc4-4627-95be-89a33e5c88a1")
 	)
-	(hierarchical_label "3V3_FD"
+	(hierarchical_label "3V3_Z"
 		(shape input)
 		(at 58.42 99.06 180)
 		(effects
@@ -1487,7 +1487,7 @@
 				(justify left)
 			)
 		)
-		(pin "1V8_FD" input
+		(pin "1V8_Z" input
 			(at 88.9 162.56 180)
 			(uuid "12325a59-6caa-4ac6-8a12-746c03c5a7f3")
 			(effects
@@ -1543,7 +1543,7 @@
 				(justify left top)
 			)
 		)
-		(pin "1V8_FD" input
+		(pin "1V8_Z" input
 			(at 88.9 137.16 180)
 			(uuid "11293214-d27b-433d-98bd-5db1683660c5")
 			(effects
@@ -1553,7 +1553,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_FD" input
+		(pin "3V3_Z" input
 			(at 88.9 142.24 180)
 			(uuid "5632613d-8f7e-4039-9e42-73a274e9a8e1")
 			(effects
@@ -1573,7 +1573,7 @@
 				(justify left)
 			)
 		)
-		(pin "2V5_FD" input
+		(pin "2V5_Z" input
 			(at 88.9 139.7 180)
 			(uuid "0be8ba1e-cf42-4509-9e05-890cdb931e6b")
 			(effects
@@ -2223,7 +2223,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_FD" input
+		(pin "3V3_Z" input
 			(at 88.9 99.06 180)
 			(uuid "75ddf1b0-3297-4b6e-a2f3-68d8207b6165")
 			(effects
@@ -2233,7 +2233,7 @@
 				(justify left)
 			)
 		)
-		(pin "1V8_FD" input
+		(pin "1V8_Z" input
 			(at 88.9 96.52 180)
 			(uuid "9f52ee82-d253-4d61-a770-d40417bd9c0f")
 			(effects

@@ -972,7 +972,7 @@
         "uuid": "875da261-7543-41df-9bd5-25bca104c872"
       }
     ],
-    "used_designators": "R1301-1308",
+    "used_designators": "#PWR1201-1208,U1201-1202,C1201-1204,R1201-1212,R1301-1308",
     "variants": []
   },
   "sheets": [
